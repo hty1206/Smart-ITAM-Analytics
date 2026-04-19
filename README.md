@@ -1,7 +1,6 @@
-# Smart-ITAM-Analytics
+# 👁️ Smart-ITAM-Analytics
 A machine learning-based early warning system for IT asset replacement, featuring an end-to-end data pipeline from raw maintenance logs to predictive risk scoring. Built with Python, XGBoost, and SQL.
 
-# 👁️ Predictive\_ITAM\_Ops
 ## ☞ Introduction
 
 This is a **personal side project** inspired by my professional experience in IT asset management. During my internship at **Dcard**, I managed a fleet of 2,000+ hardware assets and executed a ground-up physical re-audit. I realized that most IT departments operate in a reactive mode. This project aims to bridge the gap between **IT Infrastructure** and **Data Science** by building a predictive model that anticipates hardware failures and compliance risks before they happen.
