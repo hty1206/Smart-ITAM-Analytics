@@ -4,13 +4,13 @@ A machine learning-based early warning system for IT asset replacement, featurin
 # 👁️ Predictive\_ITAM\_Ops
 ## ☞ Introduction
 
-This is a **personal side project** inspired by my professional experience in IT asset management. [cite_start]During my internship at **Dcard**, I managed a fleet of 2,000+ hardware assets and executed a ground-up physical re-audit[cite: 22, 58]. I realized that most IT departments operate in a reactive mode. This project aims to bridge the gap between **IT Infrastructure** and **Data Science** by building a predictive model that anticipates hardware failures and compliance risks before they happen.
+This is a **personal side project** inspired by my professional experience in IT asset management. During my internship at **Dcard**, I managed a fleet of 2,000+ hardware assets and executed a ground-up physical re-audit. I realized that most IT departments operate in a reactive mode. This project aims to bridge the gap between **IT Infrastructure** and **Data Science** by building a predictive model that anticipates hardware failures and compliance risks before they happen.
 
 ## ☞ Objectives
 
   - **Proactive Maintenance:** Predicting which laptops or servers are likely to fail or be decommissioned based on historical repair logs and age.
   - **Cost-Efficiency Analysis:** Identifying "money pit" assets by analyzing the correlation between vendor types and maintenance costs.
-  - [cite_start]**Risk & Compliance Integration:** Aligning technical metadata with **ISO 27001** standards, flagging assets with outdated OS versions or expired warranties as critical risks[cite: 9, 23, 60].
+  - **Risk & Compliance Integration:** Aligning technical metadata with **ISO 27001** standards, flagging assets with outdated OS versions or expired warranties as critical risks.
   - **Data-Driven Procurement:** Generating automated "Replacement Alert Lists" to help IT managers plan budgets more effectively.
 
 ## ☞ Project Process
@@ -33,7 +33,7 @@ This is a **personal side project** inspired by my professional experience in IT
 | `Warranty_Expiry`   | Critical date for manufacturer support eligibility. |
 | `Maintenance_Cost`  | Cumulative repair spending; contains missing values to simulate lost records. |
 | `Repair_Count`      | Number of support tickets associated with the asset. |
-| `OS_Version`        | [cite_start]Operating system state, essential for **ISO 27001** compliance[cite: 23, 60]. |
+| `OS_Version`        | Operating system state, essential for **ISO 27001** compliance. |
 | `Compliance_Status` | Target indicator for security posture (Compliant, At Risk, Non-Compliant). |
 
 ## ☞ Summary & Key Insights
