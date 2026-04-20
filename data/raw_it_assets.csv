@@ -1,501 +1,1001 @@
 Asset_ID,Asset_Type,Assigned_To,Department,Acquisition_Date,Warranty_Expiry_Date,Status,Maintenance_Cost,License_Expiry_Date,Vendor_Name,Location,Compliance_Status,OS_Version,Repair_Count
-ASSET_0000,Desktop,,Other,2020-05-10,,Decommissioned,,,Cisco,Other,Non-Compliant,Win 10,99
-ASSET_0001,Laptop,User_187,Finance,2018/11/27,2021-02-27,Stock,180.0,,Other,Other,At Risk,Win 10,3
-ASSET_0002,Other,User_376,IT,30/08/2024,2026-03-09,In Use,71.0,,Cisco,Cloud,Compliant,Linux-Generic,2
-ASSET_0003,Monitor,User_799,Other,2023-08-10,2025-11-27,In Use,736.0,,Other,Taichung,Non-Compliant,N/A,3
-ASSET_0004,Monitor,User_940,Other,2019/10/09,2020-10-28,In Use,650.0,,Lenovo,Hsinchu,At Risk,N/A,0
-ASSET_0005,Laptop,User_466,R&D,25/09/2021,2022-12-25,In Use,558.0,,Apple,Taipei,At Risk,Win 10,3
-ASSET_0006,Desktop,,Other,2021-02-03,2023-05-25,Decommissioned,211.0,,HP,Cloud,At Risk,Win 11,7
-ASSET_0007,Desktop,User_395,Finance,2021/06/29,2024-05-30,In Use,387.0,,Cisco,Hsinchu,Compliant,Win 10,3
-ASSET_0008,Monitor,User_912,IT,26/03/2021,2022-04-09,In Use,570.0,,Dell,Cloud,Non-Compliant,N/A,2
-ASSET_0009,Laptop,User_518,IT,2019-01-27,2021-12-01,Stock,280.0,,HP,Taipei,Non-Compliant,macOS 14,7
-ASSET_0010,Server,User_506,Operations,2019/05/18,,In Use,148.0,,Lenovo,Taichung,Non-Compliant,Ubuntu 22.04,2
-ASSET_0011,Laptop,User_868,Finance,25/01/2022,2024-10-28,In Maintenance,816.0,,Other,Taichung,Compliant,Win 11,6
-ASSET_0012,Laptop,,Other,2022-01-24,2024-12-14,Retired,,,Dell,Cloud,Compliant,Win 10,3
-ASSET_0013,Other,User_270,Finance,2024/03/28,2027-01-11,In Use,1233.0,,Apple,Taichung,At Risk,Embedded OS,1
-ASSET_0014,Monitor,User_895,R&D,17/05/2022,2025-02-20,In Use,1413.0,,Other,Taichung,At Risk,N/A,6
-ASSET_0015,Software,User_484,IT,2024-02-16,2025-09-27,Stock,682.0,2025-09-19,Cisco,Taipei,Non-Compliant,N/A,6
-ASSET_0016,Laptop,User_417,Finance,2021/12/05,2024-09-13,Stock,1307.0,,Lenovo,Taichung,At Risk,Win 10,7
-ASSET_0017,Monitor,User_541,R&D,10/02/2021,2023-06-21,In Use,1459.0,,Apple,Taipei,Compliant,N/A,0
-ASSET_0018,Other,,HR,2019-11-30,2021-03-21,In Maintenance,904.0,,Cisco,Taipei,Compliant,Linux-Generic,5
-ASSET_0019,Laptop,User_771,Operations,2022/09/04,2025-09-02,In Use,885.0,,Apple,Taichung,Compliant,Win 11,5
-ASSET_0020,Desktop,User_610,IT,17/07/2018,,In Use,236.0,,Other,Other,Non-Compliant,Win 10,99
-ASSET_0021,Desktop,User_445,Marketing,2023-05-10,2025-06-15,Decommissioned,1221.0,,Lenovo,Taipei,Compliant,Win 10,7
-ASSET_0022,Monitor,User_250,Other,2019/10/03,2022-01-17,Retired,312.0,,Lenovo,Hsinchu,Compliant,N/A,3
-ASSET_0023,Monitor,User_353,R&D,12/08/2023,2025-06-10,In Maintenance,1233.0,,Apple,Taipei,Compliant,N/A,2
-ASSET_0024,Software,,R&D,2024-03-05,2025-07-13,Retired,,2024-04-29,Dell,Cloud,Non-Compliant,N/A,0
-ASSET_0025,Laptop,User_951,Operations,2021/12/16,2023-03-29,In Use,559.0,,Dell,Taichung,Compliant,macOS 14,1
-ASSET_0026,Laptop,User_921,Marketing,04/12/2018,2021-11-08,Stock,210.0,,Lenovo,Taipei,At Risk,macOS 14,7
-ASSET_0027,Software,User_234,Marketing,2023-04-04,2025-04-29,Stock,1106.0,2025-11-18,Lenovo,Taichung,Non-Compliant,N/A,5
-ASSET_0028,Desktop,User_329,Finance,2022/08/21,2023-09-27,In Use,1356.0,,Apple,Hsinchu,Compliant,Win 10,0
-ASSET_0029,Monitor,User_552,R&D,17/08/2020,2022-12-10,Decommissioned,708.0,,Lenovo,Taichung,Compliant,N/A,7
-ASSET_0030,Laptop,,Operations,2021-05-28,,Retired,1446.0,,Other,Taichung,Compliant,macOS 14,7
-ASSET_0031,Desktop,User_706,Marketing,2018/10/29,2020-04-26,Retired,1189.0,,Cisco,Other,Non-Compliant,Win 11,7
-ASSET_0032,Server,User_669,Marketing,28/08/2023,2026-03-15,In Maintenance,675.0,,Other,Hsinchu,Non-Compliant,Windows Server 2022,1
-ASSET_0033,Software,User_492,Marketing,2020-02-24,2021-06-06,Decommissioned,1112.0,2025-04-21,HP,Hsinchu,Non-Compliant,N/A,1
-ASSET_0034,Software,User_924,R&D,2019/06/09,2021-10-26,Decommissioned,370.0,2025-05-26,Other,Cloud,Non-Compliant,N/A,6
-ASSET_0035,Laptop,User_953,Marketing,13/04/2020,2023-04-09,In Use,624.0,,Other,Other,At Risk,macOS 13,1
-ASSET_0036,Laptop,,Operations,2022-09-12,2025-07-24,In Use,,,Apple,Cloud,Compliant,macOS 14,7
-ASSET_0037,Software,User_295,Operations,2018/01/05,2019-04-17,In Use,933.0,2024-12-15,Apple,Cloud,Compliant,N/A,1
-ASSET_0038,Monitor,User_756,Other,21/08/2022,2025-06-09,In Use,1131.0,,HP,Other,At Risk,N/A,4
-ASSET_0039,Laptop,User_740,HR,2021-02-24,2023-03-23,Retired,851.0,,Other,Taipei,Compliant,macOS 14,0
-ASSET_0040,Other,User_546,Finance,2019/12/05,,Stock,296.0,,Apple,Cloud,At Risk,Embedded OS,99
-ASSET_0041,Laptop,User_146,IT,28/05/2021,2022-08-04,In Use,1007.0,,Lenovo,Other,At Risk,macOS 13,7
-ASSET_0042,Software,,Operations,2022-06-24,2024-04-07,In Use,72.0,2025-06-05,Other,Other,At Risk,N/A,3
-ASSET_0043,Desktop,User_868,Finance,2024/10/25,2027-06-24,Stock,1089.0,,HP,Taipei,Non-Compliant,Win 10,7
-ASSET_0044,Monitor,User_790,Marketing,24/08/2024,2027-02-19,Retired,1490.0,,HP,Taichung,Compliant,N/A,4
-ASSET_0045,Laptop,User_826,IT,2020-01-24,2021-02-26,Stock,654.0,,HP,Hsinchu,At Risk,macOS 13,1
-ASSET_0046,Desktop,User_725,Finance,2020/04/05,2022-08-18,Retired,1449.0,,Lenovo,Taipei,Compliant,Win 11,0
-ASSET_0047,Monitor,User_291,Marketing,08/03/2023,2025-06-06,Retired,1027.0,,Dell,Other,Compliant,N/A,6
-ASSET_0048,Software,,IT,2024-03-14,2025-12-11,In Maintenance,,2025-12-29,Other,Other,Non-Compliant,N/A,2
-ASSET_0049,Desktop,User_332,Marketing,2019/01/31,2021-04-19,In Use,504.0,,Lenovo,Cloud,Non-Compliant,Win 10,6
-ASSET_0050,Laptop,User_124,R&D,31/01/2019,,Stock,1224.0,,Dell,Other,Compliant,macOS 13,1
-ASSET_0051,Laptop,User_262,Other,2019-09-26,2021-02-04,In Maintenance,707.0,,Lenovo,Taipei,At Risk,macOS 13,3
-ASSET_0052,Software,User_752,HR,2022/03/23,2023-09-12,In Use,844.0,2025-09-25,HP,Other,Compliant,N/A,4
-ASSET_0053,Laptop,User_932,Operations,28/02/2022,2024-02-27,Decommissioned,560.0,,Dell,Other,At Risk,Win 10,6
-ASSET_0054,Server,,Marketing,2021-04-20,2022-10-03,In Use,88.0,,Other,Taichung,Compliant,Ubuntu 22.04,1
-ASSET_0055,Server,User_575,Finance,2020/12/17,2023-10-07,Decommissioned,1074.0,,Apple,Other,At Risk,Ubuntu 22.04,6
-ASSET_0056,Server,User_233,HR,03/04/2020,2021-07-28,In Use,721.0,,Cisco,Other,Non-Compliant,Ubuntu 22.04,7
-ASSET_0057,Monitor,User_775,Marketing,2018-07-22,2020-03-06,Stock,1475.0,,Dell,Taipei,At Risk,N/A,6
-ASSET_0058,Server,User_985,Marketing,2021/10/28,2024-05-15,Retired,1020.0,,Lenovo,Hsinchu,At Risk,Ubuntu 22.04,7
-ASSET_0059,Laptop,User_797,R&D,31/03/2018,2021-01-06,In Maintenance,781.0,,Cisco,Taipei,Non-Compliant,macOS 13,6
-ASSET_0060,Monitor,,Finance,2020-07-17,,Decommissioned,,,Lenovo,Other,Compliant,N/A,99
-ASSET_0061,Other,User_982,Finance,2019/01/25,2021-09-09,Stock,499.0,,HP,Hsinchu,Non-Compliant,Linux-Generic,4
-ASSET_0062,Laptop,User_164,HR,30/12/2022,2025-01-06,Retired,226.0,,Apple,Other,At Risk,Win 11,0
-ASSET_0063,Other,User_709,IT,2019-11-20,2022-02-22,In Use,434.0,,Cisco,Cloud,Compliant,Linux-Generic,6
-ASSET_0064,Software,User_664,Finance,2021/12/31,2023-01-22,Decommissioned,132.0,2024-05-24,Cisco,Taipei,At Risk,N/A,0
-ASSET_0065,Other,User_548,IT,18/12/2019,2022-03-07,Decommissioned,83.0,,Lenovo,Hsinchu,At Risk,Embedded OS,5
-ASSET_0066,Software,,R&D,2018-09-25,2019-11-17,In Maintenance,812.0,2025-02-04,Cisco,Other,At Risk,N/A,1
-ASSET_0067,Software,User_803,R&D,2023/11/21,2026-01-15,Retired,1379.0,2024-04-07,HP,Taichung,Non-Compliant,N/A,6
-ASSET_0068,Software,User_580,Other,06/09/2018,2020-02-18,In Use,808.0,2024-04-15,Apple,Taipei,Compliant,N/A,4
-ASSET_0069,Laptop,User_429,IT,2024-02-10,2026-03-16,In Use,1033.0,,Cisco,Hsinchu,At Risk,macOS 14,1
-ASSET_0070,Desktop,User_851,Marketing,2018/02/12,,In Use,810.0,,Apple,Cloud,Compliant,Win 11,7
-ASSET_0071,Server,User_160,HR,03/04/2018,2021-02-02,In Use,1078.0,,HP,Cloud,At Risk,Ubuntu 22.04,5
-ASSET_0072,Laptop,,HR,2024-03-30,2026-09-04,Retired,,,Dell,Hsinchu,Compliant,Win 11,0
-ASSET_0073,Laptop,User_313,Other,2023/09/26,2025-01-23,In Maintenance,156.0,,Cisco,Taipei,At Risk,Win 10,0
-ASSET_0074,Laptop,User_791,Other,06/03/2023,2024-11-12,In Maintenance,105.0,,Other,Hsinchu,Non-Compliant,macOS 13,7
-ASSET_0075,Software,User_411,Marketing,2019-06-10,2022-05-08,Decommissioned,968.0,2024-12-28,Lenovo,Other,At Risk,N/A,1
-ASSET_0076,Desktop,User_291,IT,2023/03/22,2024-04-04,Decommissioned,77.0,,HP,Taipei,Compliant,Win 11,5
-ASSET_0077,Desktop,User_624,R&D,21/06/2019,2020-11-11,In Use,1467.0,,Apple,Taipei,Compliant,Win 10,6
-ASSET_0078,Monitor,,Other,2022-02-02,2023-03-07,Decommissioned,1442.0,,Lenovo,Taichung,At Risk,N/A,0
-ASSET_0079,Desktop,User_837,Marketing,2021/07/29,2023-06-13,In Use,926.0,,Other,Other,Compliant,Win 11,4
-ASSET_0080,Laptop,User_681,Other,30/09/2022,,In Use,1423.0,,Apple,Taipei,Non-Compliant,Win 11,99
-ASSET_0081,Monitor,User_647,Other,2020-11-29,2022-07-15,Retired,517.0,,Lenovo,Taichung,Non-Compliant,N/A,5
-ASSET_0082,Other,User_673,IT,2022/06/18,2024-11-02,Decommissioned,764.0,,HP,Taichung,Compliant,Embedded OS,4
-ASSET_0083,Laptop,User_324,R&D,15/02/2021,2024-02-08,In Use,608.0,,Dell,Hsinchu,At Risk,Win 10,5
-ASSET_0084,Monitor,,R&D,2018-05-19,2020-10-10,In Use,,,Apple,Taipei,At Risk,N/A,1
-ASSET_0085,Server,User_271,HR,2018/09/18,2021-06-28,In Use,370.0,,Cisco,Taipei,Compliant,Ubuntu 22.04,2
-ASSET_0086,Server,User_705,Other,01/08/2023,2025-09-22,Retired,367.0,,Lenovo,Cloud,At Risk,RHEL 9,4
-ASSET_0087,Software,User_646,IT,2021-03-06,2023-10-14,Decommissioned,967.0,2025-07-25,Cisco,Taichung,Compliant,N/A,4
-ASSET_0088,Laptop,User_264,Finance,2021/08/07,2024-07-31,In Use,127.0,,HP,Cloud,Compliant,macOS 14,1
-ASSET_0089,Desktop,User_715,Operations,01/06/2024,2026-03-22,Retired,471.0,,Dell,Taipei,Compliant,Win 11,0
-ASSET_0090,Desktop,,Finance,2023-06-21,,Retired,1112.0,,Apple,Taichung,Non-Compliant,Win 11,7
-ASSET_0091,Monitor,User_388,R&D,2022/07/05,2025-05-03,Decommissioned,972.0,,Lenovo,Other,At Risk,N/A,0
-ASSET_0092,Desktop,User_353,R&D,08/08/2020,2022-05-23,In Maintenance,566.0,,Apple,Hsinchu,Compliant,Win 10,5
-ASSET_0093,Monitor,User_976,R&D,2020-03-25,2021-11-07,In Use,1230.0,,Cisco,Other,Non-Compliant,N/A,3
-ASSET_0094,Software,User_194,Marketing,2018/05/10,2020-06-23,Stock,1365.0,2024-10-09,Cisco,Cloud,Non-Compliant,N/A,5
-ASSET_0095,Other,User_914,HR,13/12/2019,2021-01-03,Retired,445.0,,HP,Other,At Risk,Embedded OS,0
-ASSET_0096,Desktop,,R&D,2022-06-28,2025-05-10,In Use,,,Lenovo,Other,Compliant,Win 10,6
-ASSET_0097,Laptop,User_150,Finance,2019/08/27,2021-09-07,In Use,1370.0,,Other,Taichung,Non-Compliant,macOS 14,5
-ASSET_0098,Laptop,User_281,Other,04/07/2022,2024-08-26,Retired,616.0,,Apple,Other,Non-Compliant,macOS 14,4
-ASSET_0099,Desktop,User_765,IT,2024-06-18,2025-10-12,In Use,293.0,,Dell,Hsinchu,Non-Compliant,Win 10,1
-ASSET_0100,Server,User_517,Marketing,2019/04/20,,In Use,988.0,,Apple,Cloud,Non-Compliant,Windows Server 2022,99
-ASSET_0101,Laptop,User_809,Finance,25/01/2018,2019-07-23,Retired,226.0,,Cisco,Taichung,At Risk,macOS 13,3
-ASSET_0102,Laptop,,IT,2020-08-24,2021-11-15,In Use,391.0,,Lenovo,Other,Compliant,Win 11,0
-ASSET_0103,Desktop,User_534,Marketing,2020/09/16,2022-04-18,Decommissioned,1391.0,,Other,Other,Compliant,Win 11,4
-ASSET_0104,Server,User_470,Other,28/08/2023,2026-04-08,In Maintenance,551.0,,Lenovo,Taipei,At Risk,RHEL 9,5
-ASSET_0105,Software,User_154,Other,2023-04-05,2024-12-23,Decommissioned,827.0,2025-04-02,Apple,Hsinchu,Compliant,N/A,6
-ASSET_0106,Other,User_490,Finance,2022/12/29,2024-06-23,In Use,362.0,,Apple,Taichung,Non-Compliant,Linux-Generic,7
-ASSET_0107,Laptop,User_902,Operations,11/07/2021,2023-09-01,Stock,863.0,,Apple,Cloud,Compliant,macOS 13,4
-ASSET_0108,Server,,HR,2020-04-02,2021-04-08,In Use,,,Cisco,Taichung,Compliant,Windows Server 2022,3
-ASSET_0109,Monitor,User_996,Other,2018/03/23,2020-08-17,Stock,795.0,,HP,Taichung,Non-Compliant,N/A,6
-ASSET_0110,Desktop,User_904,Operations,27/04/2024,,Decommissioned,954.0,,HP,Other,Non-Compliant,Win 10,1
-ASSET_0111,Software,User_813,Operations,2021-07-27,2024-03-10,In Use,177.0,2025-12-21,HP,Taichung,Compliant,N/A,5
-ASSET_0112,Software,User_458,IT,2018/08/25,2020-05-31,In Use,1308.0,2025-05-08,Lenovo,Hsinchu,At Risk,N/A,4
-ASSET_0113,Laptop,User_937,HR,15/03/2020,2021-05-28,In Maintenance,91.0,,Lenovo,Taipei,At Risk,macOS 13,0
-ASSET_0114,Server,,Other,2021-11-02,2024-06-11,In Use,391.0,,Cisco,Taichung,Compliant,Windows Server 2022,5
-ASSET_0115,Software,User_848,IT,2019/09/02,2021-05-26,In Use,955.0,2025-11-15,Dell,Hsinchu,Compliant,N/A,3
-ASSET_0116,Software,User_921,Marketing,19/05/2022,2023-09-25,In Use,742.0,2024-10-18,Apple,Hsinchu,Compliant,N/A,4
-ASSET_0117,Software,User_775,IT,2023-08-21,2026-01-13,Decommissioned,793.0,2024-08-14,Other,Hsinchu,Non-Compliant,N/A,6
-ASSET_0118,Other,User_411,IT,2019/02/10,2020-04-18,In Use,800.0,,Lenovo,Taichung,Non-Compliant,Embedded OS,2
-ASSET_0119,Software,User_300,HR,31/12/2018,2021-04-25,In Use,122.0,2025-12-13,Dell,Taipei,Compliant,N/A,4
-ASSET_0120,Monitor,,IT,2023-09-21,,In Use,,,Apple,Hsinchu,Compliant,N/A,99
-ASSET_0121,Laptop,User_201,HR,2021/12/29,2024-04-19,In Use,1117.0,,Apple,Taichung,Compliant,macOS 14,0
-ASSET_0122,Other,User_417,Marketing,01/03/2022,2023-03-12,Decommissioned,710.0,,Dell,Other,At Risk,Embedded OS,5
-ASSET_0123,Other,User_754,Marketing,2021-01-17,2022-10-11,Retired,96.0,,HP,Taipei,Non-Compliant,Embedded OS,4
-ASSET_0124,Server,User_728,Other,2019/01/26,2020-12-25,In Use,737.0,,HP,Taichung,Non-Compliant,Ubuntu 22.04,1
-ASSET_0125,Software,User_542,HR,16/08/2024,2026-09-21,Stock,1232.0,2024-05-31,Apple,Cloud,Compliant,N/A,1
-ASSET_0126,Software,,Other,2021-04-09,2022-10-08,In Use,546.0,2025-05-30,Cisco,Taipei,Compliant,N/A,1
-ASSET_0127,Monitor,User_207,Operations,2019/05/08,2021-07-06,In Use,788.0,,HP,Hsinchu,At Risk,N/A,2
-ASSET_0128,Software,User_707,Marketing,21/07/2021,2023-09-09,In Use,863.0,2024-01-29,Other,Taipei,Compliant,N/A,5
-ASSET_0129,Server,User_539,R&D,2019-11-28,2021-08-25,Retired,315.0,,Other,Taipei,Non-Compliant,Windows Server 2022,3
-ASSET_0130,Software,User_528,Operations,2023/08/13,,In Use,373.0,2024-05-25,Other,Other,Compliant,N/A,7
-ASSET_0131,Laptop,User_498,IT,22/06/2023,2026-01-26,In Use,1013.0,,Lenovo,Taichung,At Risk,macOS 14,4
-ASSET_0132,Desktop,,Other,2019-12-11,2022-02-22,Retired,,,Apple,Other,At Risk,Win 11,6
-ASSET_0133,Other,User_759,Finance,2022/05/14,2024-12-17,Stock,934.0,,Apple,Other,At Risk,Embedded OS,2
-ASSET_0134,Laptop,User_358,Operations,15/03/2024,2026-08-02,Decommissioned,103.0,,Dell,Taipei,Non-Compliant,Win 10,1
-ASSET_0135,Monitor,User_518,HR,2023-03-30,2025-07-31,In Use,1218.0,,Apple,Taichung,At Risk,N/A,4
-ASSET_0136,Laptop,User_428,R&D,2023/07/24,2024-10-19,In Maintenance,1340.0,,Dell,Taichung,Non-Compliant,Win 10,4
-ASSET_0137,Software,User_269,IT,09/07/2020,2022-06-05,In Use,1334.0,2025-01-29,Apple,Hsinchu,Non-Compliant,N/A,5
-ASSET_0138,Desktop,,HR,2021-04-14,2023-12-06,In Use,1389.0,,Cisco,Cloud,Compliant,Win 11,0
-ASSET_0139,Laptop,User_417,Finance,2021/08/17,2023-03-28,Retired,1396.0,,HP,Taichung,Compliant,macOS 14,0
-ASSET_0140,Software,User_267,R&D,11/07/2024,,Retired,865.0,2025-11-11,Cisco,Taichung,Compliant,N/A,99
-ASSET_0141,Monitor,User_290,Marketing,2021-04-08,2023-03-29,Decommissioned,56.0,,Cisco,Taichung,Compliant,N/A,1
-ASSET_0142,Server,User_525,HR,2020/11/20,2023-05-08,Decommissioned,131.0,,Lenovo,Hsinchu,At Risk,Ubuntu 22.04,4
-ASSET_0143,Desktop,User_624,Operations,09/06/2023,2025-01-17,In Use,1306.0,,Dell,Hsinchu,Compliant,Win 11,7
-ASSET_0144,Laptop,,HR,2024-09-27,2026-12-25,In Use,,,HP,Cloud,Non-Compliant,macOS 13,4
-ASSET_0145,Laptop,User_341,R&D,2021/05/04,2023-08-30,In Use,1090.0,,Lenovo,Taipei,At Risk,macOS 13,0
-ASSET_0146,Laptop,User_369,Other,07/03/2024,2026-01-06,Retired,812.0,,Apple,Cloud,Compliant,Win 10,6
-ASSET_0147,Laptop,User_669,Other,2023-10-28,2026-01-28,In Use,787.0,,Cisco,Cloud,Compliant,Win 11,4
-ASSET_0148,Software,User_174,R&D,2020/06/05,2021-11-08,Decommissioned,1023.0,2024-03-24,Other,Taichung,Non-Compliant,N/A,2
-ASSET_0149,Other,User_402,Finance,15/09/2020,2021-10-05,Stock,1460.0,,Apple,Taipei,At Risk,Embedded OS,5
-ASSET_0150,Laptop,,Marketing,2023-06-04,,In Use,842.0,,Lenovo,Hsinchu,Non-Compliant,Win 10,7
-ASSET_0151,Monitor,User_756,Finance,2020/12/19,2023-02-21,Decommissioned,640.0,,Apple,Hsinchu,Non-Compliant,N/A,2
-ASSET_0152,Software,User_635,R&D,18/05/2023,2026-04-09,Retired,965.0,2025-07-11,Dell,Taipei,At Risk,N/A,3
-ASSET_0153,Laptop,User_930,Operations,2019-06-05,2022-04-12,In Maintenance,166.0,,HP,Taichung,Compliant,macOS 14,7
-ASSET_0154,Server,User_437,Operations,2023/07/07,2025-05-21,Retired,215.0,,Apple,Other,Compliant,Ubuntu 22.04,3
-ASSET_0155,Software,User_790,IT,16/11/2021,2023-06-17,In Use,938.0,2024-02-15,Other,Cloud,Compliant,N/A,1
-ASSET_0156,Software,,IT,2018-08-30,2019-08-31,In Use,,2025-08-11,Lenovo,Hsinchu,At Risk,N/A,6
-ASSET_0157,Laptop,User_221,HR,2018/03/31,2021-02-13,Decommissioned,155.0,,Lenovo,Taipei,Non-Compliant,macOS 14,2
-ASSET_0158,Software,User_458,Other,19/08/2023,2024-10-29,In Maintenance,1443.0,2025-12-16,HP,Cloud,At Risk,N/A,3
-ASSET_0159,Desktop,User_106,Marketing,2018-09-08,2020-09-24,Retired,949.0,,Other,Hsinchu,At Risk,Win 10,6
-ASSET_0160,Monitor,User_799,HR,2020/03/19,,In Use,1027.0,,Other,Cloud,Non-Compliant,N/A,99
-ASSET_0161,Monitor,User_342,HR,10/04/2022,2024-02-04,In Use,799.0,,Lenovo,Other,Compliant,N/A,6
-ASSET_0162,Server,,R&D,2024-05-24,2026-03-26,In Maintenance,963.0,,Apple,Other,Compliant,Windows Server 2022,2
-ASSET_0163,Laptop,User_544,Finance,2020/01/25,2021-02-27,In Use,1280.0,,Dell,Cloud,Compliant,macOS 13,4
-ASSET_0164,Software,User_503,Finance,14/08/2020,2021-09-06,In Use,1437.0,2025-01-16,Lenovo,Cloud,At Risk,N/A,0
-ASSET_0165,Monitor,User_216,HR,2024-10-03,2026-06-09,In Use,627.0,,HP,Cloud,At Risk,N/A,6
-ASSET_0166,Desktop,User_345,Finance,2021/10/26,2023-04-29,In Use,1310.0,,HP,Other,Non-Compliant,Win 11,2
-ASSET_0167,Software,User_698,HR,18/11/2023,2026-03-09,In Use,383.0,2024-01-02,Cisco,Other,At Risk,N/A,4
-ASSET_0168,Server,,Other,2022-03-06,2024-03-20,In Maintenance,,,Dell,Cloud,At Risk,Windows Server 2022,5
-ASSET_0169,Monitor,User_165,Marketing,2023/08/03,2024-08-29,Stock,1497.0,,Lenovo,Cloud,Compliant,N/A,6
-ASSET_0170,Server,User_369,HR,22/09/2019,,In Use,893.0,,Other,Taipei,Compliant,Ubuntu 22.04,3
-ASSET_0171,Monitor,User_985,R&D,2024-06-18,2027-01-14,In Use,1180.0,,Cisco,Other,Compliant,N/A,0
-ASSET_0172,Software,User_466,Other,2022/04/29,2023-10-01,In Maintenance,1324.0,2024-11-29,HP,Taipei,Non-Compliant,N/A,4
-ASSET_0173,Other,User_297,Finance,07/12/2023,2025-01-09,Retired,886.0,,Dell,Taipei,Non-Compliant,Embedded OS,3
-ASSET_0174,Laptop,,Marketing,2024-04-08,2025-11-09,In Use,266.0,,HP,Other,Compliant,Win 11,6
-ASSET_0175,Desktop,User_527,Operations,2024/10/10,2026-04-05,In Use,433.0,,Other,Other,At Risk,Win 10,3
-ASSET_0176,Monitor,User_228,Other,27/07/2023,2025-07-01,Stock,1425.0,,Other,Other,Non-Compliant,N/A,5
-ASSET_0177,Desktop,User_317,Marketing,2024-06-16,2025-10-12,Stock,163.0,,HP,Taipei,At Risk,Win 10,6
-ASSET_0178,Monitor,User_913,R&D,2019/08/11,2021-07-20,Stock,1220.0,,Other,Other,Compliant,N/A,0
-ASSET_0179,Laptop,User_674,IT,06/10/2020,2023-09-09,Retired,1162.0,,Cisco,Taipei,Compliant,macOS 14,6
-ASSET_0180,Software,,HR,2021-09-09,,In Use,,2025-05-08,Lenovo,Taichung,At Risk,N/A,99
-ASSET_0181,Other,User_950,Finance,2024/09/10,2026-06-15,Decommissioned,1417.0,,Other,Taipei,Compliant,Linux-Generic,0
-ASSET_0182,Desktop,User_927,Finance,12/12/2019,2021-05-02,In Use,354.0,,Dell,Taichung,At Risk,Win 10,2
-ASSET_0183,Monitor,User_184,HR,2020-08-19,2021-08-21,Retired,503.0,,Lenovo,Other,Compliant,N/A,1
-ASSET_0184,Laptop,User_392,Other,2021/03/02,2022-12-30,In Maintenance,832.0,,Apple,Hsinchu,Non-Compliant,Win 11,4
-ASSET_0185,Software,User_914,Finance,11/10/2020,2022-09-11,Retired,842.0,2025-12-15,Apple,Cloud,Compliant,N/A,4
-ASSET_0186,Desktop,,Finance,2022-12-31,2024-11-28,Stock,422.0,,Lenovo,Taichung,Compliant,Win 11,3
-ASSET_0187,Monitor,User_769,HR,2018/04/16,2020-06-08,In Use,638.0,,Lenovo,Hsinchu,Compliant,N/A,5
-ASSET_0188,Laptop,User_682,Other,28/11/2020,2022-05-05,In Use,494.0,,HP,Cloud,At Risk,Win 11,5
-ASSET_0189,Monitor,User_461,Other,2021-10-31,2024-09-14,Retired,936.0,,Other,Other,At Risk,N/A,3
-ASSET_0190,Laptop,User_882,HR,2019/06/05,,In Use,731.0,,Dell,Hsinchu,Non-Compliant,macOS 14,3
-ASSET_0191,Desktop,User_538,HR,26/05/2018,2021-03-31,In Use,532.0,,Lenovo,Hsinchu,Compliant,Win 11,4
-ASSET_0192,Laptop,,Marketing,2024-10-02,2026-12-30,In Use,,,Other,Other,Compliant,macOS 14,5
-ASSET_0193,Laptop,User_696,HR,2021/09/05,2023-05-25,In Use,1447.0,,Cisco,Taipei,Compliant,Win 11,6
-ASSET_0194,Desktop,User_679,HR,07/06/2024,2026-11-19,In Use,337.0,,Cisco,Cloud,Compliant,Win 11,3
-ASSET_0195,Laptop,User_524,Other,2021-10-08,2022-12-16,In Use,610.0,,Lenovo,Hsinchu,Compliant,Win 10,2
-ASSET_0196,Monitor,User_166,Operations,2022/10/02,2025-04-15,In Use,107.0,,Apple,Hsinchu,Non-Compliant,N/A,3
-ASSET_0197,Monitor,User_570,Operations,17/05/2021,2023-05-05,In Use,711.0,,Lenovo,Hsinchu,Compliant,N/A,4
-ASSET_0198,Monitor,,HR,2020-10-13,2022-08-19,In Use,682.0,,Lenovo,Taipei,Non-Compliant,N/A,7
-ASSET_0199,Desktop,User_203,Operations,2018/12/14,2021-08-31,Retired,1321.0,,Lenovo,Taipei,Compliant,Win 10,4
-ASSET_0200,Laptop,User_555,Other,19/09/2024,,Retired,1062.0,,Lenovo,Cloud,At Risk,macOS 14,99
-ASSET_0201,Laptop,User_213,Finance,2019-04-26,2022-02-16,In Use,390.0,,HP,Taichung,Compliant,macOS 14,0
-ASSET_0202,Desktop,User_506,HR,2021/04/18,2024-03-19,Stock,360.0,,Other,Taichung,At Risk,Win 11,6
-ASSET_0203,Other,User_111,Other,01/09/2018,2021-01-02,In Use,727.0,,HP,Other,Non-Compliant,Embedded OS,7
-ASSET_0204,Monitor,,Other,2018-05-14,2019-07-19,In Use,,,Dell,Other,Non-Compliant,N/A,1
-ASSET_0205,Laptop,User_636,HR,2022/12/17,2024-09-07,In Use,871.0,,Dell,Cloud,Non-Compliant,macOS 13,0
-ASSET_0206,Monitor,User_480,R&D,01/04/2020,2021-11-24,In Maintenance,951.0,,Dell,Other,Compliant,N/A,1
-ASSET_0207,Laptop,User_178,R&D,2020-08-21,2023-02-08,In Use,1085.0,,Lenovo,Other,Non-Compliant,macOS 13,3
-ASSET_0208,Server,User_489,Finance,2023/01/26,2025-04-16,In Use,1203.0,,Lenovo,Taichung,Non-Compliant,Windows Server 2022,4
-ASSET_0209,Software,User_481,Marketing,20/07/2024,2027-04-22,Decommissioned,1129.0,2025-04-07,Dell,Taichung,Compliant,N/A,2
-ASSET_0210,Laptop,,Operations,2021-03-25,,In Use,312.0,,Lenovo,Taipei,Non-Compliant,Win 10,0
-ASSET_0211,Laptop,User_919,R&D,2021/11/04,2023-06-12,In Maintenance,1304.0,,HP,Other,Non-Compliant,macOS 13,7
-ASSET_0212,Laptop,User_625,Other,12/01/2024,2025-04-12,Decommissioned,647.0,,Cisco,Hsinchu,At Risk,Win 11,4
-ASSET_0213,Laptop,User_164,Finance,2023-03-27,2025-05-22,In Use,291.0,,Cisco,Other,Compliant,macOS 13,4
-ASSET_0214,Other,User_596,R&D,2018/06/13,2020-09-19,Stock,357.0,,Cisco,Hsinchu,At Risk,Embedded OS,1
-ASSET_0215,Desktop,User_844,Finance,17/08/2019,2021-03-30,In Use,1495.0,,HP,Other,At Risk,Win 11,0
-ASSET_0216,Other,,IT,2018-01-17,2019-05-16,Retired,,,HP,Cloud,Compliant,Linux-Generic,1
-ASSET_0217,Other,User_814,Other,2024/03/29,2026-01-06,Stock,775.0,,Dell,Taipei,Non-Compliant,Embedded OS,4
-ASSET_0218,Laptop,User_186,Finance,10/12/2021,2024-03-02,In Use,1273.0,,Dell,Taichung,Compliant,macOS 14,2
-ASSET_0219,Laptop,User_376,HR,2022-07-27,2023-12-21,In Use,1301.0,,Apple,Cloud,Non-Compliant,Win 11,6
-ASSET_0220,Software,User_590,HR,2019/07/17,,In Use,399.0,2024-12-17,HP,Cloud,Compliant,N/A,99
-ASSET_0221,Desktop,User_562,HR,26/12/2018,2020-11-18,In Use,1455.0,,Lenovo,Taipei,Compliant,Win 11,1
-ASSET_0222,Server,,R&D,2019-01-05,2020-06-01,In Use,819.0,,Other,Other,Compliant,Windows Server 2022,7
-ASSET_0223,Software,User_621,Other,2021/06/03,2023-11-07,In Use,1475.0,2024-07-01,Dell,Taipei,Non-Compliant,N/A,5
-ASSET_0224,Server,User_271,Marketing,27/09/2024,2027-09-21,Retired,937.0,,Cisco,Taichung,At Risk,RHEL 9,6
-ASSET_0225,Software,User_629,Finance,2020-02-19,2021-10-08,Decommissioned,710.0,2025-09-29,Other,Cloud,Non-Compliant,N/A,7
-ASSET_0226,Monitor,User_633,R&D,2018/08/23,2020-08-01,In Use,819.0,,Cisco,Other,Non-Compliant,N/A,3
-ASSET_0227,Software,User_187,R&D,26/01/2022,2024-03-07,Decommissioned,470.0,2025-12-01,Dell,Taichung,Non-Compliant,N/A,5
-ASSET_0228,Monitor,,Other,2024-09-26,2025-10-25,In Maintenance,,,Dell,Other,Non-Compliant,N/A,7
-ASSET_0229,Server,User_614,IT,2023/12/17,2025-09-02,In Use,1297.0,,HP,Hsinchu,Non-Compliant,Ubuntu 22.04,1
-ASSET_0230,Software,User_330,Marketing,07/06/2024,,In Use,986.0,2024-04-21,Cisco,Taipei,At Risk,N/A,1
-ASSET_0231,Software,User_732,HR,2024-03-06,2025-03-19,Decommissioned,1093.0,2025-08-09,Apple,Taichung,Compliant,N/A,1
-ASSET_0232,Desktop,User_119,HR,2021/11/05,2023-03-16,Retired,276.0,,HP,Other,At Risk,Win 11,5
-ASSET_0233,Monitor,User_137,Operations,18/09/2024,2026-04-07,In Use,1130.0,,Cisco,Cloud,Compliant,N/A,6
-ASSET_0234,Software,,Finance,2019-06-10,2021-11-05,In Maintenance,1128.0,2025-05-14,Lenovo,Hsinchu,At Risk,N/A,1
-ASSET_0235,Monitor,User_977,Marketing,2018/03/01,2020-01-13,In Use,1182.0,,Lenovo,Hsinchu,At Risk,N/A,4
-ASSET_0236,Software,User_784,R&D,29/08/2023,2025-11-02,In Use,162.0,2024-07-01,Dell,Hsinchu,Non-Compliant,N/A,3
-ASSET_0237,Laptop,User_924,R&D,2019-04-21,2021-02-16,In Use,210.0,,Dell,Cloud,Non-Compliant,Win 11,6
-ASSET_0238,Server,User_174,Other,2023/10/27,2025-02-26,In Maintenance,1473.0,,Cisco,Taipei,Compliant,RHEL 9,1
-ASSET_0239,Laptop,User_961,Operations,01/07/2022,2025-03-16,In Maintenance,759.0,,Dell,Taichung,Compliant,Win 11,4
-ASSET_0240,Laptop,,Operations,2019-07-01,,In Use,,,Cisco,Other,Compliant,Win 10,99
-ASSET_0241,Software,User_455,Operations,2019/12/05,2021-08-21,Stock,687.0,2024-10-21,HP,Taichung,Compliant,N/A,7
-ASSET_0242,Software,User_785,R&D,05/02/2023,2024-08-04,In Use,1034.0,2025-07-01,Cisco,Cloud,At Risk,N/A,5
-ASSET_0243,Laptop,User_319,Operations,2020-06-21,2021-11-30,In Use,1473.0,,Other,Hsinchu,Compliant,macOS 14,5
-ASSET_0244,Laptop,User_795,Marketing,2023/01/11,2024-08-25,In Use,299.0,,Apple,Taipei,Compliant,Win 10,1
-ASSET_0245,Server,User_859,Marketing,23/11/2021,2024-09-24,Retired,993.0,,Cisco,Hsinchu,At Risk,RHEL 9,0
-ASSET_0246,Server,,Finance,2023-08-31,2024-11-19,Stock,1033.0,,Dell,Taichung,Non-Compliant,Ubuntu 22.04,4
-ASSET_0247,Monitor,User_260,HR,2024/10/28,2026-12-26,Decommissioned,944.0,,HP,Taipei,Non-Compliant,N/A,5
-ASSET_0248,Monitor,User_672,Finance,16/08/2019,2022-06-09,Retired,1003.0,,Apple,Taipei,Non-Compliant,N/A,5
-ASSET_0249,Monitor,User_297,HR,2022-06-22,2024-10-27,In Use,902.0,,Cisco,Hsinchu,At Risk,N/A,7
-ASSET_0250,Laptop,User_243,Marketing,2018/04/08,,Stock,1159.0,,Lenovo,Cloud,Non-Compliant,macOS 13,2
-ASSET_0251,Laptop,User_131,Other,29/01/2023,2025-08-11,Retired,1227.0,,Lenovo,Cloud,At Risk,Win 11,7
-ASSET_0252,Laptop,,R&D,2023-10-28,2026-10-22,Retired,,,Apple,Other,Compliant,Win 10,1
-ASSET_0253,Software,User_165,IT,2020/05/30,2022-08-19,In Use,1117.0,2024-04-06,HP,Cloud,Non-Compliant,N/A,5
-ASSET_0254,Desktop,User_478,HR,20/12/2022,2025-08-11,In Use,758.0,,Apple,Taichung,At Risk,Win 10,7
-ASSET_0255,Desktop,User_584,Finance,2021-08-13,2023-01-23,In Use,954.0,,Other,Hsinchu,At Risk,Win 10,3
-ASSET_0256,Monitor,User_976,Marketing,2024/08/30,2026-09-20,Retired,89.0,,Other,Taipei,Compliant,N/A,6
-ASSET_0257,Laptop,User_718,Finance,05/09/2019,2022-07-23,In Use,1015.0,,Other,Taichung,Compliant,Win 10,2
-ASSET_0258,Monitor,,Finance,2021-02-26,2023-09-23,Retired,719.0,,Cisco,Hsinchu,At Risk,N/A,1
-ASSET_0259,Server,User_894,Finance,2018/09/04,2021-06-04,In Maintenance,402.0,,Lenovo,Taipei,At Risk,RHEL 9,5
-ASSET_0260,Desktop,User_800,R&D,15/08/2018,,Retired,1445.0,,Other,Hsinchu,At Risk,Win 11,99
-ASSET_0261,Software,User_463,R&D,2021-11-19,2024-02-11,In Use,1299.0,2024-05-10,Lenovo,Cloud,At Risk,N/A,1
-ASSET_0262,Laptop,User_289,IT,2024/01/13,2025-08-17,In Use,595.0,,Dell,Taichung,Non-Compliant,macOS 13,1
-ASSET_0263,Monitor,User_995,Operations,15/05/2024,2025-11-06,Decommissioned,669.0,,Apple,Taichung,Non-Compliant,N/A,0
-ASSET_0264,Laptop,,Marketing,2024-05-08,2025-07-12,Stock,,,Lenovo,Taipei,Compliant,Win 10,6
-ASSET_0265,Desktop,User_615,HR,2024/02/17,2026-09-17,In Maintenance,192.0,,Cisco,Taichung,Compliant,Win 11,4
-ASSET_0266,Monitor,User_500,Other,13/07/2023,2025-10-14,Decommissioned,894.0,,HP,Taichung,Compliant,N/A,5
-ASSET_0267,Monitor,User_702,HR,2024-09-20,2026-12-06,In Use,599.0,,Other,Cloud,Compliant,N/A,7
-ASSET_0268,Laptop,User_945,Marketing,2022/08/10,2025-02-01,In Use,330.0,,Other,Hsinchu,At Risk,Win 11,5
-ASSET_0269,Software,User_998,HR,24/03/2018,2020-12-04,Stock,333.0,2024-06-21,Other,Taipei,Non-Compliant,N/A,3
-ASSET_0270,Software,,Marketing,2022-03-12,,Retired,447.0,2024-04-29,Other,Other,Compliant,N/A,3
-ASSET_0271,Laptop,User_419,IT,2018/10/13,2020-07-03,In Use,138.0,,Other,Taichung,Compliant,Win 11,0
-ASSET_0272,Desktop,User_807,Marketing,19/03/2024,2025-04-28,Retired,563.0,,Dell,Other,At Risk,Win 10,0
-ASSET_0273,Other,User_115,Finance,2021-07-02,2024-05-26,Decommissioned,481.0,,Other,Cloud,Non-Compliant,Linux-Generic,7
-ASSET_0274,Software,User_424,R&D,2022/02/01,2024-11-22,In Use,1062.0,2024-07-19,Cisco,Taipei,Non-Compliant,N/A,0
-ASSET_0275,Laptop,User_442,Other,28/10/2020,2022-08-24,In Use,487.0,,Lenovo,Taipei,Non-Compliant,macOS 13,3
-ASSET_0276,Server,,Marketing,2024-03-29,2026-09-12,In Use,,,Dell,Other,Non-Compliant,Windows Server 2022,6
-ASSET_0277,Laptop,User_175,Finance,2020/02/11,2022-03-22,Retired,243.0,,HP,Taichung,Non-Compliant,macOS 14,0
-ASSET_0278,Desktop,User_821,IT,11/03/2024,2027-01-04,In Use,311.0,,HP,Taichung,Non-Compliant,Win 10,1
-ASSET_0279,Other,User_852,Marketing,2023-11-11,2026-07-23,In Use,1364.0,,Cisco,Cloud,Compliant,Linux-Generic,4
-ASSET_0280,Laptop,User_980,Operations,2021/08/18,,Decommissioned,453.0,,Lenovo,Taipei,At Risk,Win 11,99
-ASSET_0281,Software,User_417,HR,23/05/2023,2026-04-25,In Use,431.0,2024-08-20,Dell,Other,Compliant,N/A,0
-ASSET_0282,Software,,Other,2022-12-18,2025-07-10,In Maintenance,446.0,2025-12-04,Apple,Taichung,Non-Compliant,N/A,4
-ASSET_0283,Other,User_719,Marketing,2018/01/01,2019-06-17,In Use,505.0,,Cisco,Other,Compliant,Embedded OS,4
-ASSET_0284,Desktop,User_552,IT,21/11/2023,2025-07-27,Stock,1416.0,,Other,Other,Non-Compliant,Win 11,0
-ASSET_0285,Monitor,User_772,Other,2022-08-09,2024-06-27,Stock,534.0,,Apple,Cloud,Compliant,N/A,0
-ASSET_0286,Server,User_301,HR,2023/09/20,2025-01-01,Retired,1339.0,,Other,Hsinchu,Non-Compliant,RHEL 9,0
-ASSET_0287,Monitor,User_553,Marketing,13/04/2022,2023-07-05,Decommissioned,436.0,,Other,Hsinchu,Compliant,N/A,0
-ASSET_0288,Server,,IT,2024-10-02,2026-05-24,In Use,,,HP,Other,Compliant,RHEL 9,0
-ASSET_0289,Laptop,User_393,R&D,2021/12/02,2024-04-19,In Use,1180.0,,HP,Cloud,Non-Compliant,macOS 14,6
-ASSET_0290,Monitor,User_733,Operations,15/07/2023,,In Use,244.0,,Lenovo,Cloud,Non-Compliant,N/A,0
-ASSET_0291,Server,User_659,HR,2018-12-26,2020-03-09,In Use,1191.0,,Lenovo,Cloud,Compliant,Windows Server 2022,1
-ASSET_0292,Laptop,User_520,IT,2018/01/07,2019-07-21,In Use,1221.0,,Apple,Other,At Risk,Win 10,1
-ASSET_0293,Monitor,User_574,Operations,21/12/2021,2024-04-12,In Maintenance,930.0,,Other,Other,At Risk,N/A,7
-ASSET_0294,Laptop,,R&D,2020-04-12,2021-05-12,In Use,886.0,,Other,Taichung,Non-Compliant,Win 11,4
-ASSET_0295,Desktop,User_462,Marketing,2021/03/24,2023-05-27,In Use,311.0,,Apple,Other,Non-Compliant,Win 11,5
-ASSET_0296,Laptop,User_648,HR,10/12/2023,2025-04-12,In Use,1108.0,,Other,Cloud,At Risk,Win 10,0
-ASSET_0297,Other,User_530,Operations,2018-03-18,2019-05-15,In Use,158.0,,Other,Cloud,Compliant,Linux-Generic,0
-ASSET_0298,Monitor,User_442,Marketing,2018/12/31,2021-01-12,In Use,1427.0,,Cisco,Taichung,At Risk,N/A,0
-ASSET_0299,Monitor,User_399,Marketing,18/01/2019,2021-07-03,In Maintenance,1458.0,,Lenovo,Other,Non-Compliant,N/A,4
-ASSET_0300,Monitor,,R&D,2023-12-27,,In Use,,,Dell,Taichung,At Risk,N/A,99
-ASSET_0301,Monitor,User_861,Marketing,2022/11/20,2025-09-13,In Use,569.0,,Lenovo,Other,Compliant,N/A,4
-ASSET_0302,Monitor,User_190,Finance,09/08/2023,2024-10-10,In Maintenance,1213.0,,Other,Other,At Risk,N/A,2
-ASSET_0303,Monitor,User_119,IT,2020-09-03,2022-03-05,Retired,932.0,,Apple,Hsinchu,At Risk,N/A,6
-ASSET_0304,Desktop,User_686,IT,2021/06/05,2022-09-14,In Maintenance,456.0,,Apple,Taichung,Compliant,Win 11,1
-ASSET_0305,Software,User_703,Marketing,27/05/2023,2024-08-15,Stock,821.0,2024-12-30,Apple,Taipei,Compliant,N/A,0
-ASSET_0306,Monitor,,Other,2020-04-19,2021-09-12,Retired,492.0,,Cisco,Other,Non-Compliant,N/A,5
-ASSET_0307,Laptop,User_121,Finance,2021/02/11,2023-06-05,In Use,955.0,,HP,Other,At Risk,macOS 14,7
-ASSET_0308,Software,User_833,Other,02/08/2021,2022-09-27,Retired,1443.0,2024-09-20,HP,Taipei,Non-Compliant,N/A,5
-ASSET_0309,Laptop,User_124,Finance,2020-12-24,2022-10-11,Decommissioned,190.0,,Cisco,Cloud,Compliant,Win 11,0
-ASSET_0310,Software,User_802,Other,2024/02/20,,In Use,991.0,2025-01-18,Lenovo,Taichung,Non-Compliant,N/A,7
-ASSET_0311,Laptop,User_389,Finance,07/07/2018,2021-05-21,Retired,1196.0,,Other,Hsinchu,Compliant,Win 11,1
-ASSET_0312,Software,,HR,2024-06-27,2026-09-19,In Use,,2024-04-20,Lenovo,Hsinchu,Non-Compliant,N/A,2
-ASSET_0313,Software,User_993,Other,2020/08/31,2023-05-24,Retired,782.0,2024-08-18,Cisco,Taipei,Compliant,N/A,0
-ASSET_0314,Laptop,User_152,Marketing,06/04/2022,2024-05-12,Stock,775.0,,Dell,Hsinchu,At Risk,Win 10,7
-ASSET_0315,Monitor,User_981,Operations,2019-10-22,2021-03-29,In Use,1061.0,,Cisco,Cloud,Compliant,N/A,2
-ASSET_0316,Software,User_730,Other,2022/01/29,2023-02-09,In Use,899.0,2024-12-19,Apple,Taipei,Compliant,N/A,6
-ASSET_0317,Laptop,User_885,Operations,18/06/2021,2022-11-18,Decommissioned,1416.0,,HP,Taipei,At Risk,macOS 14,3
-ASSET_0318,Software,,Marketing,2021-03-26,2024-01-22,Decommissioned,186.0,2025-11-04,Lenovo,Cloud,At Risk,N/A,6
-ASSET_0319,Other,User_297,R&D,2021/01/11,2022-07-06,Stock,450.0,,HP,Hsinchu,Compliant,Linux-Generic,3
-ASSET_0320,Monitor,User_274,Other,24/06/2020,,In Use,284.0,,Cisco,Other,Compliant,N/A,99
-ASSET_0321,Desktop,User_530,IT,2019-06-07,2021-08-31,In Use,582.0,,Lenovo,Taichung,Non-Compliant,Win 10,4
-ASSET_0322,Laptop,User_403,Other,2021/01/29,2023-06-14,In Maintenance,1428.0,,HP,Taichung,Compliant,Win 10,6
-ASSET_0323,Software,User_199,Other,07/03/2024,2026-04-07,Decommissioned,698.0,2024-11-24,Other,Taichung,At Risk,N/A,7
-ASSET_0324,Monitor,,Finance,2023-02-22,2024-08-12,In Use,,,Lenovo,Hsinchu,Non-Compliant,N/A,3
-ASSET_0325,Other,User_639,Operations,2020/07/28,2021-12-23,In Use,405.0,,Cisco,Cloud,Non-Compliant,Linux-Generic,4
-ASSET_0326,Laptop,User_749,Finance,28/04/2018,2019-06-20,In Use,102.0,,HP,Other,Compliant,macOS 13,7
-ASSET_0327,Software,User_774,IT,2019-02-02,2020-06-18,Decommissioned,663.0,2024-01-17,Lenovo,Cloud,Compliant,N/A,2
-ASSET_0328,Software,User_957,Operations,2021/11/02,2023-05-08,Decommissioned,168.0,2024-06-04,Dell,Cloud,At Risk,N/A,3
-ASSET_0329,Laptop,User_274,Operations,02/09/2022,2025-07-31,In Use,1494.0,,Other,Other,Compliant,macOS 14,6
-ASSET_0330,Monitor,,Marketing,2023-08-22,,Stock,1022.0,,Lenovo,Taichung,Compliant,N/A,7
-ASSET_0331,Software,User_603,Finance,2018/08/13,2021-08-10,In Use,693.0,2025-09-07,Apple,Other,Compliant,N/A,4
-ASSET_0332,Laptop,User_178,R&D,25/09/2024,2026-04-17,In Use,1291.0,,Lenovo,Hsinchu,Compliant,Win 11,4
-ASSET_0333,Monitor,User_430,Other,2020-09-06,2022-11-13,In Maintenance,327.0,,Dell,Taipei,Non-Compliant,N/A,1
-ASSET_0334,Laptop,User_125,IT,2024/08/06,2026-10-20,Decommissioned,1374.0,,Apple,Taichung,Compliant,macOS 14,7
-ASSET_0335,Monitor,User_590,IT,03/10/2020,2022-11-18,In Use,613.0,,Other,Cloud,Compliant,N/A,6
-ASSET_0336,Laptop,,HR,2019-11-17,2021-07-15,In Use,,,Cisco,Cloud,Compliant,Win 11,7
-ASSET_0337,Laptop,User_835,Finance,2024/10/05,2025-10-19,Retired,502.0,,Other,Hsinchu,At Risk,macOS 13,5
-ASSET_0338,Server,User_617,Finance,24/10/2022,2023-10-26,In Use,542.0,,Apple,Cloud,Compliant,Ubuntu 22.04,7
-ASSET_0339,Other,User_962,R&D,2023-09-29,2026-03-04,Stock,321.0,,Lenovo,Taichung,Non-Compliant,Embedded OS,5
-ASSET_0340,Monitor,User_456,IT,2021/03/08,,Retired,360.0,,Other,Hsinchu,At Risk,N/A,99
-ASSET_0341,Laptop,User_224,HR,12/09/2019,2022-04-04,Stock,294.0,,HP,Hsinchu,Non-Compliant,Win 10,4
-ASSET_0342,Software,,Operations,2023-07-13,2025-11-18,Stock,1112.0,2025-08-15,Apple,Cloud,At Risk,N/A,5
-ASSET_0343,Software,User_173,R&D,2018/05/17,2020-07-10,In Use,1229.0,2024-09-11,Apple,Other,At Risk,N/A,3
-ASSET_0344,Laptop,User_889,Finance,01/08/2020,2023-03-26,In Use,398.0,,Apple,Cloud,Compliant,macOS 14,1
-ASSET_0345,Other,User_766,HR,2022-01-01,2023-09-04,Retired,650.0,,Cisco,Taipei,Non-Compliant,Embedded OS,3
-ASSET_0346,Software,User_215,Finance,2018/10/01,2021-08-15,In Maintenance,1164.0,2024-03-22,Lenovo,Taipei,At Risk,N/A,0
-ASSET_0347,Laptop,User_727,Other,16/03/2023,2025-04-22,In Maintenance,1114.0,,Dell,Other,At Risk,macOS 14,0
-ASSET_0348,Laptop,,Finance,2022-11-08,2025-06-09,Decommissioned,,,Apple,Other,Non-Compliant,Win 10,1
-ASSET_0349,Software,User_298,Other,2021/02/06,2024-01-06,Retired,203.0,2025-07-05,Cisco,Other,At Risk,N/A,3
-ASSET_0350,Software,User_498,HR,25/03/2018,,In Use,270.0,2025-07-06,Apple,Cloud,At Risk,N/A,0
-ASSET_0351,Desktop,User_520,IT,2023-03-29,2024-12-23,In Use,1353.0,,Apple,Other,At Risk,Win 11,7
-ASSET_0352,Desktop,User_570,Finance,2018/10/17,2020-12-22,In Use,328.0,,Cisco,Other,Non-Compliant,Win 10,4
-ASSET_0353,Software,User_860,R&D,04/04/2020,2022-08-25,In Maintenance,1430.0,2025-10-11,Other,Other,Compliant,N/A,3
-ASSET_0354,Laptop,,Other,2022-09-11,2024-08-17,In Use,893.0,,Other,Taichung,Non-Compliant,Win 10,6
-ASSET_0355,Server,User_925,HR,2023/04/17,2025-03-24,Retired,918.0,,Dell,Taichung,Non-Compliant,RHEL 9,0
-ASSET_0356,Desktop,User_627,Operations,25/03/2023,2025-09-25,In Use,710.0,,Dell,Taichung,Non-Compliant,Win 11,1
-ASSET_0357,Software,User_866,Operations,2019-03-19,2020-08-26,In Maintenance,59.0,2025-12-26,Dell,Taipei,Non-Compliant,N/A,0
-ASSET_0358,Laptop,User_828,Marketing,2023/01/31,2024-08-08,In Use,538.0,,HP,Taichung,At Risk,macOS 14,6
-ASSET_0359,Monitor,User_737,IT,16/06/2018,2020-11-05,In Use,812.0,,Dell,Other,Compliant,N/A,4
-ASSET_0360,Laptop,,R&D,2021-09-25,,In Use,,,Dell,Taipei,Non-Compliant,macOS 14,99
-ASSET_0361,Other,User_882,R&D,2018/03/06,2020-06-21,Decommissioned,1201.0,,Lenovo,Hsinchu,Compliant,Linux-Generic,2
-ASSET_0362,Software,User_773,Finance,19/03/2018,2019-12-13,In Use,777.0,2024-11-10,Cisco,Taichung,At Risk,N/A,0
-ASSET_0363,Monitor,User_292,Finance,2021-04-06,2023-03-10,Decommissioned,439.0,,Cisco,Taichung,Non-Compliant,N/A,3
-ASSET_0364,Laptop,User_759,Other,2022/01/21,2023-04-19,In Use,1224.0,,HP,Taichung,Compliant,macOS 14,7
-ASSET_0365,Desktop,User_725,Other,10/01/2019,2021-04-04,Retired,1283.0,,Lenovo,Cloud,Compliant,Win 11,3
-ASSET_0366,Desktop,,R&D,2024-07-06,2026-04-14,Stock,1170.0,,Cisco,Taipei,At Risk,Win 11,5
-ASSET_0367,Laptop,User_979,IT,2021/09/03,2022-10-22,Stock,246.0,,Apple,Hsinchu,At Risk,Win 11,6
-ASSET_0368,Other,User_793,Other,10/03/2021,2022-06-01,Stock,264.0,,Apple,Other,Compliant,Embedded OS,1
-ASSET_0369,Other,User_491,HR,2018-12-27,2021-07-17,In Use,251.0,,Dell,Hsinchu,At Risk,Embedded OS,4
-ASSET_0370,Other,User_181,HR,2019/11/12,,In Maintenance,1277.0,,Apple,Taichung,At Risk,Embedded OS,0
-ASSET_0371,Software,User_891,HR,18/03/2022,2024-12-12,Stock,203.0,2025-03-14,Apple,Other,Non-Compliant,N/A,5
-ASSET_0372,Laptop,,R&D,2020-08-07,2022-01-01,In Use,,,Apple,Hsinchu,At Risk,macOS 14,1
-ASSET_0373,Software,User_382,HR,2021/03/03,2024-02-19,In Use,1425.0,2025-07-13,Other,Taipei,Non-Compliant,N/A,3
-ASSET_0374,Laptop,User_551,IT,24/04/2024,2026-06-10,In Use,315.0,,Cisco,Taichung,At Risk,Win 11,7
-ASSET_0375,Laptop,User_513,IT,2021-06-25,2024-02-24,In Use,930.0,,Cisco,Cloud,Non-Compliant,macOS 14,0
-ASSET_0376,Server,User_519,IT,2023/04/05,2026-01-13,Decommissioned,667.0,,Other,Taipei,At Risk,RHEL 9,2
-ASSET_0377,Server,User_440,Other,15/11/2022,2025-04-04,Decommissioned,416.0,,Lenovo,Other,Non-Compliant,Ubuntu 22.04,2
-ASSET_0378,Laptop,,IT,2021-06-25,2022-08-06,Stock,261.0,,Cisco,Taipei,Compliant,Win 11,6
-ASSET_0379,Software,User_836,IT,2020/12/06,2023-07-03,In Use,348.0,2024-10-22,Apple,Other,At Risk,N/A,2
-ASSET_0380,Laptop,User_430,HR,30/03/2021,,In Use,1411.0,,Other,Taichung,Non-Compliant,Win 11,99
-ASSET_0381,Monitor,User_849,Marketing,2024-08-31,2027-04-25,Decommissioned,770.0,,Dell,Other,At Risk,N/A,2
-ASSET_0382,Monitor,User_648,IT,2021/10/24,2024-09-16,In Use,1260.0,,Cisco,Hsinchu,Compliant,N/A,1
-ASSET_0383,Laptop,User_519,HR,26/04/2021,2024-03-05,Stock,1408.0,,Lenovo,Hsinchu,At Risk,Win 11,5
-ASSET_0384,Software,,Other,2021-05-13,2022-12-12,In Use,,2024-03-28,Lenovo,Cloud,Non-Compliant,N/A,0
-ASSET_0385,Software,User_484,Operations,2020/08/31,2021-12-29,In Use,1057.0,2025-10-06,Dell,Hsinchu,Compliant,N/A,1
-ASSET_0386,Software,User_694,Marketing,08/06/2024,2027-01-24,Decommissioned,1202.0,2024-07-14,Lenovo,Cloud,Non-Compliant,N/A,7
-ASSET_0387,Monitor,User_160,Other,2022-08-16,2024-05-18,In Use,202.0,,Cisco,Other,At Risk,N/A,1
-ASSET_0388,Desktop,User_980,Finance,2018/11/10,2020-02-14,Retired,1079.0,,Apple,Other,Non-Compliant,Win 11,5
-ASSET_0389,Monitor,User_186,IT,27/04/2024,2026-06-26,In Use,463.0,,Dell,Taipei,Compliant,N/A,6
-ASSET_0390,Monitor,,Other,2019-05-10,,In Use,1320.0,,Cisco,Hsinchu,Compliant,N/A,5
-ASSET_0391,Software,User_857,IT,2022/06/18,2025-04-09,In Use,687.0,2024-08-22,HP,Taichung,At Risk,N/A,1
-ASSET_0392,Desktop,User_812,HR,25/04/2018,2021-02-26,Stock,255.0,,Other,Taichung,At Risk,Win 11,5
-ASSET_0393,Other,User_236,Other,2024-08-07,2026-12-28,Decommissioned,68.0,,Apple,Hsinchu,Non-Compliant,Embedded OS,0
-ASSET_0394,Laptop,User_240,Operations,2021/10/09,2024-02-19,In Maintenance,142.0,,Cisco,Taipei,Compliant,Win 10,4
-ASSET_0395,Desktop,User_116,Other,05/05/2020,2022-02-10,In Use,354.0,,Apple,Hsinchu,Compliant,Win 11,4
-ASSET_0396,Software,,IT,2019-06-13,2020-11-29,Stock,,2025-01-21,Cisco,Other,Non-Compliant,N/A,7
-ASSET_0397,Software,User_921,R&D,2021/03/13,2022-04-06,Stock,1166.0,2025-05-19,Other,Taipei,Non-Compliant,N/A,3
-ASSET_0398,Desktop,User_512,Marketing,07/05/2021,2024-04-23,Decommissioned,478.0,,Apple,Taichung,Compliant,Win 10,5
-ASSET_0399,Monitor,User_659,HR,2024-10-18,2026-11-05,In Use,583.0,,Other,Cloud,Non-Compliant,N/A,0
-ASSET_0400,Software,User_215,IT,2020/01/02,,Retired,131.0,2024-11-28,Cisco,Cloud,Compliant,N/A,99
-ASSET_0401,Monitor,User_793,Operations,28/06/2024,2025-06-30,In Use,108.0,,Other,Cloud,Non-Compliant,N/A,3
-ASSET_0402,Software,,Marketing,2023-11-14,2025-12-31,Decommissioned,1329.0,2025-07-14,Dell,Cloud,Non-Compliant,N/A,3
-ASSET_0403,Laptop,User_508,R&D,2019/12/20,2021-02-04,Decommissioned,299.0,,HP,Other,Compliant,macOS 13,6
-ASSET_0404,Monitor,User_143,Finance,19/05/2021,2024-04-21,In Use,1165.0,,Dell,Cloud,At Risk,N/A,4
-ASSET_0405,Laptop,User_957,R&D,2020-09-17,2023-04-15,Retired,987.0,,Lenovo,Hsinchu,Compliant,macOS 14,2
-ASSET_0406,Desktop,User_924,Finance,2019/09/08,2020-11-04,In Use,783.0,,Lenovo,Hsinchu,Non-Compliant,Win 11,7
-ASSET_0407,Laptop,User_957,Other,09/09/2024,2026-09-14,Stock,785.0,,Dell,Taipei,Non-Compliant,Win 11,5
-ASSET_0408,Software,,Operations,2023-10-10,2025-02-14,In Use,,2024-06-04,Cisco,Hsinchu,At Risk,N/A,4
-ASSET_0409,Monitor,User_306,R&D,2022/05/29,2024-08-07,In Use,936.0,,Other,Cloud,At Risk,N/A,4
-ASSET_0410,Software,User_639,IT,10/06/2018,,In Use,583.0,2024-03-10,Cisco,Other,Non-Compliant,N/A,6
-ASSET_0411,Monitor,User_787,Operations,2023-01-12,2025-12-01,In Use,415.0,,Apple,Other,Non-Compliant,N/A,7
-ASSET_0412,Monitor,User_363,Marketing,2023/04/22,2025-01-03,Decommissioned,942.0,,Other,Taichung,Non-Compliant,N/A,4
-ASSET_0413,Software,User_958,Marketing,14/01/2022,2024-01-13,In Maintenance,1473.0,2024-09-09,Cisco,Taipei,Non-Compliant,N/A,3
-ASSET_0414,Software,,Finance,2019-05-14,2021-10-02,In Use,215.0,2025-02-18,Other,Hsinchu,Compliant,N/A,7
-ASSET_0415,Desktop,User_541,Marketing,2024/03/04,2025-10-24,Retired,758.0,,Cisco,Other,At Risk,Win 11,0
-ASSET_0416,Laptop,User_118,Marketing,14/04/2022,2024-04-30,Stock,622.0,,Apple,Taipei,Non-Compliant,Win 11,7
-ASSET_0417,Desktop,User_639,Finance,2020-09-20,2023-08-15,Stock,950.0,,Apple,Other,At Risk,Win 10,5
-ASSET_0418,Software,User_814,Marketing,2023/04/29,2024-05-11,Decommissioned,1228.0,2025-07-20,Other,Hsinchu,Non-Compliant,N/A,2
-ASSET_0419,Laptop,User_610,IT,19/12/2021,2024-07-11,Stock,507.0,,Other,Taichung,Compliant,Win 10,6
-ASSET_0420,Monitor,,R&D,2022-08-06,,In Use,,,HP,Taipei,Compliant,N/A,99
-ASSET_0421,Other,User_474,Marketing,2019/03/10,2020-06-28,Stock,829.0,,Other,Cloud,At Risk,Embedded OS,2
-ASSET_0422,Monitor,User_112,Finance,31/03/2018,2019-07-02,In Maintenance,994.0,,Other,Hsinchu,At Risk,N/A,1
-ASSET_0423,Software,User_759,Finance,2023-05-14,2024-10-09,In Use,975.0,2025-12-21,Lenovo,Cloud,Non-Compliant,N/A,7
-ASSET_0424,Monitor,User_144,Marketing,2022/11/06,2025-04-07,Retired,993.0,,Apple,Other,Non-Compliant,N/A,7
-ASSET_0425,Software,User_311,Finance,01/01/2021,2022-06-28,Retired,1296.0,2025-09-22,Dell,Other,At Risk,N/A,5
-ASSET_0426,Desktop,,R&D,2021-08-25,2024-05-16,Decommissioned,1137.0,,HP,Other,Non-Compliant,Win 10,2
-ASSET_0427,Software,User_669,HR,2020/12/30,2022-12-28,In Use,99.0,2024-12-23,HP,Cloud,Non-Compliant,N/A,4
-ASSET_0428,Monitor,User_395,R&D,03/08/2023,2026-03-08,In Use,409.0,,Apple,Other,At Risk,N/A,7
-ASSET_0429,Laptop,User_148,R&D,2018-02-08,2020-07-31,Stock,85.0,,Cisco,Hsinchu,At Risk,Win 10,6
-ASSET_0430,Software,User_482,Other,2018/06/15,,In Use,839.0,2025-10-03,Apple,Cloud,At Risk,N/A,7
-ASSET_0431,Laptop,User_365,Operations,18/02/2024,2026-06-17,In Use,1185.0,,Lenovo,Taipei,Compliant,Win 11,6
-ASSET_0432,Desktop,,HR,2020-04-04,2022-06-16,In Use,,,HP,Taipei,At Risk,Win 11,0
-ASSET_0433,Monitor,User_205,Other,2020/08/29,2022-10-01,In Use,728.0,,Cisco,Taipei,Compliant,N/A,7
-ASSET_0434,Desktop,User_300,Other,10/01/2021,2023-12-30,In Maintenance,1111.0,,Apple,Cloud,Non-Compliant,Win 11,2
-ASSET_0435,Software,User_286,IT,2022-01-02,2024-12-09,In Maintenance,537.0,2024-08-16,Other,Taichung,Compliant,N/A,0
-ASSET_0436,Monitor,User_409,R&D,2018/09/27,2021-05-25,Retired,1145.0,,Dell,Other,Non-Compliant,N/A,5
-ASSET_0437,Laptop,User_152,Operations,08/12/2023,2025-07-14,Retired,1310.0,,Other,Hsinchu,At Risk,Win 10,4
-ASSET_0438,Monitor,,Operations,2024-04-13,2025-06-23,In Use,1279.0,,Apple,Hsinchu,Non-Compliant,N/A,7
-ASSET_0439,Laptop,User_354,Finance,2021/04/15,2023-03-29,In Use,1418.0,,Dell,Other,At Risk,Win 10,6
-ASSET_0440,Monitor,User_624,Finance,01/09/2024,,Retired,325.0,,Lenovo,Other,Compliant,N/A,99
-ASSET_0441,Laptop,User_157,HR,2019-04-26,2021-01-22,Retired,1352.0,,Other,Taichung,At Risk,Win 11,2
-ASSET_0442,Monitor,User_572,Finance,2022/03/01,2023-08-03,In Use,1075.0,,Other,Hsinchu,Non-Compliant,N/A,0
-ASSET_0443,Software,User_597,Finance,13/01/2018,2020-09-11,Decommissioned,1411.0,2024-06-19,Cisco,Other,Non-Compliant,N/A,0
-ASSET_0444,Monitor,,R&D,2018-05-23,2019-12-09,In Maintenance,,,Cisco,Cloud,At Risk,N/A,0
-ASSET_0445,Software,User_100,R&D,2022/09/14,2024-09-14,In Use,1171.0,2025-12-20,Dell,Cloud,Compliant,N/A,4
-ASSET_0446,Laptop,User_766,Operations,10/08/2020,2021-10-20,Stock,156.0,,HP,Taichung,Non-Compliant,Win 11,2
-ASSET_0447,Monitor,User_605,Finance,2022-02-13,2024-04-03,Retired,473.0,,Other,Hsinchu,At Risk,N/A,4
-ASSET_0448,Software,User_332,IT,2019/05/14,2022-04-24,In Use,188.0,2024-05-28,Apple,Hsinchu,Non-Compliant,N/A,7
-ASSET_0449,Other,User_105,Marketing,30/10/2019,2021-07-28,In Use,1101.0,,HP,Other,Non-Compliant,Embedded OS,3
-ASSET_0450,Desktop,,Marketing,2024-02-03,,In Use,1342.0,,Lenovo,Hsinchu,Compliant,Win 11,3
-ASSET_0451,Monitor,User_285,R&D,2022/02/26,2023-05-19,In Use,845.0,,Dell,Hsinchu,At Risk,N/A,7
-ASSET_0452,Software,User_571,HR,30/10/2024,2027-02-01,Retired,972.0,2024-05-16,Lenovo,Other,Compliant,N/A,6
-ASSET_0453,Monitor,User_729,HR,2021-06-27,2023-11-18,Retired,965.0,,HP,Taichung,Non-Compliant,N/A,7
-ASSET_0454,Software,User_563,IT,2023/06/01,2025-03-09,In Use,509.0,2024-04-14,Cisco,Cloud,At Risk,N/A,6
-ASSET_0455,Server,User_951,R&D,26/07/2024,2026-10-02,Retired,136.0,,Dell,Taipei,At Risk,RHEL 9,2
-ASSET_0456,Desktop,,R&D,2020-09-11,2022-11-17,In Use,,,Other,Other,Compliant,Win 10,5
-ASSET_0457,Monitor,User_124,Finance,2018/09/07,2020-07-04,In Maintenance,939.0,,Cisco,Taipei,Non-Compliant,N/A,7
-ASSET_0458,Laptop,User_629,Finance,16/04/2019,2020-07-14,Decommissioned,775.0,,Apple,Hsinchu,At Risk,macOS 14,3
-ASSET_0459,Laptop,User_291,Finance,2018-07-22,2021-02-13,In Use,360.0,,Cisco,Taichung,Compliant,macOS 13,4
-ASSET_0460,Laptop,User_851,HR,2022/05/14,,Decommissioned,868.0,,Other,Taichung,Non-Compliant,macOS 13,99
-ASSET_0461,Software,User_992,Operations,15/06/2023,2025-09-01,In Use,655.0,2025-04-01,HP,Other,Non-Compliant,N/A,1
-ASSET_0462,Laptop,,IT,2022-05-07,2024-12-14,In Use,601.0,,Cisco,Taipei,Compliant,macOS 14,6
-ASSET_0463,Monitor,User_434,IT,2021/12/20,2024-01-28,In Use,660.0,,Cisco,Taipei,Compliant,N/A,5
-ASSET_0464,Laptop,User_948,Operations,19/10/2019,2021-04-01,Retired,212.0,,Other,Other,Non-Compliant,macOS 13,4
-ASSET_0465,Desktop,User_344,Marketing,2022-11-12,2024-12-30,In Use,1031.0,,HP,Taipei,Non-Compliant,Win 11,1
-ASSET_0466,Laptop,User_489,Operations,2020/09/12,2023-02-25,Stock,803.0,,HP,Cloud,Compliant,macOS 14,5
-ASSET_0467,Software,User_986,Other,28/08/2024,2027-03-06,Stock,800.0,2025-02-22,Dell,Taichung,Non-Compliant,N/A,3
-ASSET_0468,Monitor,,R&D,2023-12-10,2026-02-13,Decommissioned,,,Cisco,Other,Compliant,N/A,6
-ASSET_0469,Desktop,User_899,R&D,2020/12/24,2022-12-13,In Use,875.0,,Other,Other,Non-Compliant,Win 11,5
-ASSET_0470,Laptop,User_819,R&D,06/07/2018,,Retired,1461.0,,Cisco,Hsinchu,Compliant,macOS 13,6
-ASSET_0471,Laptop,User_258,IT,2018-05-16,2019-11-02,In Use,1011.0,,Lenovo,Taichung,Non-Compliant,macOS 13,4
-ASSET_0472,Monitor,User_757,HR,2022/01/21,2023-09-07,Stock,782.0,,Lenovo,Hsinchu,Non-Compliant,N/A,5
-ASSET_0473,Laptop,User_733,Finance,29/03/2019,2021-03-12,In Use,1077.0,,Cisco,Hsinchu,At Risk,Win 11,7
-ASSET_0474,Monitor,,R&D,2019-04-02,2020-10-19,In Use,425.0,,Apple,Taichung,At Risk,N/A,2
-ASSET_0475,Software,User_948,IT,2021/11/12,2024-02-06,In Use,465.0,2025-12-26,Other,Taichung,At Risk,N/A,0
-ASSET_0476,Server,User_492,R&D,19/03/2023,2025-08-14,In Use,1343.0,,Dell,Hsinchu,Compliant,Windows Server 2022,0
-ASSET_0477,Laptop,User_224,Other,2019-12-15,2021-03-06,In Use,933.0,,Other,Taipei,At Risk,macOS 14,7
-ASSET_0478,Server,User_589,IT,2022/05/29,2025-05-15,Stock,655.0,,Dell,Taipei,At Risk,Windows Server 2022,3
-ASSET_0479,Desktop,User_558,Marketing,07/12/2022,2024-03-14,Decommissioned,1287.0,,Cisco,Taipei,At Risk,Win 10,1
-ASSET_0480,Other,,HR,2020-03-20,,In Use,,,Apple,Taipei,Non-Compliant,Embedded OS,99
-ASSET_0481,Software,User_361,IT,2018/07/06,2021-04-21,Decommissioned,480.0,2024-08-26,HP,Cloud,Compliant,N/A,3
-ASSET_0482,Other,User_690,Other,06/04/2020,2022-01-13,Decommissioned,752.0,,Other,Cloud,Compliant,Embedded OS,2
-ASSET_0483,Software,User_475,R&D,2018-09-10,2020-12-17,Decommissioned,139.0,2025-12-20,Lenovo,Cloud,At Risk,N/A,4
-ASSET_0484,Monitor,User_499,Operations,2020/07/14,2023-05-07,Decommissioned,1253.0,,Lenovo,Other,Compliant,N/A,4
-ASSET_0485,Desktop,User_535,Marketing,16/08/2018,2020-10-19,In Use,1094.0,,Cisco,Taichung,Non-Compliant,Win 10,4
-ASSET_0486,Laptop,,HR,2020-04-17,2021-09-27,In Use,833.0,,HP,Other,At Risk,Win 10,5
-ASSET_0487,Desktop,User_752,Marketing,2019/04/16,2020-05-18,Stock,270.0,,Lenovo,Cloud,Non-Compliant,Win 10,0
-ASSET_0488,Laptop,User_681,R&D,23/04/2023,2025-10-23,Stock,490.0,,Lenovo,Taipei,At Risk,macOS 13,4
-ASSET_0489,Laptop,User_901,Finance,2018-10-05,2020-07-30,Retired,667.0,,Lenovo,Taichung,At Risk,macOS 13,6
-ASSET_0490,Monitor,User_952,Finance,2024/10/24,,Stock,1254.0,,HP,Taichung,At Risk,N/A,1
-ASSET_0491,Monitor,User_115,Operations,03/03/2023,2024-07-23,In Use,976.0,,Apple,Taipei,Non-Compliant,N/A,6
-ASSET_0492,Laptop,,R&D,2021-12-04,2023-10-05,In Use,,,Dell,Taichung,Compliant,Win 11,3
-ASSET_0493,Software,User_891,R&D,2021/11/10,2024-07-19,In Use,459.0,2024-10-22,HP,Taichung,Non-Compliant,N/A,4
-ASSET_0494,Laptop,User_894,IT,14/07/2018,2020-11-14,Retired,705.0,,HP,Cloud,At Risk,macOS 13,3
-ASSET_0495,Desktop,User_877,R&D,2021-01-24,2023-02-08,Retired,894.0,,Dell,Hsinchu,Non-Compliant,Win 11,5
-ASSET_0496,Laptop,User_853,Marketing,2018/07/04,2020-10-13,In Use,385.0,,HP,Hsinchu,Compliant,macOS 13,3
-ASSET_0497,Desktop,User_621,IT,11/08/2019,2021-02-26,In Use,837.0,,Lenovo,Hsinchu,Compliant,Win 11,3
-ASSET_0498,Software,,Other,2023-07-31,2025-08-19,Decommissioned,1267.0,2024-10-11,Lenovo,Other,Compliant,N/A,6
-ASSET_0499,Monitor,User_827,Operations,2023/03/08,2025-12-24,Decommissioned,363.0,,Lenovo,Cloud,Compliant,N/A,3
+ASSET_0001,Laptop,User_016,Finance,2025-10-29,2027-11-02,In Use,410.76,2027-11-09,Dell,Other,Compliant,macOS 13,1
+ASSET_0002,Monitor,,IT,2020-12-20,2023-02-26,Retired,,,Lenovo,Hsinchu,At Risk,,3
+ASSET_0003,Server,,R&D,2023-09-04,2026-09-02,Retired,,,Dell,Other,At Risk,Windows Server 2022,3
+ASSET_0004,Tablet,User_327,Sales,2024-02-25,2026-02-17,In Use,280.53,2026-02-23,Apple,Other,At Risk,Win 11,2
+ASSET_0005,Server,User_263,R&D,2023-04-04,2028-06-11,In Use,,2025-04-30,Dell,Cloud,At Risk,RHEL 9,1
+ASSET_0006,Laptop,User_353,Sales,2022-11-27,2025-12-10,In Use,259.41,2025-12-11,Lenovo,Taichung,At Risk,Win 11,0
+ASSET_0007,Laptop,User_281,R&D,2022-04-19,2024-05-08,In Use,645.51,2024-06-07,Lenovo,Hsinchu,At Risk,macOS 13,1
+ASSET_0008,Tablet,User_265,R&D,2022-08-22,2024-09-06,In Use,193.18,2023-09-07,Apple,Hsinchu,Non-Compliant,Win 10,1
+ASSET_0009,Server,User_143,IT,2025-06-13,2028-09-02,In Use,1955.03,2027-07-15,Cisco,Cloud,Compliant,RHEL 9,1
+ASSET_0010,Server,User_033,Finance,2023-10-09,2027-11-28,In Use,1464.25,2025-11-05,Dell,Other,At Risk,Ubuntu 22.04,99
+ASSET_0011,Desktop,,Finance,2021-09-04,2024-10-14,Retired,,,Lenovo,Other,At Risk,macOS 14,3
+ASSET_0012,Tablet,,Sales,2021-01-22,2023-04-17,Retired,240.54,,Apple,Taipei,Non-Compliant,Win 10,1
+ASSET_0013,Desktop,User_187,Operations,2022-10-23,2025-09-22,In Use,533.49,2023-11-30,Lenovo,Taichung,At Risk,macOS 13,2
+ASSET_0014,Monitor,,HR,2025-07-15,2027-09-23,Stock,,,HP,Other,Compliant,,1
+ASSET_0015,Tablet,User_338,Sales,2021-10-05,2023-10-11,In Use,419.16,2022-11-13,Apple,Other,At Risk,Win 10,3
+ASSET_0016,Desktop,,HR,2021-07-19,2023-09-30,Retired,,,Lenovo,Hsinchu,At Risk,Win 11,1
+ASSET_0017,Desktop,,Finance,2021-04-19,2024-06-17,Decommissioned,,,Dell,Other,At Risk,macOS 12,0
+ASSET_0018,Server,User_004,Finance,2023-06-18,2026-08-29,In Use,3692.54,2024-08-09,Dell,Taipei,At Risk,Ubuntu 22.04,4
+ASSET_0019,Monitor,User_021,Finance,2023-04-30,2025-05-20,In Use,128.31,,Lenovo,Other,Compliant,,1
+ASSET_0020,Tablet,,Sales,2022-05-12,2024-05-16,Retired,336.14,,Apple,Taipei,Non-Compliant,Win 10,3
+ASSET_0021,Server,,IT,2022-04-08,2025-05-31,Retired,,,Cisco,Cloud,At Risk,Windows Server 2022,4
+ASSET_0022,Laptop,,HR,2025-03-08,2028-05-08,Stock,958.68,2026-04-27,Dell,Other,Compliant,macOS 13,99
+ASSET_0023,Laptop,User_054,HR,2021-12-22,2024-02-13,In Use,848.11,2022-12-09,Apple,Taichung,Non-Compliant,macOS 13,4
+ASSET_0024,Laptop,User_231,R&D,2025-08-22,2028-09-21,In Use,624.08,2027-08-23,Apple,Hsinchu,Compliant,Win 10,1
+ASSET_0025,Monitor,User_031,Finance,2025-06-30,2027-09-09,In Use,179.2,,Lenovo,Taipei,Compliant,,1
+ASSET_0026,Laptop,User_079,HR,2021-09-04,2023-11-16,In Use,728.85,2023-09-20,Apple,Other,At Risk,macOS 12,2
+ASSET_0027,Server,,R&D,2020-05-26,2023-07-27,Decommissioned,,,Cisco,Hsinchu,Compliant,RHEL 9,2
+ASSET_0028,Laptop,User_248,R&D,2021-04-04,2023-03-10,In Use,269.41,2023-04-06,Apple,Other,Non-Compliant,macOS 14,0
+ASSET_0029,Desktop,User_100,IT,2021-10-08,2024-11-26,In Use,520.78,2023-09-29,HP,Hsinchu,Non-Compliant,macOS 13,1
+ASSET_0030,Monitor,User_051,HR,2024-03-28,2027-06-18,In Use,177.75,,HP,Hsinchu,Compliant,,1
+ASSET_0031,Server,User_189,Operations,2024-06-16,2029-08-09,In Use,2219.87,2027-07-30,Cisco,Hsinchu,Compliant,RHEL 9,2
+ASSET_0032,Desktop,,IT,2025-02-06,2029-02-26,Stock,,2027-02-16,Apple,Taipei,Compliant,macOS 14,1
+ASSET_0033,Laptop,User_090,IT,2024-02-10,2026-04-05,In Use,981.2,2026-02-14,Apple,Taichung,At Risk,macOS 14,3
+ASSET_0034,Desktop,User_162,Operations,2025-04-24,2029-04-24,In Use,447.53,2027-05-29,Dell,Other,Compliant,Win 11,2
+ASSET_0035,Tablet,User_209,Operations,2024-09-06,2026-09-15,In Use,118.19,2026-09-23,Lenovo,Taichung,Compliant,Win 11,0
+ASSET_0036,Laptop,User_245,R&D,2025-11-05,2027-11-29,In Use,279.62,2027-11-28,Lenovo,Taichung,Compliant,macOS 12,0
+ASSET_0037,Monitor,User_100,IT,2024-02-11,2026-01-14,In Use,87.4,,Dell,Cloud,Compliant,,0
+ASSET_0038,Laptop,User_195,Operations,2023-06-11,2026-08-14,In Use,,2026-06-24,Dell,Other,Compliant,macOS 13,0
+ASSET_0039,Server,User_110,IT,2023-11-14,2027-01-11,In Use,2193.48,2025-12-10,HP,Hsinchu,At Risk,Ubuntu 22.04,1
+ASSET_0040,Laptop,User_071,HR,2021-11-21,2024-10-30,In Use,661.6,2022-12-08,Dell,Taipei,Non-Compliant,macOS 14,2
+ASSET_0041,Monitor,,Finance,2026-02-11,2029-05-11,Stock,151.8,,HP,Taipei,Compliant,,1
+ASSET_0042,Laptop,User_275,R&D,2025-08-23,2027-10-26,In Use,333.08,2026-08-06,Apple,Taipei,Compliant,macOS 13,0
+ASSET_0043,Server,User_144,IT,2024-07-03,2029-09-14,In Use,2008.78,2025-06-28,HP,Cloud,At Risk,Windows Server 2022,1
+ASSET_0044,Desktop,User_039,Finance,2023-08-27,2025-10-27,In Use,418.8,2026-10-10,Lenovo,Hsinchu,Compliant,macOS 13,1
+ASSET_0045,Tablet,User_034,Finance,2022-09-07,2023-09-27,In Use,128.45,2023-10-31,Apple,Taipei,At Risk,Win 10,0
+ASSET_0046,Laptop,User_255,R&D,2023-02-22,2025-03-29,In Use,477.1,2024-03-20,Apple,Hsinchu,At Risk,macOS 13,1
+ASSET_0047,Desktop,,R&D,2021-09-05,2025-08-23,Retired,1242.53,,Lenovo,Hsinchu,Non-Compliant,macOS 12,5
+ASSET_0048,Tablet,,Sales,2024-09-23,2025-12-11,Stock,,2026-11-01,Cisco,Taipei,Compliant,Win 11,0
+ASSET_0049,Monitor,User_178,Operations,2021-04-22,2024-07-15,In Use,190.0,,Dell,Taichung,At Risk,,2
+ASSET_0050,Tablet,User_065,HR,2024-02-18,2026-04-12,In Use,96.57,2026-03-02,HP,Taipei,At Risk,Win 10,0
+ASSET_0051,Tablet,,Sales,2024-12-31,2027-01-07,Stock,,2027-01-30,Apple,Other,Compliant,Win 11,0
+ASSET_0052,Laptop,User_215,Operations,2024-07-28,2027-08-16,In Use,267.96,2026-09-19,Lenovo,Taipei,Compliant,Win 11,0
+ASSET_0053,Tablet,User_288,R&D,2025-12-16,2026-12-15,In Use,235.66,2026-12-03,Apple,Hsinchu,Compliant,Win 10,1
+ASSET_0054,Laptop,User_005,Finance,2023-06-02,2026-07-31,In Use,590.77,2025-06-17,Dell,Taipei,At Risk,Win 11,2
+ASSET_0055,Laptop,,R&D,2020-04-14,2022-05-29,Decommissioned,,,HP,Hsinchu,Compliant,macOS 14,2
+ASSET_0056,Server,User_244,R&D,2025-02-10,2030-02-28,In Use,3499.31,2028-01-24,Cisco,Cloud,Compliant,RHEL 9,3
+ASSET_0057,Laptop,User_072,HR,2024-02-05,2027-01-31,In Use,475.99,2025-02-27,Dell,Taichung,At Risk,macOS 14,1
+ASSET_0058,Tablet,User_178,Operations,2024-10-19,2025-12-28,In Use,409.23,2026-11-25,Apple,Taichung,Compliant,Win 11,3
+ASSET_0059,Server,User_195,Operations,2021-02-17,2025-05-17,In Use,1103.92,2022-03-27,HP,Cloud,At Risk,RHEL 9,0
+ASSET_0060,Tablet,,Sales,2024-04-22,2026-04-26,Stock,236.52,2025-05-22,Apple,Hsinchu,At Risk,Win 11,1
+ASSET_0061,Laptop,User_340,Sales,2021-08-29,2023-10-22,In Use,485.86,2022-09-25,Apple,Taipei,At Risk,Win 11,1
+ASSET_0062,Server,,R&D,2020-01-09,2024-03-30,Retired,5002.64,,Cisco,Hsinchu,At Risk,Ubuntu 22.04,4
+ASSET_0063,Laptop,User_327,Sales,2021-04-11,2023-03-27,In Use,641.13,2023-03-25,Apple,Taichung,At Risk,macOS 12,2
+ASSET_0064,Tablet,User_136,IT,2023-08-08,2025-11-01,In Use,272.79,2024-08-18,Apple,Taichung,At Risk,Win 11,1
+ASSET_0065,Laptop,User_062,HR,2023-02-02,2025-03-12,In Use,,2025-02-02,Dell,Taipei,At Risk,Win 11,2
+ASSET_0066,Server,,Finance,2021-12-27,2027-01-06,Decommissioned,4024.43,,Cisco,Taipei,At Risk,Windows Server 2022,4
+ASSET_0067,Laptop,User_068,HR,2025-05-22,2028-08-04,In Use,238.07,2028-07-09,Apple,Taipei,Compliant,Win 10,0
+ASSET_0068,Laptop,User_286,R&D,2024-12-20,2028-02-21,In Use,927.36,2027-12-20,Apple,Hsinchu,Compliant,Win 11,3
+ASSET_0069,Tablet,User_080,HR,2025-06-17,2027-07-11,In Use,186.36,2026-06-10,Apple,Other,Compliant,Win 11,1
+ASSET_0070,Laptop,User_062,HR,2023-09-20,2025-12-14,In Use,455.12,2026-09-06,Apple,Other,Compliant,macOS 13,1
+ASSET_0071,Desktop,User_002,Finance,2021-01-02,2023-01-21,In Use,236.91,2022-02-11,HP,Other,At Risk,Win 11,0
+ASSET_0072,Desktop,User_044,Finance,2022-03-18,2026-02-18,In Use,689.23,2023-04-13,HP,Other,At Risk,macOS 13,3
+ASSET_0073,Desktop,,IT,2024-12-30,2028-12-25,Retired,,,Dell,Other,At Risk,Win 10,0
+ASSET_0074,Laptop,User_343,Sales,2021-08-14,2024-08-11,In Use,,2022-08-30,Apple,Taipei,At Risk,Win 11,2
+ASSET_0075,Laptop,User_178,Operations,2025-06-16,2027-08-24,In Use,1065.27,2026-06-10,HP,Taichung,At Risk,Win 10,4
+ASSET_0076,Desktop,,Finance,2024-06-20,2028-07-11,Retired,569.93,,Lenovo,Taipei,At Risk,macOS 14,3
+ASSET_0077,Laptop,,Sales,2020-05-01,2023-04-25,Retired,1154.94,,Lenovo,Taichung,Non-Compliant,macOS 14,4
+ASSET_0078,Desktop,User_099,IT,2021-05-05,2024-04-19,In Use,475.23,2022-06-22,Dell,Taichung,Non-Compliant,macOS 13,1
+ASSET_0079,Laptop,User_073,HR,2025-03-15,2027-03-28,In Use,226.46,2026-05-04,Apple,Taipei,Compliant,Win 11,0
+ASSET_0080,Monitor,User_183,Operations,2023-01-18,2026-04-06,In Use,245.25,,Dell,Taichung,Compliant,,3
+ASSET_0081,Desktop,,Operations,2021-01-11,2023-02-19,Decommissioned,1131.16,,HP,Hsinchu,Compliant,Win 10,5
+ASSET_0082,Laptop,User_053,HR,2023-02-07,2025-01-14,In Use,1598.57,2025-03-03,Dell,Taipei,At Risk,macOS 12,6
+ASSET_0083,Laptop,User_158,Operations,2022-09-16,2025-09-16,In Use,789.61,2025-11-07,HP,Taichung,At Risk,macOS 14,3
+ASSET_0084,Laptop,User_359,Sales,2023-08-29,2026-10-25,In Use,619.81,2024-09-20,Lenovo,Other,At Risk,Win 11,1
+ASSET_0085,Desktop,,Operations,2020-04-21,2023-07-06,Decommissioned,395.97,,Apple,Taichung,At Risk,Win 11,1
+ASSET_0086,Tablet,User_067,HR,2021-01-21,2023-03-01,In Use,225.94,2023-02-05,Dell,Taipei,At Risk,Win 11,1
+ASSET_0087,Monitor,,R&D,2023-04-06,2025-06-01,Retired,176.78,,HP,Taipei,At Risk,,1
+ASSET_0088,Tablet,User_080,HR,2024-06-22,2026-06-25,In Use,,2026-08-21,Lenovo,Taipei,Compliant,Win 10,1
+ASSET_0089,Laptop,User_059,HR,2023-10-05,2025-12-16,In Use,1012.67,2025-10-23,HP,Taichung,At Risk,macOS 12,3
+ASSET_0090,Tablet,User_004,Finance,2023-09-24,2025-10-13,In Use,288.89,2025-10-27,Apple,Hsinchu,At Risk,Win 11,2
+ASSET_0091,Server,User_260,R&D,2021-07-06,2024-08-20,In Use,3111.04,2023-07-21,Lenovo,Hsinchu,Non-Compliant,Ubuntu 22.04,3
+ASSET_0092,Tablet,User_321,Sales,2025-11-21,2028-02-08,In Use,188.97,2026-12-27,Lenovo,Taipei,Compliant,Win 11,1
+ASSET_0093,Laptop,User_258,R&D,2023-06-13,2025-07-15,In Use,907.13,2025-07-19,Lenovo,Taipei,At Risk,macOS 13,3
+ASSET_0094,Tablet,User_010,Finance,2024-01-23,2026-01-07,In Use,166.05,2026-01-11,Apple,Taichung,At Risk,Win 10,1
+ASSET_0095,Tablet,User_343,Sales,2025-07-13,2027-07-01,In Use,154.13,2026-08-26,Apple,Hsinchu,Compliant,Win 10,0
+ASSET_0096,Tablet,,Sales,2021-04-18,2023-05-29,Retired,335.16,,Lenovo,Other,At Risk,Win 11,3
+ASSET_0097,Server,User_109,IT,2023-11-01,2028-10-04,In Use,4241.55,2026-10-31,Lenovo,Cloud,At Risk,Windows Server 2022,4
+ASSET_0098,Laptop,User_191,Operations,2025-10-22,2027-11-01,In Use,285.72,2027-10-25,Apple,Taichung,Compliant,Win 10,0
+ASSET_0099,Laptop,User_163,Operations,2023-10-02,2026-09-08,In Use,784.89,2025-11-08,Lenovo,Taichung,At Risk,macOS 13,3
+ASSET_0100,Server,User_226,Operations,2026-01-15,2031-01-13,In Use,1561.22,2028-02-13,Lenovo,Hsinchu,Compliant,RHEL 9,1
+ASSET_0101,Desktop,User_190,Operations,2025-01-05,2029-03-24,In Use,369.67,2027-01-01,HP,Taichung,Compliant,Win 11,1
+ASSET_0102,Desktop,,Finance,2022-12-15,2024-12-24,Retired,407.89,,Dell,Taipei,At Risk,macOS 13,2
+ASSET_0103,Monitor,User_122,IT,2024-08-13,2027-10-21,In Use,114.15,,Dell,Hsinchu,Compliant,,0
+ASSET_0104,Server,,Sales,2023-03-28,2028-03-21,Decommissioned,,,Cisco,Taipei,At Risk,RHEL 9,2
+ASSET_0105,Tablet,User_124,IT,2022-02-03,2023-04-12,In Use,,2023-04-02,Apple,Taichung,Non-Compliant,Win 10,6
+ASSET_0106,Laptop,,Operations,2021-01-06,2024-02-26,Retired,,,Lenovo,Taichung,Non-Compliant,Win 10,2
+ASSET_0107,Laptop,User_021,Finance,2023-12-26,2026-01-30,In Use,,2027-01-02,Lenovo,Hsinchu,Compliant,macOS 12,2
+ASSET_0108,Laptop,,Finance,2024-08-17,2027-10-03,Retired,1008.3,,Lenovo,Taipei,At Risk,macOS 14,3
+ASSET_0109,Laptop,User_013,Finance,2021-03-27,2023-03-27,In Use,,2022-03-20,Lenovo,Taipei,Non-Compliant,macOS 13,1
+ASSET_0110,Monitor,User_173,Operations,2024-02-09,2027-04-09,In Use,234.24,,HP,Taichung,Compliant,,3
+ASSET_0111,Desktop,,Finance,2021-07-19,2024-08-07,Retired,709.64,,Lenovo,Hsinchu,Non-Compliant,macOS 13,3
+ASSET_0112,Server,User_098,IT,2022-01-07,2026-12-23,In Use,2462.24,2024-01-04,Dell,Cloud,At Risk,RHEL 9,2
+ASSET_0113,Desktop,User_136,IT,2025-02-10,2028-02-09,In Use,521.78,2026-03-03,Lenovo,Taipei,At Risk,Win 10,1
+ASSET_0114,Monitor,,Operations,2021-02-25,2024-03-22,Retired,182.86,,Dell,Taichung,At Risk,,2
+ASSET_0115,Monitor,,R&D,2025-04-12,2027-06-25,Stock,,,Dell,Hsinchu,Compliant,,1
+ASSET_0116,Desktop,,Operations,2023-02-26,2027-01-29,Retired,,,Dell,Other,At Risk,macOS 13,1
+ASSET_0117,Laptop,User_097,IT,2023-05-14,2025-06-22,In Use,717.83,2024-07-08,Lenovo,Hsinchu,At Risk,Win 11,2
+ASSET_0118,Tablet,User_308,Sales,2025-03-19,2026-05-10,In Use,155.14,2026-03-28,Dell,Other,At Risk,Win 10,0
+ASSET_0119,Server,User_092,IT,2024-07-04,2027-07-26,In Use,1305.71,2027-07-13,Dell,Cloud,Compliant,RHEL 9,0
+ASSET_0120,Tablet,,Sales,2023-02-02,2024-01-21,Retired,,,Apple,Hsinchu,At Risk,Win 11,0
+ASSET_0121,Laptop,User_056,HR,2023-07-07,2026-09-24,In Use,226.47,2026-06-24,Dell,Taipei,Compliant,Win 10,0
+ASSET_0122,Laptop,User_212,Operations,2024-03-02,2026-04-29,In Use,432.77,2026-04-07,HP,Taichung,At Risk,macOS 13,1
+ASSET_0123,Desktop,,Finance,2024-03-31,2026-06-02,Stock,549.26,2025-04-11,HP,Taipei,At Risk,Win 10,3
+ASSET_0124,Desktop,User_048,HR,2025-09-12,2029-08-22,In Use,363.06,2027-09-19,Dell,Other,Compliant,macOS 12,1
+ASSET_0125,Server,User_146,IT,2022-07-15,2027-08-16,In Use,1162.64,2023-07-07,Dell,Cloud,At Risk,Windows Server 2022,0
+ASSET_0126,Laptop,,HR,2024-08-26,2027-11-03,Decommissioned,247.63,,Apple,Taipei,Compliant,macOS 13,0
+ASSET_0127,Monitor,,R&D,2021-05-30,2023-07-17,Decommissioned,307.93,,HP,Hsinchu,Compliant,,2
+ASSET_0128,Server,,R&D,2024-12-31,2030-01-18,Retired,3802.35,,Dell,Cloud,At Risk,Ubuntu 22.04,3
+ASSET_0129,Monitor,User_059,HR,2025-05-30,2027-08-02,In Use,,,HP,Other,Compliant,,1
+ASSET_0130,Desktop,,HR,2021-09-16,2024-09-22,Retired,387.38,,Apple,Taipei,Non-Compliant,Win 10,1
+ASSET_0131,Tablet,User_317,Sales,2025-11-17,2026-10-24,In Use,149.11,2027-12-10,Dell,Taipei,Compliant,Win 11,0
+ASSET_0132,Laptop,,R&D,2026-04-05,2028-04-13,Stock,,2028-04-26,Apple,Taipei,Compliant,Win 11,0
+ASSET_0133,Laptop,,Operations,2024-03-30,2026-03-28,Stock,554.0,2026-03-29,Lenovo,Hsinchu,At Risk,macOS 14,2
+ASSET_0134,Laptop,User_069,HR,2025-09-21,2028-10-16,In Use,285.49,2028-09-25,Apple,Taipei,Compliant,Win 11,0
+ASSET_0135,Monitor,User_186,Operations,2023-10-26,2025-12-09,In Use,141.41,,HP,Taichung,Compliant,,1
+ASSET_0136,Tablet,,HR,2024-08-28,2026-11-06,Stock,,2025-09-28,Dell,Taipei,At Risk,Win 11,0
+ASSET_0137,Laptop,,Sales,2024-06-07,2027-06-04,Decommissioned,837.24,,Apple,Taichung,Compliant,macOS 13,2
+ASSET_0138,Server,User_067,HR,2023-06-13,2027-06-30,In Use,854.27,2024-05-24,Cisco,Taipei,At Risk,Windows Server 2022,0
+ASSET_0139,Desktop,,IT,2025-09-16,2027-09-26,Stock,,2026-10-06,Dell,Cloud,Compliant,Win 11,0
+ASSET_0140,Server,User_101,IT,2023-05-21,2028-06-30,In Use,3468.99,2026-05-10,HP,Taichung,Compliant,Windows Server 2022,3
+ASSET_0141,Server,,HR,2021-10-02,2025-11-21,Retired,798.19,,Lenovo,Taipei,At Risk,RHEL 9,0
+ASSET_0142,Desktop,,Finance,2024-07-25,2028-10-01,Stock,,2026-07-07,Dell,Taipei,Compliant,macOS 14,0
+ASSET_0143,Desktop,User_109,IT,2022-10-04,2026-12-18,In Use,214.06,2023-11-07,Dell,Taichung,At Risk,Win 10,0
+ASSET_0144,Tablet,User_076,HR,2021-07-11,2022-09-03,In Use,208.9,2023-09-04,Lenovo,Taipei,Non-Compliant,Win 10,1
+ASSET_0145,Server,User_149,IT,2025-09-23,2028-11-29,In Use,2192.54,2027-10-19,HP,Taichung,Compliant,Ubuntu 22.04,2
+ASSET_0146,Tablet,,Operations,2024-03-06,2025-04-19,Stock,,2026-05-05,Apple,Taichung,Compliant,Win 10,0
+ASSET_0147,Laptop,User_186,Operations,2021-04-13,2024-06-06,In Use,1474.07,2023-04-17,Lenovo,Taichung,At Risk,macOS 12,6
+ASSET_0148,Monitor,,Finance,2025-10-22,2028-01-06,Stock,,,HP,Hsinchu,Compliant,,0
+ASSET_0149,Laptop,User_138,IT,2023-10-16,2025-10-15,In Use,602.23,2025-10-17,Lenovo,Hsinchu,At Risk,Win 11,1
+ASSET_0150,Desktop,,Operations,2022-01-01,2024-01-01,Decommissioned,740.68,,HP,Taichung,Compliant,Win 10,3
+ASSET_0151,Desktop,User_208,Operations,2023-04-07,2027-05-28,In Use,195.76,2025-04-10,Apple,Taichung,At Risk,Win 11,0
+ASSET_0152,Server,User_015,Finance,2023-04-11,2026-06-01,In Use,4352.2,2025-04-02,HP,Taipei,Non-Compliant,Windows Server 2022,5
+ASSET_0153,Desktop,User_021,Finance,2023-11-22,2025-10-28,In Use,433.69,2026-01-05,HP,Taichung,At Risk,Win 11,2
+ASSET_0154,Monitor,User_032,Finance,2021-05-20,2024-08-13,In Use,254.6,,HP,Taipei,At Risk,,3
+ASSET_0155,Monitor,,Finance,2021-05-03,2023-07-18,Decommissioned,,,Dell,Hsinchu,Compliant,,1
+ASSET_0156,Monitor,User_074,HR,2023-08-22,2026-10-17,In Use,106.76,,Dell,Taipei,Compliant,,0
+ASSET_0157,Server,User_022,Finance,2025-11-02,2030-10-24,In Use,1726.14,2027-12-27,HP,Cloud,Compliant,Windows Server 2022,1
+ASSET_0158,Tablet,User_058,HR,2023-06-22,2024-09-15,In Use,100.58,2025-07-22,Lenovo,Taipei,Non-Compliant,Win 10,0
+ASSET_0159,Laptop,User_218,Operations,2025-05-15,2028-07-14,In Use,338.69,2026-06-29,Apple,Hsinchu,Compliant,Win 11,0
+ASSET_0160,Monitor,User_005,Finance,2024-04-02,2027-05-19,In Use,183.82,,Dell,Other,Compliant,,1
+ASSET_0161,Laptop,,R&D,2022-07-15,2025-10-06,Retired,1050.19,,Lenovo,Other,At Risk,macOS 14,3
+ASSET_0162,Desktop,User_031,Finance,2023-07-20,2025-08-01,In Use,566.07,2025-08-08,Apple,Taichung,At Risk,macOS 14,3
+ASSET_0163,Desktop,User_019,Finance,2023-04-20,2026-03-22,In Use,556.45,2026-05-18,Lenovo,Taipei,Compliant,macOS 13,3
+ASSET_0164,Desktop,,IT,2021-12-16,2023-11-30,Retired,406.62,,Lenovo,Hsinchu,Non-Compliant,Win 10,1
+ASSET_0165,Desktop,User_057,HR,2023-08-28,2025-10-31,In Use,186.04,2025-10-03,HP,Other,At Risk,macOS 12,0
+ASSET_0166,Laptop,,Finance,2023-06-10,2026-06-29,Retired,1977.8,,Apple,Other,At Risk,macOS 12,8
+ASSET_0167,Tablet,User_187,Operations,2026-03-11,2028-04-27,In Use,241.8,2027-05-02,Apple,Taichung,Compliant,Win 10,1
+ASSET_0168,Laptop,User_209,Operations,2021-10-25,2023-10-25,In Use,571.03,2022-12-17,Lenovo,Hsinchu,Non-Compliant,Win 10,1
+ASSET_0169,Tablet,User_304,Sales,2023-04-30,2025-07-01,In Use,139.33,2025-06-26,Apple,Taipei,At Risk,Win 10,0
+ASSET_0170,Laptop,User_073,HR,2023-08-06,2025-08-03,In Use,263.48,2025-08-06,Apple,Taipei,At Risk,macOS 13,0
+ASSET_0171,Monitor,User_301,Sales,2021-05-06,2023-04-12,In Use,254.44,,Dell,Taipei,At Risk,,3
+ASSET_0172,Laptop,User_027,Finance,2025-05-22,2027-06-18,In Use,373.5,2028-05-05,HP,Taipei,Compliant,macOS 12,1
+ASSET_0173,Laptop,User_322,Sales,2026-03-27,2029-05-26,In Use,314.89,2029-03-09,Lenovo,Other,Compliant,macOS 14,0
+ASSET_0174,Desktop,,IT,2022-05-12,2026-07-14,Decommissioned,503.82,,Lenovo,Taipei,Compliant,Win 11,2
+ASSET_0175,Laptop,,R&D,2023-04-03,2025-04-10,Retired,1003.18,,Apple,Taipei,Non-Compliant,macOS 14,3
+ASSET_0176,Laptop,User_338,Sales,2025-09-19,2027-09-18,In Use,368.34,2026-10-27,Apple,Taipei,Compliant,macOS 14,0
+ASSET_0177,Laptop,User_321,Sales,2024-10-14,2027-11-05,In Use,366.57,2026-12-01,Dell,Taipei,Compliant,macOS 13,0
+ASSET_0178,Laptop,,HR,2020-09-30,2022-09-20,Retired,1169.45,,Dell,Hsinchu,Non-Compliant,macOS 14,4
+ASSET_0179,Tablet,User_057,HR,2023-12-20,2025-02-21,In Use,170.45,2027-01-29,Lenovo,Taipei,At Risk,Win 11,1
+ASSET_0180,Laptop,User_051,HR,2023-07-04,2025-09-19,In Use,473.52,2025-08-28,Apple,Taipei,At Risk,macOS 13,1
+ASSET_0181,Laptop,,R&D,2023-07-16,2025-10-01,Decommissioned,694.28,,Apple,Taipei,Compliant,Win 10,2
+ASSET_0182,Desktop,,Finance,2025-12-24,2029-02-13,Stock,,2028-01-27,Dell,Taipei,Compliant,macOS 14,0
+ASSET_0183,Desktop,User_007,Finance,2024-01-30,2026-01-30,In Use,236.91,2025-02-21,Lenovo,Taipei,At Risk,Win 10,0
+ASSET_0184,Laptop,User_218,Operations,2025-01-12,2028-02-06,In Use,775.2,2026-01-11,Lenovo,Taichung,At Risk,Win 10,2
+ASSET_0185,Tablet,User_027,Finance,2025-06-10,2027-07-12,In Use,162.73,2026-07-12,Lenovo,Taichung,Compliant,Win 10,1
+ASSET_0186,Server,User_222,Operations,2022-05-29,2026-06-27,In Use,,2024-05-09,HP,Cloud,At Risk,Ubuntu 22.04,2
+ASSET_0187,Laptop,,R&D,2024-03-28,2027-05-04,Retired,,,Lenovo,Hsinchu,At Risk,Win 10,3
+ASSET_0188,Desktop,,Finance,2023-01-13,2025-03-12,Retired,,,Lenovo,Taipei,Non-Compliant,macOS 12,2
+ASSET_0189,Tablet,,HR,2020-10-17,2022-11-29,Decommissioned,,,Dell,Other,Compliant,Win 10,1
+ASSET_0190,Server,,Finance,2025-04-17,2028-07-09,Stock,1871.8,2026-04-07,Dell,Other,At Risk,RHEL 9,1
+ASSET_0191,Monitor,User_087,IT,2024-12-24,2026-12-22,In Use,121.8,,Apple,Taipei,Compliant,,0
+ASSET_0192,Monitor,,IT,2022-11-12,2024-12-19,Retired,,,Apple,Hsinchu,Non-Compliant,,2
+ASSET_0193,Laptop,User_207,Operations,2021-08-03,2023-10-04,In Use,517.05,2023-07-14,Dell,Taichung,Non-Compliant,macOS 12,1
+ASSET_0194,Laptop,,R&D,2024-09-21,2027-10-17,Stock,613.56,2027-09-25,Apple,Other,Compliant,Win 10,1
+ASSET_0195,Desktop,User_006,Finance,2025-10-04,2027-10-07,In Use,403.01,2028-11-07,Apple,Taipei,Compliant,Win 10,1
+ASSET_0196,Tablet,User_230,Operations,2021-04-29,2022-06-15,In Use,231.69,2023-06-14,Lenovo,Taipei,Non-Compliant,Win 10,1
+ASSET_0197,Laptop,User_180,Operations,2023-01-28,2026-01-17,In Use,730.53,2025-03-20,HP,Other,At Risk,Win 11,3
+ASSET_0198,Tablet,User_328,Sales,2026-03-18,2027-05-02,In Use,204.35,2028-04-20,Dell,Other,Compliant,Win 11,1
+ASSET_0199,Monitor,,HR,2025-01-19,2028-03-25,Stock,241.03,,Lenovo,Other,Compliant,,3
+ASSET_0200,Laptop,User_328,Sales,2024-03-12,2026-03-27,In Use,769.77,2027-03-01,Dell,Other,Compliant,Win 11,3
+ASSET_0201,Laptop,User_334,Sales,2021-08-03,2023-09-19,In Use,886.75,2023-09-16,Lenovo,Other,Non-Compliant,macOS 14,3
+ASSET_0202,Laptop,,Operations,2022-06-21,2024-08-19,Retired,673.51,,Apple,Taichung,Non-Compliant,Win 11,2
+ASSET_0203,Monitor,User_262,R&D,2026-01-28,2029-02-01,In Use,210.77,,HP,Taichung,Compliant,,1
+ASSET_0204,Laptop,User_014,Finance,2021-12-25,2023-12-16,In Use,641.77,2022-12-23,Dell,Taipei,Non-Compliant,Win 10,2
+ASSET_0205,Laptop,User_073,HR,2024-08-26,2027-09-29,In Use,311.29,2025-10-02,Lenovo,Hsinchu,At Risk,Win 10,0
+ASSET_0206,Desktop,User_198,Operations,2025-03-11,2029-03-20,In Use,546.37,2027-03-13,Dell,Hsinchu,Compliant,Win 11,3
+ASSET_0207,Monitor,User_133,IT,2026-04-04,2028-03-24,In Use,92.39,,Dell,Taipei,Compliant,,0
+ASSET_0208,Desktop,,Operations,2024-05-07,2027-05-10,Retired,893.65,,Dell,Other,At Risk,macOS 13,4
+ASSET_0209,Desktop,User_330,Sales,2024-12-14,2029-03-05,In Use,446.96,2026-01-01,HP,Taichung,At Risk,macOS 12,1
+ASSET_0210,Laptop,User_196,Operations,2021-03-26,2023-04-03,In Use,712.39,2023-05-12,Apple,Taichung,Non-Compliant,Win 10,2
+ASSET_0211,Tablet,User_207,Operations,2023-06-03,2025-07-04,In Use,189.78,2026-06-27,Lenovo,Hsinchu,Compliant,Win 10,1
+ASSET_0212,Tablet,,Sales,2024-02-17,2026-02-20,Retired,,,Apple,Taichung,At Risk,Win 11,4
+ASSET_0213,Laptop,User_059,HR,2025-08-20,2028-10-21,In Use,461.3,2026-09-04,Dell,Taipei,Compliant,Win 10,1
+ASSET_0214,Tablet,User_312,Sales,2024-02-24,2025-03-10,In Use,121.65,2026-03-19,Apple,Other,Non-Compliant,Win 11,0
+ASSET_0215,Server,User_148,IT,2023-05-24,2027-06-03,In Use,2625.35,2024-05-04,Dell,Cloud,At Risk,Windows Server 2022,2
+ASSET_0216,Tablet,User_316,Sales,2024-04-23,2026-04-25,In Use,353.06,2027-06-09,Lenovo,Hsinchu,Compliant,Win 11,3
+ASSET_0217,Server,User_097,IT,2022-05-19,2026-05-23,In Use,1748.08,2025-05-28,Cisco,Cloud,At Risk,RHEL 9,1
+ASSET_0218,Tablet,User_211,Operations,2022-07-23,2023-08-11,In Use,229.42,2024-09-12,Cisco,Hsinchu,Non-Compliant,Win 10,1
+ASSET_0219,Monitor,User_271,R&D,2022-02-15,2024-05-15,In Use,451.51,,Lenovo,Other,Non-Compliant,,4
+ASSET_0220,Laptop,User_335,Sales,2022-01-27,2025-03-01,In Use,654.28,2023-03-15,Lenovo,Taichung,At Risk,macOS 13,2
+ASSET_0221,Tablet,User_310,Sales,2022-01-20,2024-02-04,In Use,455.97,2023-03-19,Lenovo,Other,At Risk,Win 10,5
+ASSET_0222,Desktop,User_181,Operations,2023-06-17,2026-06-27,In Use,377.85,2025-06-24,Apple,Hsinchu,At Risk,macOS 13,1
+ASSET_0223,Laptop,User_090,IT,2025-10-23,2027-12-23,In Use,1181.61,2027-11-01,Dell,Taipei,Compliant,Win 11,3
+ASSET_0224,Tablet,,Sales,2020-11-04,2022-11-07,Decommissioned,478.53,,Lenovo,Other,Compliant,Win 10,4
+ASSET_0225,Server,User_191,Operations,2024-09-20,2027-12-08,In Use,1450.63,2026-10-13,Lenovo,Taipei,Compliant,RHEL 9,1
+ASSET_0226,Desktop,,Finance,2025-08-22,2028-10-01,Stock,358.92,2028-08-18,Lenovo,Hsinchu,Compliant,macOS 13,1
+ASSET_0227,Desktop,User_173,Operations,2023-08-16,2027-09-15,In Use,274.9,2025-08-16,Apple,Other,At Risk,macOS 14,0
+ASSET_0228,Desktop,,Finance,2025-05-27,2028-07-11,Stock,,2026-06-25,Apple,Taipei,Compliant,macOS 13,0
+ASSET_0229,Tablet,User_065,HR,2023-06-09,2024-07-25,In Use,218.95,2025-05-28,Dell,Taipei,At Risk,Win 10,1
+ASSET_0230,Laptop,User_257,R&D,2022-07-27,2025-08-06,In Use,1067.43,2024-09-04,Apple,Hsinchu,At Risk,macOS 13,3
+ASSET_0231,Monitor,,IT,2021-01-06,2024-02-20,Decommissioned,704.79,,Dell,Taichung,Compliant,,8
+ASSET_0232,Server,,Finance,2022-04-12,2026-03-12,Retired,,,Cisco,Taipei,At Risk,Windows Server 2022,1
+ASSET_0233,Monitor,User_255,R&D,2023-10-15,2025-10-07,In Use,302.9,,HP,Hsinchu,Compliant,,2
+ASSET_0234,Server,User_205,Operations,2023-06-17,2028-07-27,In Use,1919.22,2025-07-20,HP,Taichung,At Risk,Ubuntu 22.04,1
+ASSET_0235,Laptop,,Finance,2022-06-25,2024-08-11,Retired,258.23,,Apple,Taipei,Non-Compliant,macOS 14,0
+ASSET_0236,Desktop,,IT,2022-08-22,2025-11-08,Retired,,,HP,Hsinchu,Non-Compliant,macOS 14,4
+ASSET_0237,Laptop,User_169,Operations,2024-04-22,2027-07-18,In Use,681.4,2026-05-18,HP,Taipei,Compliant,Win 10,2
+ASSET_0238,Server,,IT,2024-10-04,2029-12-01,Stock,1554.86,2026-10-07,HP,Hsinchu,Compliant,Windows Server 2022,1
+ASSET_0239,Desktop,,Operations,2022-07-22,2024-10-05,Decommissioned,,,Dell,Other,Compliant,macOS 12,2
+ASSET_0240,Laptop,User_244,R&D,2021-08-30,2024-11-09,In Use,1163.51,2024-10-15,Dell,Hsinchu,Non-Compliant,macOS 14,3
+ASSET_0241,Desktop,,Finance,2020-05-24,2024-07-03,Decommissioned,800.59,,HP,Other,Compliant,macOS 12,3
+ASSET_0242,Laptop,,HR,2024-12-25,2027-01-31,Decommissioned,,,HP,Taipei,Compliant,macOS 14,1
+ASSET_0243,Laptop,User_327,Sales,2025-04-18,2028-04-05,In Use,516.69,2026-05-30,HP,Taichung,Compliant,Win 10,1
+ASSET_0244,Desktop,User_182,Operations,2021-05-13,2024-07-13,In Use,611.21,2023-06-26,Lenovo,Taipei,At Risk,macOS 13,2
+ASSET_0245,Desktop,User_097,IT,2022-04-05,2025-06-10,In Use,335.86,2024-03-22,Dell,Hsinchu,At Risk,macOS 14,1
+ASSET_0246,Server,User_288,R&D,2025-11-01,2028-10-23,In Use,1043.45,2027-12-23,Lenovo,Hsinchu,Compliant,Ubuntu 22.04,0
+ASSET_0247,Desktop,User_199,Operations,2022-04-17,2024-07-12,In Use,767.22,2023-05-29,Dell,Other,At Risk,macOS 14,4
+ASSET_0248,Desktop,,Finance,2024-03-26,2027-04-16,Retired,,,Lenovo,Taipei,At Risk,macOS 14,1
+ASSET_0249,Desktop,User_269,R&D,2022-05-18,2024-05-31,In Use,722.74,2024-07-07,Dell,Taipei,At Risk,Win 11,3
+ASSET_0250,Desktop,User_078,HR,2024-12-21,2027-02-02,In Use,354.65,2027-01-26,Dell,Taichung,Compliant,Win 10,1
+ASSET_0251,Desktop,User_044,Finance,2021-03-06,2025-02-03,In Use,,2023-04-21,Lenovo,Taichung,At Risk,macOS 12,3
+ASSET_0252,Laptop,User_127,IT,2023-04-27,2025-06-25,In Use,824.71,2025-06-24,Apple,Taipei,At Risk,macOS 12,3
+ASSET_0253,Tablet,User_066,HR,2023-03-28,2024-05-23,In Use,252.94,2025-03-22,Apple,Other,At Risk,Win 11,2
+ASSET_0254,Laptop,,R&D,2024-10-12,2027-12-25,Decommissioned,703.96,,HP,Hsinchu,Compliant,macOS 14,2
+ASSET_0255,Monitor,User_015,Finance,2025-02-02,2028-02-27,In Use,108.65,,Lenovo,Taichung,Compliant,,0
+ASSET_0256,Server,,IT,2026-03-14,2030-03-03,Stock,3961.04,2028-04-25,HP,Cloud,Compliant,Windows Server 2022,3
+ASSET_0257,Monitor,User_130,IT,2021-10-04,2024-09-11,In Use,187.92,,HP,Taipei,At Risk,,1
+ASSET_0258,Server,User_225,Operations,2022-02-11,2026-03-23,In Use,2414.22,2023-03-25,Cisco,Taichung,At Risk,Windows Server 2022,2
+ASSET_0259,Tablet,User_216,Operations,2026-03-31,2028-05-12,In Use,203.34,2027-05-04,HP,Taichung,Compliant,Win 10,1
+ASSET_0260,Desktop,User_040,Finance,2022-08-27,2026-08-05,In Use,559.69,2023-09-25,Lenovo,Taipei,At Risk,macOS 12,3
+ASSET_0261,Monitor,User_186,Operations,2021-04-21,2023-05-15,In Use,110.76,,HP,Hsinchu,At Risk,,0
+ASSET_0262,Tablet,,Operations,2022-06-23,2024-08-30,Decommissioned,236.13,,Apple,Taichung,Compliant,Win 11,2
+ASSET_0263,Desktop,User_028,Finance,2022-05-19,2025-06-26,In Use,594.28,2024-06-30,Dell,Taipei,At Risk,Win 11,3
+ASSET_0264,Desktop,User_285,R&D,2021-09-26,2025-11-10,In Use,1176.4,2022-09-28,HP,Cloud,Non-Compliant,macOS 12,4
+ASSET_0265,Desktop,User_017,Finance,2021-11-18,2024-10-23,In Use,558.43,2023-01-14,Dell,Taipei,At Risk,macOS 14,2
+ASSET_0266,Monitor,User_198,Operations,2021-12-24,2023-12-15,In Use,177.84,,Dell,Taichung,At Risk,,2
+ASSET_0267,Laptop,,HR,2024-01-10,2027-03-06,Retired,801.1,,Dell,Other,At Risk,macOS 14,2
+ASSET_0268,Laptop,User_132,IT,2023-09-13,2026-10-22,In Use,816.67,2025-11-06,Dell,Taichung,At Risk,Win 11,2
+ASSET_0269,Laptop,,Sales,2025-06-18,2028-07-30,Stock,549.77,2026-07-31,HP,Taichung,Compliant,macOS 12,1
+ASSET_0270,Tablet,User_262,R&D,2025-09-03,2026-08-25,In Use,153.72,2026-09-26,Lenovo,Taipei,Compliant,Win 10,0
+ASSET_0271,Server,User_120,IT,2022-03-02,2026-03-13,In Use,1652.26,2024-03-24,Cisco,Cloud,At Risk,Ubuntu 22.04,1
+ASSET_0272,Tablet,User_016,Finance,2024-03-11,2026-03-23,In Use,100.62,2026-04-25,Lenovo,Taichung,Compliant,Win 10,0
+ASSET_0273,Laptop,User_069,HR,2021-10-29,2023-10-31,In Use,410.51,2023-11-12,Dell,Other,Non-Compliant,macOS 14,1
+ASSET_0274,Server,,Sales,2022-07-11,2027-07-17,Retired,2578.44,,Dell,Other,At Risk,Windows Server 2022,2
+ASSET_0275,Server,,R&D,2024-09-17,2027-11-11,Retired,4147.99,,HP,Taipei,At Risk,Ubuntu 22.04,3
+ASSET_0276,Server,User_270,R&D,2021-12-19,2027-01-25,In Use,5899.67,2025-01-05,Dell,Hsinchu,At Risk,Ubuntu 22.04,5
+ASSET_0277,Laptop,User_002,Finance,2025-12-24,2029-01-29,In Use,485.73,2027-01-02,Lenovo,Taipei,Compliant,macOS 13,1
+ASSET_0278,Monitor,,Finance,2022-09-21,2024-11-18,Retired,320.65,,HP,Taichung,At Risk,,3
+ASSET_0279,Tablet,User_350,Sales,2025-04-21,2027-06-29,In Use,133.76,2027-05-25,Lenovo,Other,Compliant,Win 11,0
+ASSET_0280,Server,,HR,2024-11-22,2028-02-10,Stock,,2026-12-19,Dell,Cloud,Compliant,RHEL 9,0
+ASSET_0281,Server,User_252,R&D,2025-12-22,2029-03-16,In Use,1265.84,2028-12-02,Cisco,Taipei,Compliant,Ubuntu 22.04,0
+ASSET_0282,Server,User_353,Sales,2021-03-09,2025-04-06,In Use,3616.17,2024-03-25,Cisco,Other,At Risk,RHEL 9,4
+ASSET_0283,Desktop,User_134,IT,2024-02-20,2027-03-14,In Use,307.32,2025-02-28,Lenovo,Cloud,At Risk,macOS 13,0
+ASSET_0284,Desktop,User_291,R&D,2025-10-27,2028-12-01,In Use,276.71,2027-11-30,Lenovo,Taipei,Compliant,macOS 14,0
+ASSET_0285,Tablet,User_063,HR,2021-02-09,2023-02-25,In Use,233.8,2023-01-27,HP,Taichung,Non-Compliant,Win 10,2
+ASSET_0286,Laptop,User_354,Sales,2021-09-28,2023-10-15,In Use,553.87,2023-09-18,HP,Other,Non-Compliant,macOS 12,1
+ASSET_0287,Desktop,User_279,R&D,2024-04-14,2027-06-04,In Use,915.98,2025-04-30,Lenovo,Hsinchu,At Risk,macOS 14,3
+ASSET_0288,Tablet,User_332,Sales,2025-02-28,2026-01-30,In Use,209.42,2027-04-26,Lenovo,Taipei,Compliant,Win 11,1
+ASSET_0289,Server,User_136,IT,2022-02-14,2025-02-10,In Use,4855.03,2024-03-06,Cisco,Cloud,Non-Compliant,Ubuntu 22.04,6
+ASSET_0290,Laptop,User_094,IT,2025-09-17,2028-08-23,In Use,311.68,2027-11-10,HP,Hsinchu,Compliant,Win 10,0
+ASSET_0291,Laptop,User_046,HR,2025-05-22,2028-04-23,In Use,748.73,2026-07-06,HP,Taipei,Compliant,macOS 12,2
+ASSET_0292,Laptop,,Sales,2024-12-12,2028-01-25,Stock,614.39,2026-12-31,Lenovo,Taipei,Compliant,macOS 12,2
+ASSET_0293,Monitor,,HR,2024-10-14,2026-12-05,Stock,,,HP,Taipei,Compliant,,0
+ASSET_0294,Laptop,User_006,Finance,2021-07-31,2024-09-19,In Use,415.23,2022-09-16,HP,Taipei,Non-Compliant,Win 11,1
+ASSET_0295,Desktop,User_159,Operations,2022-08-27,2026-11-10,In Use,422.79,2024-09-20,Dell,Other,At Risk,macOS 12,2
+ASSET_0296,Monitor,User_346,Sales,2024-02-18,2027-03-31,In Use,144.12,,HP,Taipei,Compliant,,1
+ASSET_0297,Monitor,,Operations,2024-01-26,2027-03-03,Decommissioned,252.22,,Dell,Taichung,Compliant,,2
+ASSET_0298,Server,User_315,Sales,2024-12-04,2029-01-21,In Use,,2025-11-14,Cisco,Cloud,At Risk,Ubuntu 22.04,3
+ASSET_0299,Desktop,User_212,Operations,2025-08-16,2028-10-06,In Use,421.88,2026-10-13,HP,Hsinchu,Compliant,Win 10,1
+ASSET_0300,Desktop,User_157,Operations,2021-03-19,2025-05-08,In Use,544.38,2022-04-01,HP,Other,At Risk,macOS 12,2
+ASSET_0301,Monitor,User_144,IT,2023-09-07,2025-08-19,In Use,243.14,,Dell,Taipei,Compliant,,2
+ASSET_0302,Server,User_172,Operations,2026-02-23,2029-03-08,In Use,820.17,2029-02-02,Dell,Cloud,Compliant,Windows Server 2022,0
+ASSET_0303,Desktop,,Operations,2024-05-14,2027-08-06,Stock,428.34,2025-06-11,Apple,Hsinchu,At Risk,macOS 12,1
+ASSET_0304,Laptop,User_328,Sales,2024-07-15,2027-06-30,In Use,487.22,2027-06-28,Dell,Other,Compliant,Win 11,1
+ASSET_0305,Desktop,,Operations,2020-02-16,2024-02-23,Retired,979.17,,HP,Taipei,At Risk,Win 11,4
+ASSET_0306,Server,,Operations,2022-12-09,2027-02-23,Retired,1120.42,,Lenovo,Other,At Risk,Ubuntu 22.04,0
+ASSET_0307,Laptop,User_328,Sales,2024-03-15,2027-04-26,In Use,797.6,2025-03-24,Lenovo,Other,At Risk,macOS 12,2
+ASSET_0308,Monitor,User_190,Operations,2022-06-17,2024-07-05,In Use,246.4,,Lenovo,Other,At Risk,,2
+ASSET_0309,Server,User_136,IT,2022-12-31,2027-12-31,In Use,2934.04,2023-12-11,Cisco,Taipei,At Risk,RHEL 9,2
+ASSET_0310,Tablet,User_353,Sales,2026-03-29,2027-03-15,In Use,242.43,2028-04-17,Apple,Taichung,Compliant,Win 11,1
+ASSET_0311,Server,User_247,R&D,2024-12-09,2028-11-11,In Use,,2027-01-11,Cisco,Hsinchu,Compliant,Windows Server 2022,3
+ASSET_0312,Laptop,User_274,R&D,2021-06-17,2024-07-30,In Use,1163.0,2023-07-15,Lenovo,Hsinchu,Non-Compliant,macOS 13,3
+ASSET_0313,Laptop,,HR,2026-03-19,2028-06-14,Stock,,2028-05-16,Dell,Hsinchu,Compliant,Win 11,0
+ASSET_0314,Tablet,,IT,2025-09-24,2027-12-13,Stock,,2027-09-13,Apple,Other,Compliant,Win 11,0
+ASSET_0315,Laptop,User_037,Finance,2024-01-07,2027-03-14,In Use,463.7,2026-02-07,Lenovo,Taichung,At Risk,macOS 13,1
+ASSET_0316,Desktop,User_128,IT,2024-09-03,2026-10-13,In Use,618.69,2025-08-14,Lenovo,Hsinchu,At Risk,macOS 14,3
+ASSET_0317,Monitor,,Finance,2023-06-27,2026-08-03,Retired,255.73,,Lenovo,Taipei,At Risk,,2
+ASSET_0318,Tablet,,HR,2023-07-25,2024-08-07,Retired,,,Apple,Other,Non-Compliant,Win 10,1
+ASSET_0319,Laptop,,HR,2025-04-13,2028-03-21,Stock,,2026-06-07,Apple,Other,Compliant,Win 10,0
+ASSET_0320,Tablet,,R&D,2024-04-25,2025-06-07,Stock,,2027-06-11,Lenovo,Hsinchu,Compliant,Win 11,0
+ASSET_0321,Laptop,,Sales,2022-08-27,2024-10-14,Decommissioned,641.26,,Dell,Taipei,Compliant,Win 10,2
+ASSET_0322,Desktop,,Operations,2025-02-25,2029-04-05,Stock,,2026-03-13,Dell,Taipei,At Risk,macOS 12,0
+ASSET_0323,Server,,IT,2026-01-09,2029-02-04,Stock,,2029-01-06,Dell,Cloud,Compliant,RHEL 9,0
+ASSET_0324,Tablet,User_360,Sales,2024-02-16,2025-05-15,In Use,111.1,2026-04-11,Apple,Other,At Risk,Win 11,0
+ASSET_0325,Monitor,,Finance,2021-05-11,2024-05-19,Retired,383.24,,Apple,Hsinchu,At Risk,,4
+ASSET_0326,Desktop,User_049,HR,2023-01-02,2026-12-28,In Use,569.62,2026-01-26,Lenovo,Taipei,At Risk,macOS 14,2
+ASSET_0327,Laptop,,HR,2022-11-06,2025-01-09,Retired,524.95,,Apple,Taipei,At Risk,macOS 13,1
+ASSET_0328,Desktop,,Finance,2025-10-20,2027-09-28,Stock,291.42,2027-12-08,Apple,Other,Compliant,macOS 14,1
+ASSET_0329,Tablet,User_315,Sales,2022-05-07,2024-04-23,In Use,109.89,2025-04-20,Apple,Taichung,Non-Compliant,Win 11,0
+ASSET_0330,Laptop,User_287,R&D,2025-02-02,2028-04-25,In Use,454.5,2026-02-03,Apple,Hsinchu,At Risk,Win 10,1
+ASSET_0331,Tablet,User_321,Sales,2023-09-02,2024-11-07,In Use,264.15,2025-08-20,HP,Other,At Risk,Win 10,1
+ASSET_0332,Desktop,,Finance,2022-03-22,2026-05-23,Decommissioned,300.93,,Lenovo,Other,Compliant,Win 11,1
+ASSET_0333,Desktop,,Operations,2024-02-06,2026-03-20,Retired,,,Lenovo,Taichung,At Risk,macOS 13,2
+ASSET_0334,Tablet,,Sales,2022-10-06,2023-11-16,Retired,393.46,,Apple,Taipei,Non-Compliant,Win 10,3
+ASSET_0335,Laptop,,Sales,2023-01-14,2026-02-11,Decommissioned,587.88,,HP,Taipei,Compliant,macOS 12,1
+ASSET_0336,Laptop,User_060,HR,2022-07-07,2024-09-02,In Use,253.87,2023-08-08,Lenovo,Taichung,Non-Compliant,Win 11,0
+ASSET_0337,Laptop,,Finance,2024-08-26,2026-08-07,Retired,227.24,,HP,Taipei,At Risk,Win 10,0
+ASSET_0338,Laptop,User_066,HR,2025-01-04,2028-02-27,In Use,250.82,2026-02-15,Lenovo,Taipei,At Risk,Win 10,0
+ASSET_0339,Desktop,User_130,IT,2022-06-14,2026-06-27,In Use,805.62,2024-07-10,HP,Taipei,Non-Compliant,Win 11,4
+ASSET_0340,Server,User_236,R&D,2022-03-06,2025-05-25,In Use,2275.68,2024-04-30,Dell,Hsinchu,At Risk,Windows Server 2022,2
+ASSET_0341,Desktop,,HR,2024-02-10,2026-02-19,Retired,495.28,,Dell,Taipei,At Risk,macOS 13,2
+ASSET_0342,Desktop,User_355,Sales,2024-02-07,2026-04-01,In Use,233.05,2026-04-02,HP,Taipei,At Risk,macOS 12,0
+ASSET_0343,Tablet,,Operations,2022-01-04,2023-12-15,Retired,,,Lenovo,Other,Non-Compliant,Win 11,6
+ASSET_0344,Desktop,User_194,Operations,2022-07-26,2026-10-17,In Use,297.08,2023-08-28,HP,Taichung,At Risk,Win 10,1
+ASSET_0345,Laptop,User_078,HR,2021-01-03,2024-01-26,In Use,1101.69,2022-01-06,Apple,Other,Non-Compliant,macOS 14,4
+ASSET_0346,Laptop,User_151,Operations,2025-01-13,2028-02-18,In Use,695.85,2027-01-19,Lenovo,Taichung,Compliant,Win 10,2
+ASSET_0347,Monitor,,Operations,2023-11-26,2025-11-08,Retired,273.15,,Apple,Taipei,At Risk,,4
+ASSET_0348,Monitor,,IT,2025-11-30,2028-11-29,Stock,204.46,,HP,Hsinchu,Compliant,,1
+ASSET_0349,Desktop,User_142,IT,2024-12-04,2026-11-13,In Use,247.26,2026-12-02,Lenovo,Taichung,Compliant,Win 10,0
+ASSET_0350,Tablet,,Operations,2024-07-11,2025-06-25,Stock,259.46,2026-08-19,Apple,Other,Compliant,Win 10,2
+ASSET_0351,Tablet,,Operations,2024-06-27,2025-06-22,Stock,326.51,2026-08-14,Apple,Taichung,Compliant,Win 11,2
+ASSET_0352,Server,User_092,IT,2021-02-27,2026-05-02,In Use,2809.82,2022-03-04,Dell,Taipei,At Risk,Windows Server 2022,3
+ASSET_0353,Server,User_029,Finance,2021-05-30,2025-07-04,In Use,3753.32,2022-05-20,HP,Cloud,At Risk,Windows Server 2022,4
+ASSET_0354,Laptop,,HR,2025-06-07,2028-07-11,Stock,662.01,2027-08-05,HP,Taichung,Compliant,macOS 12,2
+ASSET_0355,Server,User_145,IT,2025-05-19,2028-06-28,In Use,881.31,2027-06-18,Cisco,Cloud,Compliant,RHEL 9,0
+ASSET_0356,Server,,Operations,2024-08-29,2029-09-19,Decommissioned,1681.64,,Dell,Cloud,Compliant,Windows Server 2022,1
+ASSET_0357,Laptop,User_041,Finance,2023-12-17,2026-03-15,In Use,,2025-01-26,Lenovo,Taichung,At Risk,Win 11,0
+ASSET_0358,Tablet,,Sales,2025-01-27,2027-04-04,Stock,200.85,2027-03-15,Dell,Other,Compliant,Win 10,1
+ASSET_0359,Tablet,User_346,Sales,2022-06-10,2024-09-01,In Use,213.83,2025-06-01,Apple,Taipei,Non-Compliant,Win 11,1
+ASSET_0360,Desktop,User_055,HR,2025-10-29,2028-01-05,In Use,182.27,2027-12-14,HP,Taichung,Compliant,Win 11,0
+ASSET_0361,Laptop,User_235,R&D,2021-04-09,2023-03-11,In Use,1781.58,2022-03-23,Dell,Hsinchu,Non-Compliant,macOS 13,5
+ASSET_0362,Monitor,User_194,Operations,2024-06-10,2026-09-05,In Use,75.02,,Dell,Hsinchu,Compliant,,0
+ASSET_0363,Server,,Operations,2024-03-29,2028-06-04,Stock,,2026-04-30,Cisco,Other,Compliant,Ubuntu 22.04,0
+ASSET_0364,Tablet,User_304,Sales,2025-03-06,2027-05-17,In Use,124.64,2028-04-03,Lenovo,Other,Compliant,Win 10,0
+ASSET_0365,Laptop,User_263,R&D,2025-07-19,2028-08-11,In Use,297.62,2027-08-18,Apple,Hsinchu,Compliant,macOS 13,0
+ASSET_0366,Tablet,,Sales,2026-01-07,2027-03-07,Stock,,2026-12-23,Lenovo,Taipei,Compliant,Win 10,0
+ASSET_0367,Laptop,,HR,2021-11-24,2024-12-02,Retired,1692.61,,Apple,Taichung,At Risk,macOS 13,6
+ASSET_0368,Laptop,,IT,2025-08-17,2027-08-14,Stock,566.04,2026-08-08,Apple,Taichung,Compliant,macOS 12,1
+ASSET_0369,Desktop,User_099,IT,2022-02-19,2025-02-28,In Use,213.5,2023-03-17,Dell,Taipei,Non-Compliant,Win 10,0
+ASSET_0370,Laptop,User_034,Finance,2024-11-26,2027-11-01,In Use,262.01,2025-11-26,Apple,Taipei,At Risk,Win 10,0
+ASSET_0371,Tablet,,HR,2025-04-04,2026-05-08,Stock,,2026-04-14,Apple,Other,At Risk,Win 11,0
+ASSET_0372,Monitor,User_290,R&D,2025-11-10,2029-01-31,In Use,124.01,,Dell,Other,Compliant,,0
+ASSET_0373,Laptop,User_315,Sales,2023-07-09,2025-09-12,In Use,496.95,2024-08-30,Lenovo,Taipei,At Risk,macOS 14,1
+ASSET_0374,Server,User_121,IT,2025-09-13,2028-09-16,In Use,2156.43,2027-09-03,HP,Hsinchu,Compliant,Ubuntu 22.04,1
+ASSET_0375,Monitor,User_306,Sales,2021-02-28,2023-03-03,In Use,227.3,,HP,Taipei,At Risk,,2
+ASSET_0376,Tablet,User_112,IT,2021-11-09,2023-11-23,In Use,484.7,2023-10-21,Lenovo,Taichung,Non-Compliant,Win 10,3
+ASSET_0377,Tablet,,R&D,2025-07-11,2026-08-13,Stock,,2026-09-08,Apple,Hsinchu,Compliant,Win 11,0
+ASSET_0378,Laptop,,R&D,2024-10-14,2026-10-06,Stock,508.0,2026-11-17,Lenovo,Hsinchu,Compliant,macOS 12,1
+ASSET_0379,Desktop,,Finance,2025-12-20,2030-02-27,Stock,507.28,2026-12-13,Lenovo,Taipei,Compliant,Win 10,2
+ASSET_0380,Server,User_089,IT,2022-08-16,2026-10-14,In Use,3978.18,2024-08-15,Dell,Cloud,At Risk,Ubuntu 22.04,3
+ASSET_0381,Tablet,,Finance,2022-11-12,2023-10-31,Retired,489.16,,Apple,Hsinchu,Non-Compliant,Win 10,4
+ASSET_0382,Desktop,,HR,2023-10-21,2025-11-03,Retired,1146.47,,HP,Taichung,Non-Compliant,macOS 12,5
+ASSET_0383,Laptop,User_105,IT,2024-08-30,2026-09-11,In Use,322.31,2025-09-23,Dell,Taipei,At Risk,macOS 13,0
+ASSET_0384,Monitor,,HR,2024-02-12,2027-03-12,Stock,171.23,,Dell,Taipei,Compliant,,1
+ASSET_0385,Laptop,User_303,Sales,2025-07-01,2027-08-30,In Use,413.93,2027-06-20,Dell,Hsinchu,Compliant,macOS 13,1
+ASSET_0386,Tablet,,HR,2023-07-19,2025-06-25,Retired,357.41,,Apple,Taichung,At Risk,Win 11,3
+ASSET_0387,Monitor,User_128,IT,2026-01-04,2028-01-06,In Use,181.58,,HP,Taichung,Compliant,,1
+ASSET_0388,Laptop,,Finance,2024-11-24,2028-02-14,Decommissioned,,,Dell,Taipei,Compliant,Win 10,2
+ASSET_0389,Monitor,,Operations,2025-03-13,2028-04-15,Stock,,,Lenovo,Taichung,Compliant,,0
+ASSET_0390,Monitor,,HR,2022-03-08,2024-05-09,Retired,353.44,,Apple,Taipei,Non-Compliant,,4
+ASSET_0391,Monitor,,HR,2026-02-06,2029-01-11,Stock,,,Dell,Other,Compliant,,0
+ASSET_0392,Laptop,User_177,Operations,2022-09-28,2024-12-16,In Use,309.56,2024-11-03,Lenovo,Taichung,At Risk,macOS 12,0
+ASSET_0393,Laptop,User_065,HR,2022-10-30,2024-10-13,In Use,1057.79,2024-10-19,Apple,Taichung,Non-Compliant,Win 10,4
+ASSET_0394,Tablet,User_094,IT,2022-03-11,2024-04-24,In Use,,2023-02-21,Apple,Taipei,Non-Compliant,Win 11,2
+ASSET_0395,Desktop,,Operations,2023-02-11,2027-02-12,Retired,580.35,,HP,Hsinchu,At Risk,macOS 14,2
+ASSET_0396,Server,User_146,IT,2021-06-23,2025-05-28,In Use,2977.8,2023-06-12,HP,Hsinchu,At Risk,Ubuntu 22.04,2
+ASSET_0397,Laptop,User_143,IT,2026-02-16,2028-05-15,In Use,1077.2,2029-02-13,Dell,Other,Compliant,Win 10,3
+ASSET_0398,Desktop,User_274,R&D,2022-06-10,2024-07-24,In Use,440.41,2023-06-01,Lenovo,Other,Non-Compliant,macOS 12,1
+ASSET_0399,Desktop,User_010,Finance,2021-09-20,2023-11-02,In Use,691.02,2023-09-17,HP,Hsinchu,Non-Compliant,macOS 13,3
+ASSET_0400,Monitor,User_040,Finance,2026-01-01,2028-02-23,In Use,76.39,,Dell,Taichung,Compliant,,0
+ASSET_0401,Desktop,User_198,Operations,2026-01-13,2027-12-31,In Use,274.74,2029-03-01,Apple,Hsinchu,Compliant,Win 11,0
+ASSET_0402,Monitor,User_010,Finance,2022-06-01,2025-07-14,In Use,141.37,,Dell,Taipei,Compliant,,1
+ASSET_0403,Server,,HR,2022-11-18,2026-11-21,Retired,2298.95,,Cisco,Taichung,At Risk,Windows Server 2022,3
+ASSET_0404,Laptop,User_268,R&D,2024-07-15,2026-10-12,In Use,620.21,2026-07-01,Lenovo,Hsinchu,Compliant,Win 11,1
+ASSET_0405,Server,User_177,Operations,2025-03-16,2030-05-20,In Use,837.74,2028-04-12,HP,Taichung,Compliant,Ubuntu 22.04,0
+ASSET_0406,Monitor,,R&D,2020-07-06,2022-09-06,Retired,,,Lenovo,Hsinchu,Non-Compliant,,7
+ASSET_0407,Server,User_153,Operations,2021-12-27,2026-03-19,In Use,1829.04,2025-02-03,Cisco,Taichung,At Risk,RHEL 9,2
+ASSET_0408,Monitor,,Operations,2024-08-27,2027-10-07,Stock,,,HP,Other,Compliant,,0
+ASSET_0409,Laptop,,Finance,2024-11-30,2026-12-13,Stock,,2025-12-21,Dell,Taipei,At Risk,Win 10,0
+ASSET_0410,Laptop,,Finance,2020-10-20,2023-11-22,Retired,,,Apple,Other,Non-Compliant,macOS 12,4
+ASSET_0411,Desktop,User_013,Finance,2023-12-18,2026-12-16,In Use,248.86,2025-12-09,HP,Taichung,At Risk,macOS 12,0
+ASSET_0412,Tablet,User_213,Operations,2021-02-19,2022-05-04,In Use,326.69,2023-03-23,Apple,Other,At Risk,Win 10,2
+ASSET_0413,Server,User_113,IT,2022-01-31,2026-03-04,In Use,3354.32,2023-03-17,Cisco,Taichung,At Risk,Ubuntu 22.04,3
+ASSET_0414,Server,,Operations,2021-05-05,2024-06-09,Decommissioned,,,Dell,Hsinchu,Compliant,Ubuntu 22.04,4
+ASSET_0415,Monitor,User_158,Operations,2024-12-21,2027-03-11,In Use,101.33,,Dell,Taichung,Compliant,,0
+ASSET_0416,Monitor,User_055,HR,2024-07-13,2026-06-17,In Use,75.98,,Lenovo,Hsinchu,Compliant,,0
+ASSET_0417,Desktop,User_193,Operations,2022-07-09,2024-08-19,In Use,567.2,2023-09-06,Apple,Taichung,Non-Compliant,macOS 12,3
+ASSET_0418,Laptop,User_070,HR,2025-12-12,2029-01-04,In Use,305.21,2028-01-08,HP,Taipei,Compliant,macOS 14,0
+ASSET_0419,Tablet,User_128,IT,2024-01-27,2026-03-02,In Use,254.75,2026-02-25,Cisco,Taichung,At Risk,Win 10,1
+ASSET_0420,Monitor,,Sales,2024-06-19,2026-07-11,Stock,126.52,,HP,Taipei,Compliant,,1
+ASSET_0421,Tablet,User_337,Sales,2022-03-05,2024-02-21,In Use,251.55,2023-03-04,Dell,Taichung,Non-Compliant,Win 11,2
+ASSET_0422,Monitor,,Finance,2024-03-31,2026-04-23,Retired,,,Apple,Other,At Risk,,2
+ASSET_0423,Monitor,,HR,2020-08-05,2022-09-24,Retired,,,HP,Taichung,Non-Compliant,,1
+ASSET_0424,Monitor,User_154,Operations,2024-04-05,2026-04-09,In Use,121.74,,Dell,Other,Compliant,,1
+ASSET_0425,Server,User_082,IT,2025-08-19,2030-10-14,In Use,1625.28,2028-09-13,HP,Cloud,Compliant,Windows Server 2022,1
+ASSET_0426,Desktop,User_077,HR,2022-04-10,2024-04-11,In Use,708.16,2023-05-25,HP,Taipei,Non-Compliant,Win 10,4
+ASSET_0427,Server,User_105,IT,2024-01-09,2026-12-21,In Use,1767.92,2027-01-01,Cisco,Taichung,Compliant,Windows Server 2022,1
+ASSET_0428,Monitor,User_211,Operations,2021-09-28,2024-09-16,In Use,109.82,,HP,Taichung,At Risk,,0
+ASSET_0429,Monitor,User_247,R&D,2026-04-04,2029-06-22,In Use,146.86,,HP,Taipei,Compliant,,1
+ASSET_0430,Desktop,User_055,HR,2025-06-12,2028-08-03,In Use,376.61,2026-05-25,HP,Hsinchu,Compliant,macOS 12,1
+ASSET_0431,Tablet,User_322,Sales,2023-06-22,2024-08-30,In Use,164.98,2026-07-22,Apple,Taichung,At Risk,Win 10,0
+ASSET_0432,Desktop,User_049,HR,2024-09-01,2027-08-20,In Use,256.97,2026-10-20,Lenovo,Other,Compliant,macOS 12,0
+ASSET_0433,Desktop,User_152,Operations,2021-12-14,2026-01-16,In Use,605.27,2023-11-29,Lenovo,Hsinchu,At Risk,macOS 14,2
+ASSET_0434,Tablet,,Sales,2025-02-22,2027-03-15,Stock,238.48,2026-02-06,Lenovo,Other,At Risk,Win 10,1
+ASSET_0435,Laptop,User_001,Finance,2022-04-07,2025-06-01,In Use,564.79,2025-03-20,Lenovo,Taipei,At Risk,macOS 13,1
+ASSET_0436,Laptop,User_110,IT,2025-11-20,2027-10-25,In Use,1111.73,2026-12-02,Lenovo,Taipei,Compliant,Win 11,3
+ASSET_0437,Laptop,,HR,2021-07-08,2024-06-24,Retired,,,HP,Taipei,At Risk,macOS 13,2
+ASSET_0438,Laptop,,IT,2024-08-21,2026-11-06,Stock,1382.34,2026-08-08,HP,Hsinchu,At Risk,macOS 12,4
+ASSET_0439,Monitor,User_287,R&D,2023-05-03,2025-06-09,In Use,,,Dell,Hsinchu,Compliant,,2
+ASSET_0440,Laptop,User_054,HR,2025-02-28,2027-04-29,In Use,265.82,2027-04-01,Dell,Taichung,Compliant,Win 10,0
+ASSET_0441,Server,User_038,Finance,2024-06-04,2027-05-13,In Use,2813.88,2026-07-13,Cisco,Hsinchu,Compliant,RHEL 9,3
+ASSET_0442,Tablet,User_345,Sales,2022-03-24,2023-04-01,In Use,329.51,2024-03-08,Lenovo,Taichung,Non-Compliant,Win 11,2
+ASSET_0443,Laptop,User_090,IT,2025-08-18,2027-11-16,In Use,482.29,2027-09-15,Apple,Cloud,Compliant,macOS 14,1
+ASSET_0444,Tablet,User_358,Sales,2021-05-01,2022-06-17,In Use,506.14,2023-05-13,Dell,Taipei,Non-Compliant,Win 10,5
+ASSET_0445,Laptop,User_200,Operations,2023-04-11,2026-06-20,In Use,876.94,2024-04-04,Apple,Other,At Risk,macOS 14,3
+ASSET_0446,Laptop,User_049,HR,2023-07-08,2026-08-17,In Use,890.45,2024-08-22,Lenovo,Taipei,At Risk,macOS 13,3
+ASSET_0447,Desktop,User_022,Finance,2024-03-02,2026-04-04,In Use,488.47,2025-02-18,Dell,Taipei,At Risk,macOS 14,2
+ASSET_0448,Laptop,,Sales,2021-02-10,2024-05-07,Retired,814.81,,Dell,Other,At Risk,macOS 12,2
+ASSET_0449,Desktop,User_180,Operations,2025-07-06,2029-09-22,In Use,427.88,2026-07-11,HP,Taichung,Compliant,macOS 13,1
+ASSET_0450,Laptop,User_061,HR,2022-08-16,2025-10-03,In Use,430.16,2025-09-16,Apple,Taichung,At Risk,macOS 12,1
+ASSET_0451,Desktop,User_026,Finance,2025-09-28,2028-09-26,In Use,318.5,2027-11-19,HP,Taipei,Compliant,macOS 14,1
+ASSET_0452,Desktop,,R&D,2024-09-19,2026-08-30,Decommissioned,744.72,,HP,Hsinchu,Compliant,Win 11,2
+ASSET_0453,Desktop,,Operations,2022-11-12,2025-11-08,Retired,,,Dell,Hsinchu,At Risk,macOS 14,0
+ASSET_0454,Server,User_195,Operations,2023-05-27,2027-05-13,In Use,1490.54,2026-07-16,Dell,Cloud,Compliant,RHEL 9,1
+ASSET_0455,Tablet,,R&D,2026-01-17,2028-02-09,Stock,,2028-01-18,Lenovo,Other,Compliant,Win 11,0
+ASSET_0456,Laptop,User_069,HR,2022-11-28,2026-02-23,In Use,,2024-11-07,Lenovo,Taipei,At Risk,Win 11,0
+ASSET_0457,Laptop,,HR,2025-05-11,2028-06-06,Stock,,2028-06-29,HP,Taipei,Compliant,Win 10,0
+ASSET_0458,Laptop,User_271,R&D,2021-07-28,2024-07-01,In Use,1032.45,2023-08-16,HP,Taipei,Non-Compliant,macOS 14,3
+ASSET_0459,Desktop,User_047,HR,2025-01-25,2029-04-11,In Use,206.91,2027-03-24,HP,Other,Compliant,macOS 12,0
+ASSET_0460,Desktop,,HR,2025-07-06,2028-09-15,Stock,502.52,2028-08-17,Lenovo,Taichung,Compliant,macOS 13,2
+ASSET_0461,Tablet,User_225,Operations,2022-11-10,2024-12-06,In Use,,2024-11-26,Apple,Hsinchu,At Risk,Win 10,1
+ASSET_0462,Server,User_306,Sales,2023-02-12,2027-05-12,In Use,1916.89,2025-04-11,Cisco,Other,At Risk,Windows Server 2022,2
+ASSET_0463,Tablet,,HR,2026-04-01,2028-03-30,Stock,207.74,2028-04-14,Lenovo,Other,Compliant,Win 11,1
+ASSET_0464,Monitor,,IT,2020-12-16,2023-12-05,Retired,,,Lenovo,Hsinchu,At Risk,,0
+ASSET_0465,Laptop,User_190,Operations,2024-08-21,2026-11-07,In Use,406.43,2025-09-16,Dell,Other,At Risk,macOS 12,1
+ASSET_0466,Laptop,User_064,HR,2026-04-01,2029-03-09,In Use,262.1,2028-05-13,Lenovo,Hsinchu,Compliant,macOS 14,0
+ASSET_0467,Laptop,,HR,2024-04-12,2026-04-06,Stock,,2026-04-11,Apple,Other,At Risk,macOS 13,0
+ASSET_0468,Laptop,,Finance,2023-03-23,2025-05-15,Retired,,,HP,Other,At Risk,Win 10,1
+ASSET_0469,Tablet,User_176,Operations,2024-10-22,2026-10-05,In Use,197.57,2025-12-12,Apple,Hsinchu,At Risk,Win 11,1
+ASSET_0470,Monitor,User_034,Finance,2022-10-22,2024-09-21,In Use,159.31,,HP,Taipei,At Risk,,1
+ASSET_0471,Server,User_164,Operations,2023-07-21,2027-07-28,In Use,3516.95,2026-07-18,Dell,Taipei,At Risk,RHEL 9,4
+ASSET_0472,Laptop,User_327,Sales,2024-11-07,2026-11-26,In Use,652.44,2025-11-24,Lenovo,Hsinchu,At Risk,macOS 13,2
+ASSET_0473,Desktop,,HR,2022-10-05,2026-09-24,Retired,814.05,,Lenovo,Other,At Risk,Win 11,5
+ASSET_0474,Laptop,,R&D,2022-02-25,2024-05-02,Retired,,,Dell,Other,Non-Compliant,Win 11,4
+ASSET_0475,Monitor,User_307,Sales,2024-09-30,2027-11-17,In Use,125.41,,HP,Taichung,Compliant,,1
+ASSET_0476,Tablet,,Sales,2020-09-21,2021-09-13,Decommissioned,118.47,,Dell,Taipei,Compliant,Win 11,0
+ASSET_0477,Laptop,User_358,Sales,2022-06-07,2025-08-26,In Use,567.35,2023-07-16,Dell,Taichung,At Risk,macOS 14,2
+ASSET_0478,Laptop,User_293,R&D,2023-01-28,2025-02-01,In Use,1121.09,2026-03-10,Apple,Hsinchu,Non-Compliant,macOS 12,3
+ASSET_0479,Tablet,User_224,Operations,2021-05-30,2023-06-18,In Use,165.73,2022-07-10,Apple,Other,Non-Compliant,Win 10,1
+ASSET_0480,Tablet,,Operations,2021-09-05,2023-09-04,Retired,,,Apple,Taipei,Non-Compliant,Win 11,0
+ASSET_0481,Laptop,User_070,HR,2025-08-12,2028-09-08,In Use,537.74,2026-08-14,Apple,Other,Compliant,macOS 12,1
+ASSET_0482,Monitor,,Sales,2024-01-07,2026-02-09,Stock,130.97,,HP,Taichung,Compliant,,1
+ASSET_0483,Server,User_240,R&D,2021-11-24,2026-12-26,In Use,2799.18,2024-01-13,Cisco,Hsinchu,At Risk,RHEL 9,2
+ASSET_0484,Server,User_248,R&D,2025-03-14,2029-05-11,In Use,3219.45,2028-04-13,Cisco,Cloud,Compliant,RHEL 9,2
+ASSET_0485,Laptop,,Sales,2024-07-06,2026-09-13,Retired,,,Lenovo,Hsinchu,At Risk,Win 11,1
+ASSET_0486,Desktop,User_206,Operations,2021-07-17,2025-08-30,In Use,1119.73,2022-06-27,Dell,Hsinchu,Non-Compliant,macOS 12,5
+ASSET_0487,Desktop,User_141,IT,2021-05-20,2025-06-04,In Use,643.25,2022-07-16,Lenovo,Taipei,At Risk,macOS 12,2
+ASSET_0488,Laptop,User_335,Sales,2023-02-20,2025-03-14,In Use,562.39,2024-02-23,HP,Taipei,At Risk,macOS 13,1
+ASSET_0489,Monitor,,R&D,2022-07-27,2025-09-29,Decommissioned,,,Dell,Taipei,Compliant,,1
+ASSET_0490,Server,User_141,IT,2024-08-18,2028-10-31,In Use,2222.47,2025-10-11,HP,Cloud,At Risk,RHEL 9,2
+ASSET_0491,Tablet,User_046,HR,2026-03-08,2028-04-12,In Use,230.22,2029-03-19,Apple,Other,Compliant,Win 10,1
+ASSET_0492,Server,User_141,IT,2021-07-10,2025-08-24,In Use,3966.93,2023-07-10,Lenovo,Cloud,Non-Compliant,Ubuntu 22.04,4
+ASSET_0493,Tablet,,Operations,2021-01-13,2022-04-02,Retired,344.07,,Apple,Taichung,At Risk,Win 11,3
+ASSET_0494,Laptop,User_039,Finance,2023-03-07,2025-05-07,In Use,981.88,2025-02-20,Dell,Hsinchu,At Risk,Win 11,3
+ASSET_0495,Server,,R&D,2020-07-16,2023-09-07,Retired,1677.47,,HP,Hsinchu,At Risk,RHEL 9,1
+ASSET_0496,Tablet,,R&D,2024-01-29,2025-01-04,Decommissioned,,,Apple,Hsinchu,Compliant,Win 10,2
+ASSET_0497,Laptop,User_025,Finance,2025-04-17,2028-05-24,In Use,272.47,2027-06-16,HP,Hsinchu,Compliant,Win 11,0
+ASSET_0498,Laptop,User_047,HR,2021-01-23,2024-02-27,In Use,546.04,2022-01-20,Lenovo,Hsinchu,Non-Compliant,macOS 13,1
+ASSET_0499,Desktop,User_269,R&D,2024-07-22,2026-07-06,In Use,386.38,2026-07-09,Lenovo,Taichung,Compliant,Win 10,1
+ASSET_0500,Desktop,User_015,Finance,2024-08-20,2026-07-24,In Use,,2027-09-01,Lenovo,Hsinchu,Compliant,macOS 13,2
+ASSET_0501,Tablet,,HR,2025-08-23,2027-08-26,Stock,235.98,2026-08-27,Apple,Taipei,Compliant,Win 10,1
+ASSET_0502,Laptop,,R&D,2021-11-15,2024-01-10,Decommissioned,795.5,,HP,Taipei,Compliant,Win 11,2
+ASSET_0503,Monitor,User_039,Finance,2021-04-15,2024-06-10,In Use,203.84,,Dell,Taipei,At Risk,,2
+ASSET_0504,Monitor,User_177,Operations,2026-03-29,2029-02-28,In Use,76.42,,Apple,Other,Compliant,,0
+ASSET_0505,Tablet,,Operations,2022-11-12,2023-10-23,Retired,,,Apple,Taichung,At Risk,Win 11,0
+ASSET_0506,Laptop,User_264,R&D,2025-05-15,2027-08-08,In Use,374.3,2028-06-13,Dell,Hsinchu,Compliant,macOS 13,0
+ASSET_0507,Laptop,User_064,HR,2021-12-05,2025-01-25,In Use,699.75,2022-12-15,Dell,Taipei,Non-Compliant,macOS 13,2
+ASSET_0508,Tablet,,IT,2021-06-16,2022-08-03,Decommissioned,444.7,,Lenovo,Hsinchu,Compliant,Win 10,3
+ASSET_0509,Laptop,User_078,HR,2021-09-30,2024-11-24,In Use,290.34,2023-09-13,Dell,Other,Non-Compliant,Win 10,0
+ASSET_0510,Laptop,User_329,Sales,2024-06-22,2026-06-09,In Use,816.05,2026-08-14,Apple,Taipei,Compliant,Win 10,2
+ASSET_0511,Laptop,User_040,Finance,2024-01-21,2027-02-28,In Use,492.11,2025-02-03,HP,Taichung,At Risk,macOS 12,1
+ASSET_0512,Laptop,,Sales,2021-11-26,2024-01-18,Decommissioned,,,Dell,Taipei,Compliant,Win 11,3
+ASSET_0513,Server,User_091,IT,2021-11-26,2025-11-14,In Use,2206.73,2024-12-16,Cisco,Cloud,At Risk,Ubuntu 22.04,2
+ASSET_0514,Tablet,User_286,R&D,2024-11-06,2026-11-21,In Use,511.67,2025-10-24,Lenovo,Other,Non-Compliant,Win 10,4
+ASSET_0515,Desktop,,Operations,2021-06-23,2023-08-19,Retired,427.36,,HP,Taichung,Non-Compliant,Win 10,1
+ASSET_0516,Tablet,User_064,HR,2026-02-26,2028-05-03,In Use,118.39,2028-04-19,Apple,Other,Compliant,Win 11,0
+ASSET_0517,Laptop,User_025,Finance,2023-04-30,2025-04-07,In Use,306.49,2024-06-19,HP,Taichung,Non-Compliant,Win 10,0
+ASSET_0518,Server,User_085,IT,2021-01-15,2024-03-09,In Use,4617.53,2024-03-13,Cisco,Cloud,At Risk,Windows Server 2022,4
+ASSET_0519,Desktop,,Sales,2021-06-27,2023-06-25,Decommissioned,293.54,,Dell,Taichung,Compliant,Win 11,1
+ASSET_0520,Desktop,User_095,IT,2022-06-19,2025-09-03,In Use,305.47,2024-08-06,Dell,Taipei,At Risk,macOS 14,0
+ASSET_0521,Desktop,User_057,HR,2022-08-11,2026-07-16,In Use,231.64,2024-09-10,Dell,Other,At Risk,macOS 12,0
+ASSET_0522,Laptop,,Sales,2023-01-30,2025-01-02,Retired,966.44,,HP,Taipei,Non-Compliant,Win 10,4
+ASSET_0523,Server,,Operations,2025-04-05,2030-05-08,Stock,,2027-04-21,Lenovo,Other,Compliant,Ubuntu 22.04,0
+ASSET_0524,Tablet,,Sales,2026-02-13,2027-02-17,Stock,204.39,2027-02-28,Lenovo,Taichung,Compliant,Win 11,1
+ASSET_0525,Monitor,,Finance,2025-04-04,2027-05-04,Stock,,,Dell,Hsinchu,At Risk,,4
+ASSET_0526,Laptop,User_288,R&D,2021-12-29,2024-12-02,In Use,1498.47,2024-01-17,Lenovo,Hsinchu,Non-Compliant,macOS 14,4
+ASSET_0527,Tablet,User_123,IT,2025-03-15,2027-02-27,In Use,139.54,2026-03-12,Lenovo,Hsinchu,At Risk,Win 10,0
+ASSET_0528,Desktop,User_146,IT,2025-03-08,2028-05-09,In Use,279.14,2028-03-22,HP,Taichung,Compliant,macOS 13,0
+ASSET_0529,Desktop,,Operations,2024-12-14,2028-01-26,Stock,546.42,2027-02-12,Apple,Other,Compliant,macOS 14,3
+ASSET_0530,Monitor,User_048,HR,2026-01-16,2028-03-17,In Use,124.66,,Lenovo,Taipei,Compliant,,1
+ASSET_0531,Monitor,User_038,Finance,2025-02-09,2028-04-26,In Use,147.24,,Dell,Other,Compliant,,1
+ASSET_0532,Desktop,User_037,Finance,2025-05-05,2029-04-28,In Use,190.36,2026-05-01,Dell,Taipei,Compliant,macOS 14,0
+ASSET_0533,Monitor,User_233,R&D,2022-06-15,2025-09-04,In Use,287.92,,Apple,Taipei,Compliant,,3
+ASSET_0534,Laptop,User_319,Sales,2025-08-02,2028-10-27,In Use,289.24,2027-09-17,Lenovo,Taichung,Compliant,macOS 12,0
+ASSET_0535,Desktop,User_042,Finance,2022-11-10,2026-12-25,In Use,741.13,2025-11-01,Dell,Taipei,At Risk,macOS 12,3
+ASSET_0536,Server,User_270,R&D,2022-01-20,2027-01-26,In Use,2927.77,2025-01-05,Dell,Hsinchu,At Risk,Ubuntu 22.04,2
+ASSET_0537,Laptop,,IT,2024-01-18,2027-02-20,Stock,1161.72,2025-01-04,Apple,Hsinchu,At Risk,macOS 12,4
+ASSET_0538,Laptop,User_310,Sales,2021-06-02,2024-08-02,In Use,867.36,2023-06-11,HP,Other,At Risk,macOS 14,2
+ASSET_0539,Server,User_253,R&D,2025-12-21,2029-02-09,In Use,1388.69,2028-02-10,HP,Hsinchu,Compliant,RHEL 9,0
+ASSET_0540,Server,User_103,IT,2023-07-04,2026-08-11,In Use,2820.1,2025-06-23,HP,Cloud,At Risk,Windows Server 2022,2
+ASSET_0541,Desktop,,Finance,2020-11-19,2025-01-22,Decommissioned,550.82,,Dell,Hsinchu,Compliant,Win 10,2
+ASSET_0542,Server,,R&D,2021-10-06,2024-09-20,Retired,,,HP,Hsinchu,Non-Compliant,RHEL 9,4
+ASSET_0543,Tablet,User_045,Finance,2025-01-01,2026-12-12,In Use,437.08,2025-12-20,HP,Taipei,At Risk,Win 10,3
+ASSET_0544,Tablet,,Operations,2024-03-26,2025-04-10,Stock,343.05,2025-05-03,Apple,Taichung,At Risk,Win 11,2
+ASSET_0545,Monitor,User_009,Finance,2025-06-05,2028-07-25,In Use,87.51,,HP,Taipei,Compliant,,0
+ASSET_0546,Tablet,,Sales,2022-09-21,2024-11-23,Decommissioned,,,Apple,Other,Compliant,Win 11,2
+ASSET_0547,Laptop,User_335,Sales,2021-08-18,2023-09-14,In Use,622.38,2023-09-27,Lenovo,Other,Non-Compliant,Win 11,1
+ASSET_0548,Monitor,,HR,2023-08-14,2026-07-16,Retired,,,Dell,Other,At Risk,,2
+ASSET_0549,Laptop,,R&D,2024-09-14,2027-10-17,Stock,,2027-10-30,Apple,Taipei,Compliant,macOS 13,0
+ASSET_0550,Laptop,,Sales,2023-12-06,2026-01-29,Decommissioned,,,Apple,Taipei,Compliant,macOS 14,3
+ASSET_0551,Laptop,User_048,HR,2023-05-27,2025-05-05,In Use,420.35,2025-05-25,Apple,Hsinchu,At Risk,macOS 13,1
+ASSET_0552,Monitor,,Operations,2025-10-15,2028-09-19,Stock,181.22,,Dell,Other,Compliant,,1
+ASSET_0553,Laptop,,IT,2024-11-30,2028-01-20,Stock,,2028-01-21,Apple,Hsinchu,Compliant,macOS 12,0
+ASSET_0554,Server,User_225,Operations,2024-09-09,2028-08-11,In Use,2402.67,2026-10-22,HP,Taipei,Compliant,RHEL 9,2
+ASSET_0555,Desktop,User_024,Finance,2021-09-23,2024-10-29,In Use,,2022-09-09,Lenovo,Taichung,Non-Compliant,macOS 14,4
+ASSET_0556,Desktop,User_061,HR,2023-03-25,2025-05-14,In Use,272.45,2025-04-29,Dell,Other,At Risk,Win 10,0
+ASSET_0557,Server,User_061,HR,2024-03-29,2028-06-06,In Use,4110.43,2025-03-16,HP,Taipei,Non-Compliant,Ubuntu 22.04,4
+ASSET_0558,Laptop,User_262,R&D,2022-08-26,2024-08-25,In Use,691.7,2023-08-16,Dell,Other,Non-Compliant,macOS 14,2
+ASSET_0559,Desktop,,Finance,2023-09-18,2025-12-07,Retired,562.64,,Lenovo,Hsinchu,At Risk,Win 10,2
+ASSET_0560,Monitor,User_089,IT,2025-05-12,2027-04-20,In Use,112.05,,HP,Cloud,Compliant,,0
+ASSET_0561,Laptop,User_262,R&D,2021-12-15,2024-12-10,In Use,339.59,2024-01-15,Dell,Other,Non-Compliant,macOS 12,0
+ASSET_0562,Monitor,User_098,IT,2024-10-14,2027-12-05,In Use,162.1,,Dell,Other,Compliant,,1
+ASSET_0563,Server,,R&D,2022-06-03,2027-07-18,Retired,,,Cisco,Cloud,At Risk,RHEL 9,3
+ASSET_0564,Tablet,User_255,R&D,2026-02-08,2028-02-27,In Use,,2028-02-19,Lenovo,Other,Compliant,Win 11,0
+ASSET_0565,Desktop,User_217,Operations,2026-04-16,2029-03-20,In Use,204.32,2028-05-06,Lenovo,Taichung,Compliant,macOS 14,0
+ASSET_0566,Server,User_241,R&D,2022-02-10,2026-04-16,In Use,4716.71,2024-03-07,Lenovo,Other,Non-Compliant,Windows Server 2022,5
+ASSET_0567,Laptop,User_336,Sales,2025-08-11,2028-11-04,In Use,494.88,2027-08-04,Apple,Other,Compliant,macOS 14,1
+ASSET_0568,Laptop,User_017,Finance,2022-05-22,2025-06-30,In Use,304.93,2024-06-03,Apple,Taichung,At Risk,Win 11,0
+ASSET_0569,Laptop,User_144,IT,2023-04-15,2025-05-22,In Use,433.54,2025-05-06,Lenovo,Other,At Risk,macOS 14,1
+ASSET_0570,Desktop,User_020,Finance,2023-07-29,2027-10-22,In Use,604.59,2024-07-29,Lenovo,Taipei,At Risk,macOS 14,2
+ASSET_0571,Monitor,,Operations,2023-10-27,2026-10-05,Decommissioned,,,Dell,Hsinchu,Compliant,,1
+ASSET_0572,Server,,Operations,2021-11-07,2025-10-26,Retired,4180.95,,Cisco,Taichung,At Risk,Windows Server 2022,5
+ASSET_0573,Desktop,,IT,2024-10-03,2026-09-12,Retired,203.8,,Lenovo,Hsinchu,At Risk,macOS 14,0
+ASSET_0574,Server,,IT,2023-04-25,2026-04-30,Decommissioned,,,Cisco,Hsinchu,Compliant,RHEL 9,1
+ASSET_0575,Laptop,User_214,Operations,2023-10-17,2025-11-23,In Use,585.41,2025-10-03,HP,Taichung,At Risk,Win 11,2
+ASSET_0576,Server,User_293,R&D,2026-01-29,2031-01-24,In Use,1578.58,2028-02-25,Dell,Other,Compliant,RHEL 9,1
+ASSET_0577,Desktop,User_095,IT,2025-07-12,2027-06-18,In Use,277.79,2027-09-06,Lenovo,Taichung,Compliant,macOS 12,0
+ASSET_0578,Server,User_117,IT,2021-06-08,2024-05-22,In Use,,2023-06-19,Cisco,Cloud,At Risk,Windows Server 2022,5
+ASSET_0579,Monitor,,IT,2021-06-22,2023-09-11,Decommissioned,,,HP,Hsinchu,Compliant,,4
+ASSET_0580,Laptop,,HR,2023-06-11,2025-08-11,Decommissioned,522.66,,Lenovo,Taipei,Compliant,macOS 12,1
+ASSET_0581,Laptop,User_035,Finance,2024-07-08,2027-09-19,In Use,240.5,2026-06-26,Dell,Taipei,Compliant,macOS 13,0
+ASSET_0582,Desktop,User_350,Sales,2025-02-19,2028-04-11,In Use,221.1,2028-04-08,Lenovo,Other,Compliant,macOS 14,0
+ASSET_0583,Monitor,User_087,IT,2023-06-29,2025-07-25,In Use,294.91,,HP,Taipei,Compliant,,3
+ASSET_0584,Laptop,User_345,Sales,2023-11-08,2026-01-14,In Use,657.11,2026-10-28,Lenovo,Other,Compliant,Win 10,2
+ASSET_0585,Desktop,User_009,Finance,2025-03-31,2028-04-13,In Use,254.58,2026-04-01,Dell,Other,At Risk,macOS 13,0
+ASSET_0586,Server,User_293,R&D,2022-10-15,2025-10-29,In Use,2364.59,2025-10-21,Cisco,Taipei,At Risk,Ubuntu 22.04,2
+ASSET_0587,Monitor,,HR,2024-08-08,2027-10-18,Retired,184.89,,Lenovo,Other,At Risk,,1
+ASSET_0588,Laptop,User_060,HR,2023-06-01,2026-06-24,In Use,261.62,2024-06-28,Dell,Other,At Risk,Win 11,0
+ASSET_0589,Monitor,,Finance,2024-06-02,2026-06-23,Retired,,,Dell,Taichung,At Risk,,1
+ASSET_0590,Server,User_098,IT,2024-12-11,2028-02-15,In Use,3238.73,2026-12-10,Cisco,Hsinchu,Compliant,Windows Server 2022,3
+ASSET_0591,Server,User_139,IT,2023-09-26,2026-12-15,In Use,3779.11,2026-11-09,HP,Cloud,Compliant,RHEL 9,3
+ASSET_0592,Desktop,User_003,Finance,2022-08-06,2025-09-13,In Use,453.19,2024-09-17,Lenovo,Taipei,At Risk,macOS 13,1
+ASSET_0593,Laptop,User_075,HR,2025-06-15,2028-09-08,In Use,331.71,2027-06-01,Lenovo,Taichung,Compliant,macOS 12,0
+ASSET_0594,Laptop,,Sales,2025-08-01,2028-08-18,Stock,741.46,2026-07-27,HP,Taipei,Compliant,Win 11,2
+ASSET_0595,Monitor,,Operations,2025-11-14,2027-11-07,Stock,,,Dell,Hsinchu,Compliant,,0
+ASSET_0596,Laptop,User_251,R&D,2024-08-25,2027-08-20,In Use,,2026-09-05,HP,Taichung,Compliant,macOS 13,0
+ASSET_0597,Monitor,User_128,IT,2023-03-29,2026-06-17,In Use,171.37,,Lenovo,Hsinchu,Compliant,,1
+ASSET_0598,Laptop,,Finance,2021-09-28,2023-11-14,Decommissioned,639.63,,Dell,Taipei,Compliant,Win 11,2
+ASSET_0599,Tablet,,Sales,2026-04-13,2027-06-14,Stock,,2028-05-01,Apple,Taichung,Compliant,Win 11,0
+ASSET_0600,Laptop,User_274,R&D,2025-02-03,2028-05-02,In Use,927.8,2027-02-16,Lenovo,Hsinchu,Compliant,Win 11,2
+ASSET_0601,Tablet,User_354,Sales,2023-11-21,2025-01-01,In Use,189.97,2026-01-12,Dell,Other,Non-Compliant,Win 10,1
+ASSET_0602,Laptop,User_188,Operations,2023-12-19,2026-11-24,In Use,423.09,2027-01-04,Lenovo,Taichung,Compliant,macOS 13,1
+ASSET_0603,Server,,IT,2021-04-12,2024-06-15,Retired,2836.93,,HP,Hsinchu,Non-Compliant,RHEL 9,3
+ASSET_0604,Monitor,User_035,Finance,2021-06-28,2023-08-13,In Use,198.74,,HP,Taipei,At Risk,,2
+ASSET_0605,Desktop,User_060,HR,2023-09-20,2026-11-21,In Use,434.09,2025-10-26,Lenovo,Other,At Risk,Win 11,1
+ASSET_0606,Server,,Operations,2025-11-26,2030-12-24,Stock,1891.72,2028-01-25,HP,Cloud,Compliant,Ubuntu 22.04,2
+ASSET_0607,Desktop,User_023,Finance,2021-06-05,2023-08-28,In Use,181.51,2024-07-27,Dell,Taipei,At Risk,macOS 14,0
+ASSET_0608,Monitor,,HR,2021-09-19,2023-12-12,Retired,217.89,,Dell,Hsinchu,Non-Compliant,,2
+ASSET_0609,Tablet,,R&D,2025-05-21,2027-07-12,Stock,,2026-06-10,Dell,Other,Compliant,Win 11,0
+ASSET_0610,Desktop,,R&D,2021-07-21,2024-06-22,Retired,421.59,,HP,Other,Non-Compliant,Win 11,1
+ASSET_0611,Laptop,,R&D,2023-04-04,2025-04-27,Retired,911.86,,Dell,Taipei,At Risk,macOS 13,2
+ASSET_0612,Tablet,User_335,Sales,2025-12-09,2027-02-05,In Use,,2027-12-06,Apple,Hsinchu,Compliant,Win 11,0
+ASSET_0613,Laptop,User_046,HR,2025-10-26,2027-09-26,In Use,512.46,2027-10-31,Apple,Taipei,Compliant,Win 10,1
+ASSET_0614,Desktop,User_008,Finance,2022-11-21,2024-11-15,In Use,,2026-01-02,Apple,Other,Non-Compliant,macOS 14,2
+ASSET_0615,Monitor,User_042,Finance,2024-10-29,2027-12-08,In Use,128.69,,Apple,Taipei,Compliant,,1
+ASSET_0616,Laptop,User_254,R&D,2023-11-28,2026-01-01,In Use,1183.07,2025-12-27,Apple,Hsinchu,At Risk,macOS 14,3
+ASSET_0617,Monitor,User_282,R&D,2022-07-05,2025-06-21,In Use,114.11,,Apple,Hsinchu,Compliant,,0
+ASSET_0618,Server,User_130,IT,2024-01-23,2027-01-08,In Use,2861.18,2025-01-03,HP,Cloud,At Risk,RHEL 9,3
+ASSET_0619,Monitor,User_047,HR,2024-10-07,2026-11-13,In Use,172.76,,Lenovo,Taipei,Compliant,,1
+ASSET_0620,Tablet,User_052,HR,2026-02-07,2027-03-04,In Use,97.42,2029-02-22,Apple,Other,Compliant,Win 11,0
+ASSET_0621,Monitor,User_106,IT,2021-12-31,2023-12-14,In Use,197.42,,Dell,Taichung,At Risk,,2
+ASSET_0622,Desktop,,Sales,2021-02-01,2025-03-31,Decommissioned,1072.6,,Dell,Taipei,Compliant,macOS 13,5
+ASSET_0623,Monitor,User_042,Finance,2022-09-16,2024-11-29,In Use,140.48,,HP,Other,At Risk,,1
+ASSET_0624,Laptop,User_052,HR,2022-09-24,2025-12-04,In Use,244.89,2025-09-27,HP,Taipei,At Risk,macOS 14,0
+ASSET_0625,Laptop,,R&D,2020-03-01,2022-05-01,Decommissioned,2446.81,,Dell,Taichung,Compliant,macOS 12,8
+ASSET_0626,Server,User_253,R&D,2025-12-06,2029-02-12,In Use,,2029-01-11,HP,Taipei,Compliant,Windows Server 2022,3
+ASSET_0627,Desktop,,Finance,2024-03-03,2027-02-21,Stock,,2026-04-11,Apple,Other,At Risk,macOS 14,0
+ASSET_0628,Desktop,,IT,2025-05-15,2028-07-11,Stock,,2027-06-28,Dell,Taipei,Compliant,Win 11,0
+ASSET_0629,Desktop,,Finance,2020-12-02,2025-02-19,Retired,,,HP,Taipei,At Risk,macOS 14,4
+ASSET_0630,Monitor,User_050,HR,2022-07-14,2024-07-29,In Use,190.91,,Apple,Taipei,At Risk,,2
+ASSET_0631,Server,,IT,2023-07-25,2026-10-07,Decommissioned,,,Dell,Cloud,Compliant,RHEL 9,1
+ASSET_0632,Laptop,,Sales,2024-03-13,2026-03-25,Retired,683.1,,Apple,Taipei,At Risk,macOS 14,2
+ASSET_0633,Server,User_174,Operations,2024-12-14,2027-11-26,In Use,854.88,2026-12-19,Cisco,Other,Compliant,Ubuntu 22.04,0
+ASSET_0634,Monitor,,Operations,2020-12-09,2024-01-28,Retired,,,Dell,Other,At Risk,,1
+ASSET_0635,Laptop,User_263,R&D,2023-07-21,2026-09-26,In Use,649.45,2026-08-01,Apple,Hsinchu,Compliant,macOS 14,1
+ASSET_0636,Monitor,,Operations,2024-08-21,2027-11-17,Stock,172.42,,Apple,Hsinchu,Compliant,,2
+ASSET_0637,Server,User_001,Finance,2022-01-17,2025-03-10,In Use,2566.5,2024-02-12,HP,Taipei,At Risk,Windows Server 2022,2
+ASSET_0638,Server,User_147,IT,2022-02-06,2026-02-15,In Use,5237.33,2024-03-28,Dell,Taipei,At Risk,RHEL 9,6
+ASSET_0639,Desktop,,Operations,2021-04-21,2024-05-27,Retired,,,HP,Hsinchu,Non-Compliant,Win 11,1
+ASSET_0640,Laptop,User_280,R&D,2024-03-04,2026-02-19,In Use,,2027-04-03,Lenovo,Hsinchu,Compliant,Win 10,2
+ASSET_0641,Tablet,User_336,Sales,2025-01-06,2026-12-23,In Use,261.45,2027-02-13,HP,Taipei,Compliant,Win 11,1
+ASSET_0642,Server,User_240,R&D,2025-01-29,2029-04-02,In Use,1123.45,2026-02-26,Dell,Cloud,At Risk,RHEL 9,0
+ASSET_0643,Laptop,User_122,IT,2022-01-02,2025-02-09,In Use,769.57,2022-12-13,Dell,Other,Non-Compliant,Win 11,2
+ASSET_0644,Monitor,,HR,2024-11-02,2027-12-01,Stock,,,HP,Taichung,Compliant,,0
+ASSET_0645,Server,User_070,HR,2023-03-09,2027-04-29,In Use,2311.85,2025-04-23,Cisco,Taichung,At Risk,RHEL 9,2
+ASSET_0646,Monitor,,Operations,2025-07-16,2028-07-29,Stock,226.17,,Apple,Taichung,Compliant,,2
+ASSET_0647,Laptop,User_354,Sales,2023-08-11,2025-08-14,In Use,453.79,2026-10-03,Lenovo,Taipei,Compliant,Win 11,1
+ASSET_0648,Monitor,User_137,IT,2021-11-23,2024-10-26,In Use,233.27,,Dell,Other,At Risk,,2
+ASSET_0649,Desktop,User_185,Operations,2025-08-17,2028-09-05,In Use,242.98,2027-09-09,Lenovo,Hsinchu,Compliant,Win 10,0
+ASSET_0650,Laptop,,Sales,2023-11-02,2026-01-15,Retired,,,HP,Taipei,At Risk,macOS 14,3
+ASSET_0651,Monitor,,Operations,2021-12-10,2025-01-06,Retired,,,Dell,Taichung,At Risk,,0
+ASSET_0652,Desktop,User_175,Operations,2024-10-01,2027-11-05,In Use,190.16,2026-11-04,Lenovo,Hsinchu,Compliant,macOS 13,0
+ASSET_0653,Monitor,,HR,2022-05-03,2025-04-08,Retired,,,Lenovo,Other,At Risk,,5
+ASSET_0654,Monitor,,HR,2021-09-26,2023-10-09,Decommissioned,304.4,,Lenovo,Taichung,Compliant,,3
+ASSET_0655,Desktop,,IT,2025-08-24,2029-08-20,Stock,508.8,2026-10-01,Lenovo,Hsinchu,Compliant,macOS 14,1
+ASSET_0656,Laptop,,HR,2023-07-25,2026-09-03,Stock,689.83,2025-08-11,Apple,Taipei,At Risk,macOS 14,3
+ASSET_0657,Laptop,User_217,Operations,2025-02-09,2028-04-22,In Use,410.91,2027-03-06,Apple,Hsinchu,Compliant,macOS 12,1
+ASSET_0658,Desktop,,Operations,2024-05-21,2028-05-09,Stock,553.46,2026-05-09,HP,Taipei,Compliant,macOS 13,2
+ASSET_0659,Server,User_273,R&D,2023-04-15,2028-04-22,In Use,992.37,2025-05-29,Lenovo,Hsinchu,At Risk,Windows Server 2022,0
+ASSET_0660,Monitor,,Finance,2022-05-24,2025-06-04,Retired,,,Lenovo,Taichung,At Risk,,3
+ASSET_0661,Monitor,,HR,2025-07-23,2027-07-02,Stock,168.16,,HP,Taipei,Compliant,,1
+ASSET_0662,Monitor,User_162,Operations,2021-02-06,2024-02-29,In Use,371.84,,Lenovo,Hsinchu,At Risk,,4
+ASSET_0663,Laptop,User_035,Finance,2024-03-05,2026-03-21,In Use,409.99,2026-02-25,HP,Taipei,At Risk,macOS 14,1
+ASSET_0664,Monitor,User_013,Finance,2021-11-10,2023-10-24,In Use,297.25,,Lenovo,Other,At Risk,,3
+ASSET_0665,Desktop,,Finance,2024-11-22,2027-10-26,Stock,360.58,2026-11-02,Dell,Taipei,Compliant,Win 10,1
+ASSET_0666,Tablet,User_152,Operations,2022-09-11,2024-12-02,In Use,236.38,2025-09-22,Dell,Other,Non-Compliant,Win 10,1
+ASSET_0667,Tablet,User_309,Sales,2026-04-01,2028-06-17,In Use,220.48,2027-03-25,HP,Other,Compliant,Win 11,1
+ASSET_0668,Server,,IT,2022-06-23,2025-05-27,Retired,1501.52,,Dell,Other,At Risk,Windows Server 2022,1
+ASSET_0669,Laptop,User_330,Sales,2023-05-08,2025-07-07,In Use,853.56,2024-05-15,Dell,Taipei,At Risk,Win 11,2
+ASSET_0670,Laptop,User_343,Sales,2025-03-21,2027-03-21,In Use,364.63,2026-05-19,Apple,Other,Compliant,Win 11,0
+ASSET_0671,Laptop,User_256,R&D,2025-06-23,2027-08-09,In Use,590.3,2027-08-22,Apple,Other,Compliant,Win 10,1
+ASSET_0672,Laptop,,R&D,2025-09-01,2027-09-22,Stock,444.62,2028-09-28,Lenovo,Hsinchu,Compliant,macOS 12,1
+ASSET_0673,Server,User_106,IT,2023-10-02,2027-12-03,In Use,2707.17,2025-09-27,Dell,Hsinchu,At Risk,Ubuntu 22.04,2
+ASSET_0674,Laptop,,R&D,2020-06-15,2023-09-13,Retired,1051.88,,Dell,Taipei,At Risk,macOS 12,3
+ASSET_0675,Server,User_027,Finance,2021-10-15,2025-01-04,In Use,2500.95,2022-11-11,HP,Hsinchu,Non-Compliant,Windows Server 2022,3
+ASSET_0676,Server,User_222,Operations,2023-06-14,2026-09-10,In Use,1648.19,2025-05-27,Dell,Taichung,At Risk,Ubuntu 22.04,1
+ASSET_0677,Tablet,User_137,IT,2024-02-15,2026-05-05,In Use,270.62,2026-02-17,Dell,Taichung,At Risk,Win 10,1
+ASSET_0678,Desktop,User_018,Finance,2022-10-10,2026-12-16,In Use,711.12,2024-12-05,Apple,Taipei,At Risk,macOS 13,3
+ASSET_0679,Laptop,,HR,2022-01-09,2024-02-29,Stock,,2024-02-20,Lenovo,Other,Non-Compliant,Win 11,1
+ASSET_0680,Laptop,,Sales,2024-06-21,2026-08-08,Stock,440.25,2027-06-09,Lenovo,Other,Compliant,macOS 13,1
+ASSET_0681,Monitor,,HR,2023-11-20,2026-12-09,Stock,85.02,,HP,Hsinchu,Compliant,,0
+ASSET_0682,Tablet,,HR,2024-03-25,2025-06-16,Retired,320.47,,Apple,Taipei,At Risk,Win 10,2
+ASSET_0683,Desktop,,HR,2020-05-10,2022-04-27,Retired,453.52,,Dell,Taichung,Non-Compliant,Win 11,2
+ASSET_0684,Monitor,,IT,2024-11-18,2027-01-10,Stock,,,Dell,Other,Compliant,,0
+ASSET_0685,Laptop,User_020,Finance,2021-01-25,2023-02-20,In Use,319.99,2023-03-06,Lenovo,Taipei,Non-Compliant,Win 10,0
+ASSET_0686,Server,,HR,2024-10-28,2027-11-21,Stock,,2027-11-03,Dell,Taichung,Compliant,RHEL 9,2
+ASSET_0687,Laptop,User_330,Sales,2023-01-24,2025-02-08,In Use,565.35,2025-02-06,Apple,Taipei,At Risk,Win 11,1
+ASSET_0688,Monitor,User_024,Finance,2022-06-11,2025-06-21,In Use,239.03,,HP,Taipei,Compliant,,3
+ASSET_0689,Tablet,User_343,Sales,2022-07-24,2023-10-10,In Use,267.89,2024-07-25,Apple,Other,Non-Compliant,Win 10,1
+ASSET_0690,Desktop,,Operations,2024-08-21,2027-09-16,Stock,444.93,2026-10-14,HP,Other,Compliant,macOS 12,1
+ASSET_0691,Tablet,,Operations,2025-12-25,2026-11-30,Stock,,2028-01-03,Apple,Other,Compliant,Win 10,0
+ASSET_0692,Tablet,User_012,Finance,2021-10-01,2022-11-30,In Use,180.92,2023-11-10,Apple,Taipei,Non-Compliant,Win 10,1
+ASSET_0693,Desktop,User_258,R&D,2021-11-02,2024-10-17,In Use,632.56,2023-12-20,HP,Taipei,At Risk,macOS 13,2
+ASSET_0694,Tablet,,HR,2020-06-05,2022-05-21,Decommissioned,323.14,,Cisco,Taipei,Compliant,Win 11,2
+ASSET_0695,Desktop,User_036,Finance,2025-01-10,2029-04-05,In Use,234.58,2027-02-26,Lenovo,Other,Compliant,macOS 12,0
+ASSET_0696,Server,User_184,Operations,2023-03-28,2027-05-03,In Use,3449.45,2026-03-13,HP,Other,At Risk,Ubuntu 22.04,4
+ASSET_0697,Laptop,User_302,Sales,2024-06-11,2026-06-12,In Use,1105.77,2026-08-01,Apple,Taichung,Compliant,macOS 12,3
+ASSET_0698,Tablet,,Operations,2021-05-24,2023-05-14,Retired,459.89,,HP,Hsinchu,At Risk,Win 11,5
+ASSET_0699,Laptop,,HR,2025-02-07,2028-01-19,Stock,231.73,2026-03-28,Lenovo,Other,At Risk,Win 10,0
+ASSET_0700,Desktop,User_242,R&D,2025-03-18,2028-03-15,In Use,501.46,2027-03-04,Dell,Hsinchu,Compliant,Win 10,2
+ASSET_0701,Laptop,,Sales,2023-05-27,2025-05-28,Retired,903.9,,Dell,Taipei,At Risk,Win 11,4
+ASSET_0702,Tablet,User_152,Operations,2026-04-04,2027-03-19,In Use,176.59,2029-04-21,Dell,Taichung,Compliant,Win 11,1
+ASSET_0703,Tablet,User_352,Sales,2026-02-06,2028-01-16,In Use,149.55,2027-03-14,Apple,Hsinchu,Compliant,Win 10,0
+ASSET_0704,Tablet,,Sales,2024-09-20,2026-11-03,Stock,245.02,2027-11-01,Lenovo,Other,Compliant,Win 10,2
+ASSET_0705,Tablet,,Operations,2021-01-16,2021-12-18,Decommissioned,490.72,,Apple,Other,Compliant,Win 11,4
+ASSET_0706,Tablet,User_324,Sales,2025-10-31,2028-01-28,In Use,227.95,2026-11-10,Dell,Taichung,Compliant,Win 11,1
+ASSET_0707,Laptop,User_037,Finance,2021-01-16,2023-12-25,In Use,1024.14,2023-02-13,Dell,Taipei,Non-Compliant,macOS 14,5
+ASSET_0708,Server,User_115,IT,2024-04-25,2028-05-27,In Use,2193.44,2027-06-21,Cisco,Cloud,Compliant,RHEL 9,1
+ASSET_0709,Tablet,User_011,Finance,2022-01-21,2023-01-22,In Use,422.63,2024-02-24,Dell,Taichung,At Risk,Win 11,3
+ASSET_0710,Laptop,,HR,2023-01-01,2026-02-16,Stock,1068.82,2026-02-24,HP,Taipei,At Risk,Win 11,4
+ASSET_0711,Desktop,User_203,Operations,2025-10-22,2028-12-24,In Use,231.93,2027-11-01,Dell,Taipei,Compliant,macOS 14,0
+ASSET_0712,Laptop,User_305,Sales,2025-05-21,2028-08-04,In Use,355.27,2026-06-24,Apple,Taipei,Compliant,Win 10,0
+ASSET_0713,Server,User_240,R&D,2025-03-22,2028-03-25,In Use,1868.05,2026-05-05,Dell,Cloud,Compliant,RHEL 9,1
+ASSET_0714,Laptop,User_081,IT,2021-07-30,2023-09-18,In Use,629.81,2023-09-08,Apple,Taipei,At Risk,Win 11,1
+ASSET_0715,Tablet,,HR,2020-07-10,2022-10-05,Retired,403.86,,Apple,Taipei,Non-Compliant,Win 10,3
+ASSET_0716,Desktop,User_043,Finance,2025-02-13,2027-02-12,In Use,268.16,2026-02-02,Dell,Taipei,At Risk,macOS 13,0
+ASSET_0717,Desktop,User_160,Operations,2023-04-06,2025-03-26,In Use,866.29,2025-04-27,Apple,Taichung,At Risk,Win 11,4
+ASSET_0718,Tablet,,Sales,2023-06-05,2025-06-16,Retired,256.95,,HP,Taichung,At Risk,Win 10,2
+ASSET_0719,Monitor,User_143,IT,2023-12-05,2027-01-06,In Use,165.94,,HP,Hsinchu,Compliant,,1
+ASSET_0720,Laptop,User_169,Operations,2024-03-30,2026-05-14,In Use,485.71,2027-03-20,Apple,Other,Compliant,Win 11,1
+ASSET_0721,Server,User_270,R&D,2025-10-30,2030-01-05,In Use,1411.77,2028-10-22,Cisco,Cloud,Compliant,RHEL 9,0
+ASSET_0722,Monitor,,HR,2022-08-30,2024-11-04,Decommissioned,194.43,,Lenovo,Other,Compliant,,2
+ASSET_0723,Laptop,,R&D,2025-10-04,2028-09-27,Stock,756.27,2026-12-01,Lenovo,Hsinchu,Compliant,macOS 14,2
+ASSET_0724,Laptop,User_087,IT,2024-10-27,2027-01-17,In Use,315.8,2025-12-11,Apple,Taipei,At Risk,Win 10,0
+ASSET_0725,Monitor,User_138,IT,2025-11-28,2028-02-12,In Use,86.66,,HP,Hsinchu,Compliant,,0
+ASSET_0726,Desktop,,IT,2025-02-04,2029-05-01,Stock,525.87,2026-02-03,Dell,Hsinchu,At Risk,Win 10,2
+ASSET_0727,Laptop,,Finance,2024-07-23,2026-07-06,Decommissioned,573.91,,Apple,Taipei,At Risk,Win 10,1
+ASSET_0728,Monitor,User_238,R&D,2024-12-20,2027-03-04,In Use,115.96,,Dell,Hsinchu,Compliant,,0
+ASSET_0729,Laptop,,HR,2024-01-29,2026-02-07,Stock,706.13,2025-02-14,Lenovo,Taipei,At Risk,Win 10,3
+ASSET_0730,Tablet,,Sales,2024-07-11,2025-07-17,Stock,,2026-08-04,Apple,Taichung,Compliant,Win 10,0
+ASSET_0731,Server,,Operations,2026-03-27,2031-04-06,Stock,1433.67,2028-03-25,Dell,Taichung,Compliant,RHEL 9,1
+ASSET_0732,Desktop,,IT,2024-02-14,2027-03-27,Retired,702.39,,Lenovo,Taipei,At Risk,macOS 14,2
+ASSET_0733,Server,,R&D,2024-03-22,2027-04-11,Stock,2795.15,2026-04-18,Cisco,Hsinchu,At Risk,Windows Server 2022,3
+ASSET_0734,Tablet,,HR,2021-09-19,2022-11-12,Stock,116.68,2023-09-10,Apple,Taipei,Non-Compliant,Win 10,0
+ASSET_0735,Laptop,,HR,2023-12-09,2026-02-22,Stock,536.83,2024-12-08,Apple,Taipei,At Risk,macOS 13,1
+ASSET_0736,Laptop,,R&D,2025-02-14,2027-02-08,Stock,895.17,2026-01-28,HP,Hsinchu,At Risk,macOS 12,2
+ASSET_0737,Laptop,User_036,Finance,2021-04-09,2024-06-12,In Use,393.0,2023-03-27,Lenovo,Taipei,Non-Compliant,macOS 12,1
+ASSET_0738,Server,,IT,2024-09-08,2028-12-03,Decommissioned,,,HP,Cloud,Compliant,Ubuntu 22.04,0
+ASSET_0739,Laptop,User_150,IT,2022-11-09,2025-01-28,In Use,1378.22,2025-12-09,Apple,Taipei,Non-Compliant,macOS 14,4
+ASSET_0740,Laptop,User_308,Sales,2023-12-17,2027-03-10,In Use,326.38,2025-02-03,Dell,Other,At Risk,Win 10,0
+ASSET_0741,Monitor,User_023,Finance,2025-08-26,2028-08-18,In Use,90.1,,HP,Hsinchu,Compliant,,0
+ASSET_0742,Laptop,User_043,Finance,2024-03-12,2027-04-25,In Use,431.81,2025-03-16,Apple,Other,At Risk,macOS 12,1
+ASSET_0743,Server,User_129,IT,2021-06-25,2024-09-18,In Use,1888.42,2023-07-28,HP,Taipei,At Risk,Windows Server 2022,1
+ASSET_0744,Laptop,User_141,IT,2025-09-27,2027-10-01,In Use,361.45,2027-11-03,Lenovo,Hsinchu,Compliant,macOS 14,0
+ASSET_0745,Server,User_298,Sales,2024-11-30,2030-01-19,In Use,2601.14,2026-01-27,Cisco,Cloud,At Risk,RHEL 9,2
+ASSET_0746,Desktop,,HR,2021-10-20,2023-10-08,Stock,421.7,2022-10-01,Dell,Taipei,At Risk,Win 11,1
+ASSET_0747,Server,,IT,2020-02-28,2024-05-15,Retired,1449.66,,Cisco,Other,Non-Compliant,Ubuntu 22.04,1
+ASSET_0748,Laptop,User_011,Finance,2022-08-15,2025-10-10,In Use,676.04,2023-09-23,Apple,Taipei,At Risk,Win 10,3
+ASSET_0749,Monitor,User_009,Finance,2022-05-28,2025-06-28,In Use,91.17,,HP,Taichung,Compliant,,0
+ASSET_0750,Laptop,User_158,Operations,2024-12-05,2028-02-01,In Use,489.81,2025-12-25,Dell,Other,At Risk,macOS 12,1
+ASSET_0751,Desktop,,Operations,2021-07-28,2025-10-24,Retired,,,Lenovo,Hsinchu,At Risk,macOS 12,3
+ASSET_0752,Desktop,,Finance,2025-01-10,2027-12-22,Stock,313.52,2027-03-10,Dell,Taipei,Compliant,macOS 14,1
+ASSET_0753,Desktop,User_173,Operations,2024-03-22,2027-03-07,In Use,,2025-04-15,HP,Hsinchu,At Risk,Win 10,0
+ASSET_0754,Tablet,User_298,Sales,2021-02-18,2023-02-06,In Use,589.3,2022-03-17,Apple,Hsinchu,At Risk,Win 10,4
+ASSET_0755,Tablet,,R&D,2023-06-29,2025-07-08,Retired,,,Apple,Taichung,At Risk,Win 11,2
+ASSET_0756,Desktop,User_355,Sales,2025-12-05,2030-02-08,In Use,240.5,2026-12-07,Lenovo,Other,Compliant,macOS 12,0
+ASSET_0757,Laptop,,HR,2021-10-09,2023-10-24,Stock,1164.19,2023-12-08,Dell,Taipei,At Risk,Win 10,4
+ASSET_0758,Laptop,User_260,R&D,2023-03-19,2025-05-04,In Use,1121.16,2025-04-02,Apple,Taichung,At Risk,macOS 14,3
+ASSET_0759,Monitor,User_043,Finance,2023-03-02,2025-04-23,In Use,144.28,,Dell,Taichung,Compliant,,1
+ASSET_0760,Laptop,User_094,IT,2022-04-29,2024-07-01,In Use,1473.82,2023-05-22,HP,Hsinchu,Non-Compliant,macOS 14,5
+ASSET_0761,Server,User_119,IT,2024-01-20,2026-12-31,In Use,,2025-01-22,HP,Cloud,At Risk,RHEL 9,3
+ASSET_0762,Laptop,,HR,2022-06-23,2024-09-12,Stock,574.92,2025-07-01,Lenovo,Taipei,At Risk,macOS 13,1
+ASSET_0763,Server,User_129,IT,2026-01-11,2029-01-15,In Use,2026.56,2028-02-17,HP,Cloud,Compliant,Windows Server 2022,2
+ASSET_0764,Server,User_012,Finance,2025-02-23,2029-05-17,In Use,2760.71,2026-02-20,Dell,Hsinchu,Non-Compliant,Ubuntu 22.04,4
+ASSET_0765,Tablet,,Sales,2025-03-18,2026-04-09,Stock,,2028-03-29,Apple,Other,Compliant,Win 10,0
+ASSET_0766,Laptop,User_011,Finance,2024-11-06,2027-01-13,In Use,304.58,2027-11-14,Apple,Hsinchu,Compliant,macOS 12,0
+ASSET_0767,Tablet,User_299,Sales,2025-11-08,2027-10-25,In Use,246.65,2027-12-20,Dell,Taipei,Compliant,Win 11,1
+ASSET_0768,Laptop,User_045,Finance,2025-08-30,2028-09-27,In Use,744.89,2026-10-28,Apple,Other,Compliant,macOS 14,2
+ASSET_0769,Laptop,,Sales,2020-04-29,2022-04-22,Retired,1022.23,,Apple,Taipei,Non-Compliant,macOS 14,4
+ASSET_0770,Laptop,User_259,R&D,2022-09-14,2024-09-02,In Use,508.03,2023-08-30,Apple,Hsinchu,Non-Compliant,macOS 13,1
+ASSET_0771,Laptop,,Finance,2023-07-28,2025-09-20,Retired,,,Lenovo,Other,At Risk,macOS 12,1
+ASSET_0772,Monitor,,HR,2021-12-28,2024-01-14,Stock,194.04,,HP,Hsinchu,At Risk,,2
+ASSET_0773,Laptop,User_030,Finance,2022-06-27,2025-06-24,In Use,1002.05,2024-06-10,Dell,Taipei,At Risk,macOS 14,3
+ASSET_0774,Server,,Operations,2024-07-19,2027-07-01,Decommissioned,3235.06,,HP,Taichung,Compliant,Windows Server 2022,3
+ASSET_0775,Desktop,User_156,Operations,2023-09-23,2027-10-26,In Use,619.86,2025-11-01,HP,Taichung,At Risk,Win 10,3
+ASSET_0776,Laptop,,Finance,2024-06-23,2026-07-12,Decommissioned,977.41,,Dell,Hsinchu,Compliant,Win 11,3
+ASSET_0777,Tablet,User_112,IT,2022-07-30,2023-09-18,In Use,214.43,2023-08-01,Apple,Cloud,At Risk,Win 10,1
+ASSET_0778,Desktop,User_160,Operations,2022-11-19,2025-02-14,In Use,314.4,2024-11-02,Dell,Hsinchu,At Risk,macOS 12,1
+ASSET_0779,Laptop,,Sales,2022-02-24,2024-01-27,Decommissioned,990.5,,Apple,Hsinchu,Compliant,Win 10,3
+ASSET_0780,Monitor,User_142,IT,2024-09-07,2027-11-12,In Use,208.25,,Dell,Taipei,Compliant,,1
+ASSET_0781,Desktop,User_180,Operations,2024-12-31,2028-12-14,In Use,471.92,2026-02-25,HP,Hsinchu,At Risk,Win 11,2
+ASSET_0782,Server,User_012,Finance,2023-03-09,2027-05-10,In Use,2644.88,2026-02-20,HP,Other,At Risk,Windows Server 2022,2
+ASSET_0783,Desktop,User_137,IT,2024-04-12,2026-06-07,In Use,363.56,2026-05-22,Dell,Other,Compliant,Win 10,1
+ASSET_0784,Laptop,,Sales,2022-05-31,2025-08-16,Retired,,,Apple,Taipei,Non-Compliant,macOS 14,5
+ASSET_0785,Monitor,User_326,Sales,2023-11-08,2025-12-17,In Use,90.8,,Apple,Other,Compliant,,0
+ASSET_0786,Monitor,,Operations,2021-02-17,2023-03-10,Retired,302.77,,Dell,Taichung,Non-Compliant,,4
+ASSET_0787,Tablet,User_157,Operations,2023-10-12,2025-12-13,In Use,113.59,2024-12-03,Lenovo,Taichung,At Risk,Win 11,0
+ASSET_0788,Server,User_114,IT,2023-03-10,2028-04-04,In Use,5745.76,2025-02-18,HP,Taipei,Non-Compliant,RHEL 9,5
+ASSET_0789,Server,,R&D,2025-09-14,2028-12-07,Stock,1733.79,2026-09-08,HP,Cloud,Compliant,RHEL 9,1
+ASSET_0790,Desktop,User_221,Operations,2024-12-05,2026-12-13,In Use,254.96,2026-12-31,Lenovo,Hsinchu,Compliant,macOS 12,0
+ASSET_0791,Laptop,,R&D,2020-08-30,2022-10-02,Retired,1537.52,,HP,Taipei,Non-Compliant,Win 11,5
+ASSET_0792,Tablet,User_360,Sales,2025-02-07,2026-02-26,In Use,231.52,2026-03-22,Apple,Taipei,At Risk,Win 11,1
+ASSET_0793,Laptop,User_030,Finance,2024-10-06,2026-11-21,In Use,275.43,2026-10-27,Dell,Taipei,Compliant,macOS 14,0
+ASSET_0794,Laptop,User_223,Operations,2025-06-08,2027-06-23,In Use,634.43,2026-07-22,Apple,Taipei,Compliant,Win 11,2
+ASSET_0795,Monitor,User_209,Operations,2023-10-24,2025-11-02,In Use,221.3,,HP,Other,Compliant,,3
+ASSET_0796,Laptop,User_138,IT,2024-07-27,2027-09-30,In Use,446.3,2026-09-17,Apple,Taipei,Compliant,Win 10,1
+ASSET_0797,Laptop,User_257,R&D,2025-03-08,2027-03-23,In Use,,2027-04-02,Lenovo,Other,Compliant,macOS 13,2
+ASSET_0798,Laptop,User_345,Sales,2021-03-13,2024-03-25,In Use,924.44,2022-03-07,Apple,Taichung,At Risk,macOS 14,4
+ASSET_0799,Desktop,User_145,IT,2022-08-15,2026-07-22,In Use,511.04,2025-09-20,Lenovo,Other,At Risk,macOS 12,2
+ASSET_0800,Desktop,,HR,2023-08-14,2027-08-19,Decommissioned,665.23,,Dell,Taipei,Compliant,macOS 13,3
+ASSET_0801,Desktop,User_206,Operations,2022-06-01,2026-05-12,In Use,429.26,2025-05-22,HP,Hsinchu,At Risk,macOS 13,1
+ASSET_0802,Tablet,,HR,2022-06-03,2024-08-10,Retired,105.11,,Dell,Hsinchu,At Risk,Win 11,0
+ASSET_0803,Desktop,,HR,2022-10-03,2025-09-29,Retired,616.34,,HP,Taipei,At Risk,macOS 12,2
+ASSET_0804,Monitor,,HR,2021-01-27,2023-02-19,Stock,154.55,,HP,Other,At Risk,,1
+ASSET_0805,Tablet,User_139,IT,2022-12-02,2025-01-24,In Use,201.14,2024-12-23,Apple,Taipei,Non-Compliant,Win 10,1
+ASSET_0806,Laptop,User_267,R&D,2024-10-31,2026-12-29,In Use,,2026-12-02,Lenovo,Taipei,Compliant,Win 11,0
+ASSET_0807,Laptop,,HR,2024-03-06,2026-03-11,Stock,348.41,2027-04-01,Lenovo,Taichung,Compliant,macOS 13,0
+ASSET_0808,Monitor,,HR,2021-11-13,2023-11-06,Decommissioned,221.56,,Dell,Taipei,Compliant,,2
+ASSET_0809,Server,,HR,2024-09-04,2027-11-12,Stock,2483.85,2026-09-23,Lenovo,Taipei,Compliant,Ubuntu 22.04,3
+ASSET_0810,Tablet,,Sales,2021-08-21,2023-10-07,Retired,181.38,,Apple,Other,At Risk,Win 11,1
+ASSET_0811,Server,,R&D,2024-07-19,2028-08-05,Decommissioned,1665.85,,Cisco,Taichung,Compliant,Ubuntu 22.04,1
+ASSET_0812,Laptop,,HR,2024-10-18,2026-11-06,Stock,777.08,2025-10-05,Dell,Other,At Risk,macOS 12,2
+ASSET_0813,Desktop,User_184,Operations,2024-02-29,2028-03-27,In Use,622.37,2025-03-25,Dell,Taipei,At Risk,macOS 12,2
+ASSET_0814,Desktop,,HR,2023-12-09,2025-11-09,Stock,220.93,2026-01-31,Lenovo,Taipei,At Risk,macOS 13,0
+ASSET_0815,Desktop,User_165,Operations,2025-06-25,2028-06-01,In Use,358.66,2026-07-01,Apple,Hsinchu,Compliant,macOS 12,1
+ASSET_0816,Tablet,User_161,Operations,2022-12-21,2025-02-16,In Use,241.15,2023-12-22,Apple,Taipei,At Risk,Win 10,2
+ASSET_0817,Laptop,User_167,Operations,2023-06-06,2025-06-28,In Use,482.47,2024-07-05,Apple,Hsinchu,At Risk,Win 11,1
+ASSET_0818,Tablet,User_325,Sales,2024-06-26,2025-07-13,In Use,198.18,2026-08-12,Lenovo,Taipei,Compliant,Win 11,1
+ASSET_0819,Desktop,,HR,2024-03-05,2028-04-06,Decommissioned,,,Lenovo,Other,Compliant,macOS 14,1
+ASSET_0820,Laptop,,HR,2024-11-12,2027-10-29,Decommissioned,472.54,,Dell,Taichung,Compliant,macOS 13,1
+ASSET_0821,Tablet,,Sales,2020-08-26,2021-11-16,Retired,506.28,,HP,Other,Non-Compliant,Win 11,4
+ASSET_0822,Monitor,User_166,Operations,2025-09-25,2028-09-20,In Use,103.97,,Lenovo,Other,Compliant,,0
+ASSET_0823,Desktop,,HR,2023-11-10,2026-01-18,Stock,360.02,2025-12-09,Lenovo,Taichung,At Risk,macOS 13,1
+ASSET_0824,Server,User_095,IT,2024-10-30,2028-11-06,In Use,2007.27,2027-11-13,Cisco,Taichung,Compliant,Windows Server 2022,1
+ASSET_0825,Tablet,User_250,R&D,2024-05-04,2025-06-07,In Use,262.06,2026-06-21,Apple,Taipei,Compliant,Win 10,1
+ASSET_0826,Tablet,User_345,Sales,2022-05-06,2024-05-27,In Use,246.53,2023-06-08,Apple,Taichung,Non-Compliant,Win 10,1
+ASSET_0827,Monitor,,HR,2023-04-11,2025-05-14,Decommissioned,,,Lenovo,Taipei,Compliant,,5
+ASSET_0828,Laptop,User_332,Sales,2021-07-03,2024-08-13,In Use,830.27,2022-07-01,HP,Taichung,Non-Compliant,macOS 12,3
+ASSET_0829,Laptop,User_325,Sales,2023-07-02,2025-09-20,In Use,731.56,2025-06-19,Dell,Taichung,At Risk,Win 11,3
+ASSET_0830,Desktop,,IT,2025-01-27,2027-04-14,Stock,,2027-01-25,Dell,Hsinchu,Compliant,Win 11,2
+ASSET_0831,Server,User_254,R&D,2023-10-26,2028-12-15,In Use,4487.64,2026-11-27,Dell,Taipei,At Risk,Windows Server 2022,5
+ASSET_0832,Server,,R&D,2020-09-20,2023-08-26,Retired,4595.01,,Lenovo,Hsinchu,Non-Compliant,Windows Server 2022,4
+ASSET_0833,Monitor,,HR,2021-11-22,2024-01-04,Retired,,,HP,Taipei,Non-Compliant,,3
+ASSET_0834,Laptop,,R&D,2024-01-01,2026-01-07,Stock,,2024-12-19,Apple,Hsinchu,At Risk,macOS 12,0
+ASSET_0835,Server,User_221,Operations,2025-09-07,2030-10-10,In Use,1781.71,2027-10-29,Lenovo,Taichung,Compliant,Ubuntu 22.04,1
+ASSET_0836,Server,,R&D,2020-09-24,2024-08-26,Decommissioned,,,Cisco,Cloud,At Risk,Windows Server 2022,0
+ASSET_0837,Laptop,User_266,R&D,2025-07-04,2028-07-24,In Use,912.15,2026-08-25,Apple,Hsinchu,Compliant,macOS 13,2
+ASSET_0838,Desktop,User_030,Finance,2022-11-07,2026-01-25,In Use,219.06,2024-11-23,Lenovo,Taipei,At Risk,Win 11,0
+ASSET_0839,Desktop,User_313,Sales,2025-03-17,2027-04-05,In Use,222.0,2028-04-07,HP,Other,Compliant,macOS 14,0
+ASSET_0840,Tablet,,Finance,2023-01-30,2025-01-01,Retired,,,Dell,Taipei,Non-Compliant,Win 10,4
+ASSET_0841,Laptop,User_229,Operations,2024-06-05,2026-07-03,In Use,446.81,2026-07-12,Lenovo,Other,Compliant,macOS 14,1
+ASSET_0842,Laptop,,HR,2025-05-28,2028-05-11,Stock,262.45,2027-07-12,Lenovo,Taipei,Compliant,macOS 12,0
+ASSET_0843,Monitor,User_291,R&D,2023-07-12,2025-09-18,In Use,122.19,,HP,Hsinchu,Compliant,,0
+ASSET_0844,Tablet,User_111,IT,2025-04-14,2027-06-06,In Use,153.15,2026-06-07,Apple,Taipei,Compliant,Win 10,0
+ASSET_0845,Laptop,User_295,R&D,2021-04-06,2023-06-24,In Use,650.23,2023-04-14,HP,Hsinchu,Non-Compliant,macOS 12,1
+ASSET_0846,Server,User_284,R&D,2023-03-05,2027-04-09,In Use,3445.16,2024-04-06,Lenovo,Cloud,At Risk,Ubuntu 22.04,3
+ASSET_0847,Laptop,,IT,2023-02-09,2025-02-26,Decommissioned,,,HP,Taichung,Compliant,Win 10,0
+ASSET_0848,Server,User_332,Sales,2024-08-20,2028-08-15,In Use,1599.99,2025-08-13,Lenovo,Other,At Risk,Windows Server 2022,1
+ASSET_0849,Server,User_256,R&D,2025-11-21,2031-02-11,In Use,2275.61,2027-11-05,Dell,Hsinchu,Compliant,Ubuntu 22.04,1
+ASSET_0850,Laptop,,HR,2023-04-28,2025-05-31,Stock,944.97,2024-06-25,Lenovo,Taipei,At Risk,Win 10,3
+ASSET_0851,Tablet,,HR,2023-11-17,2025-11-20,Retired,234.34,,Apple,Other,At Risk,Win 10,2
+ASSET_0852,Server,,Finance,2020-09-08,2023-11-01,Decommissioned,6546.48,,Cisco,Taipei,Compliant,Ubuntu 22.04,8
+ASSET_0853,Server,User_214,Operations,2021-06-14,2026-08-30,In Use,4772.76,2024-06-21,Dell,Hsinchu,Non-Compliant,RHEL 9,5
+ASSET_0854,Desktop,,IT,2023-02-21,2025-05-07,Retired,675.54,,Dell,Other,At Risk,macOS 12,3
+ASSET_0855,Desktop,,Finance,2020-10-31,2025-01-22,Retired,949.29,,Lenovo,Taipei,At Risk,Win 11,4
+ASSET_0856,Desktop,,IT,2025-02-04,2027-04-12,Stock,458.18,2027-03-20,HP,Cloud,Compliant,macOS 12,1
+ASSET_0857,Desktop,,HR,2022-03-14,2025-05-02,Stock,244.57,2023-04-03,HP,Other,At Risk,Win 10,0
+ASSET_0858,Monitor,,Operations,2021-09-09,2023-10-24,Retired,,,HP,Taipei,At Risk,,2
+ASSET_0859,Monitor,,HR,2024-08-26,2026-11-21,Stock,89.82,,Lenovo,Taipei,Compliant,,0
+ASSET_0860,Laptop,,Finance,2020-08-12,2022-08-14,Decommissioned,230.74,,Apple,Taichung,Compliant,macOS 12,0
+ASSET_0861,Desktop,,Finance,2025-04-13,2027-03-25,Stock,,2028-04-07,HP,Taipei,Compliant,Win 11,0
+ASSET_0862,Laptop,,HR,2023-06-29,2025-08-04,Stock,704.64,2025-08-12,Apple,Other,At Risk,Win 10,2
+ASSET_0863,Laptop,User_305,Sales,2024-02-10,2027-03-13,In Use,263.0,2025-03-19,Apple,Taichung,At Risk,Win 11,0
+ASSET_0864,Tablet,User_347,Sales,2021-11-24,2024-01-22,In Use,212.04,2022-11-14,Apple,Hsinchu,At Risk,Win 10,1
+ASSET_0865,Server,,R&D,2025-03-08,2030-04-08,Stock,2097.1,2027-04-01,HP,Other,Compliant,Windows Server 2022,1
+ASSET_0866,Laptop,,R&D,2024-07-13,2027-08-01,Retired,1179.68,,Apple,Other,At Risk,Win 11,5
+ASSET_0867,Desktop,,Finance,2023-02-16,2025-03-31,Stock,431.26,2025-02-24,HP,Taipei,Non-Compliant,Win 11,2
+ASSET_0868,Laptop,,HR,2024-06-04,2027-07-23,Stock,226.74,2026-06-15,HP,Taichung,Compliant,Win 10,0
+ASSET_0869,Laptop,,IT,2021-04-08,2024-06-09,Retired,638.77,,Apple,Taipei,At Risk,Win 11,1
+ASSET_0870,Laptop,,Operations,2020-08-23,2023-09-17,Retired,676.36,,Lenovo,Hsinchu,At Risk,Win 11,3
+ASSET_0871,Laptop,User_207,Operations,2022-12-09,2025-02-25,In Use,394.9,2025-01-10,Lenovo,Taichung,Non-Compliant,Win 10,1
+ASSET_0872,Monitor,,Operations,2021-12-27,2025-01-18,Retired,279.28,,Dell,Other,Non-Compliant,,4
+ASSET_0873,Monitor,,HR,2021-10-15,2023-11-30,Stock,79.15,,Dell,Other,At Risk,,0
+ASSET_0874,Desktop,,Finance,2020-02-18,2022-04-28,Decommissioned,545.85,,Dell,Taipei,Compliant,Win 11,2
+ASSET_0875,Laptop,,HR,2023-03-04,2025-03-19,Stock,624.07,2025-04-09,Dell,Taichung,At Risk,Win 10,2
+ASSET_0876,Server,,R&D,2022-08-22,2025-09-10,Retired,4383.66,,Lenovo,Other,Non-Compliant,RHEL 9,4
+ASSET_0877,Laptop,User_309,Sales,2021-12-16,2024-02-12,In Use,819.12,2023-12-26,Apple,Other,Non-Compliant,Win 11,2
+ASSET_0878,Monitor,,HR,2025-11-25,2027-11-15,Stock,99.52,,HP,Taichung,Compliant,,0
+ASSET_0879,Server,,Operations,2022-10-26,2025-12-01,Retired,2243.1,,HP,Taichung,At Risk,Windows Server 2022,3
+ASSET_0880,Server,User_148,IT,2025-11-25,2029-12-23,In Use,1827.89,2026-11-22,Dell,Hsinchu,Compliant,RHEL 9,1
+ASSET_0881,Tablet,User_298,Sales,2023-12-14,2026-01-31,In Use,157.55,2026-02-08,Dell,Other,At Risk,Win 11,0
+ASSET_0882,Desktop,,Finance,2023-03-02,2027-05-12,Retired,,,Dell,Other,At Risk,macOS 14,1
+ASSET_0883,Desktop,,HR,2022-01-15,2026-02-02,Decommissioned,1140.59,,Dell,Other,Compliant,macOS 12,6
+ASSET_0884,Server,User_090,IT,2022-10-30,2027-11-04,In Use,5008.42,2023-12-21,Cisco,Cloud,At Risk,Ubuntu 22.04,5
+ASSET_0885,Server,,Finance,2024-04-01,2028-05-03,Stock,4663.06,2026-03-17,Cisco,Taipei,Non-Compliant,Windows Server 2022,5
+ASSET_0886,Desktop,User_155,Operations,2024-01-20,2027-02-22,In Use,613.82,2026-03-15,Dell,Taichung,At Risk,macOS 12,2
+ASSET_0887,Desktop,User_085,IT,2024-07-25,2028-07-06,In Use,360.92,2025-08-04,Dell,Hsinchu,At Risk,macOS 13,1
+ASSET_0888,Server,User_102,IT,2025-09-03,2028-08-29,In Use,3038.64,2027-09-22,Cisco,Other,Compliant,Ubuntu 22.04,2
+ASSET_0889,Desktop,,Finance,2022-07-11,2025-07-04,Stock,375.13,2023-07-01,HP,Taipei,At Risk,macOS 12,1
+ASSET_0890,Tablet,,HR,2025-06-06,2027-06-16,Stock,,2026-08-05,Dell,Other,Compliant,Win 10,0
+ASSET_0891,Laptop,User_287,R&D,2025-11-28,2028-02-05,In Use,364.21,2027-01-10,Lenovo,Hsinchu,Compliant,macOS 14,0
+ASSET_0892,Monitor,,Sales,2026-01-09,2029-01-31,Stock,,,Lenovo,Other,Compliant,,0
+ASSET_0893,Desktop,,Finance,2023-01-08,2025-02-17,Stock,395.57,2024-02-14,Lenovo,Hsinchu,Non-Compliant,Win 10,1
+ASSET_0894,Desktop,,Finance,2022-12-13,2027-01-26,Stock,423.15,2025-12-07,Dell,Other,At Risk,macOS 13,1
+ASSET_0895,Tablet,User_353,Sales,2024-03-06,2025-05-06,In Use,217.01,2026-04-13,Apple,Other,At Risk,Win 10,1
+ASSET_0896,Laptop,,HR,2021-04-10,2023-03-25,Stock,572.89,2022-04-07,Dell,Taichung,At Risk,Win 11,1
+ASSET_0897,Laptop,,HR,2023-02-06,2025-01-26,Stock,569.27,2024-01-27,Apple,Hsinchu,At Risk,macOS 14,2
+ASSET_0898,Laptop,User_085,IT,2022-07-08,2024-09-19,In Use,596.02,2024-06-21,Dell,Taipei,At Risk,Win 10,1
+ASSET_0899,Monitor,,Sales,2025-03-09,2027-05-10,Stock,,,HP,Taipei,Compliant,,0
+ASSET_0900,Server,User_146,IT,2025-11-26,2029-12-24,In Use,,2027-11-10,HP,Cloud,Compliant,Ubuntu 22.04,2
+ASSET_0901,Laptop,,Finance,2022-03-21,2025-04-01,Stock,699.66,2024-05-08,Apple,Taichung,At Risk,Win 11,2
+ASSET_0902,Monitor,,Operations,2022-03-28,2025-03-18,Decommissioned,300.3,,HP,Hsinchu,Compliant,,4
+ASSET_0903,Laptop,,HR,2026-04-08,2028-03-30,Stock,573.34,2028-06-04,Apple,Taipei,Compliant,Win 10,1
+ASSET_0904,Laptop,User_228,Operations,2021-02-05,2024-04-07,In Use,813.58,2022-03-08,Lenovo,Hsinchu,At Risk,macOS 12,3
+ASSET_0905,Monitor,,HR,2020-03-28,2023-03-25,Retired,445.77,,Dell,Taipei,Non-Compliant,,6
+ASSET_0906,Tablet,,HR,2024-12-07,2027-01-19,Decommissioned,230.6,,Apple,Taichung,Compliant,Win 11,2
+ASSET_0907,Laptop,User_278,R&D,2023-12-30,2027-02-17,In Use,1625.63,2026-02-11,Apple,Cloud,Non-Compliant,macOS 13,6
+ASSET_0908,Tablet,User_331,Sales,2023-09-22,2025-09-03,In Use,376.49,2025-09-27,Lenovo,Hsinchu,At Risk,Win 11,3
+ASSET_0909,Monitor,,Finance,2025-06-22,2027-08-14,Stock,154.93,,Dell,Taipei,Compliant,,1
+ASSET_0910,Tablet,User_284,R&D,2022-11-26,2024-11-01,In Use,214.49,2025-11-16,Apple,Taichung,Non-Compliant,Win 10,1
+ASSET_0911,Laptop,,Finance,2023-11-17,2025-11-21,Stock,297.86,2026-12-10,Lenovo,Taipei,Compliant,macOS 14,0
+ASSET_0912,Laptop,,HR,2023-06-18,2025-08-25,Retired,616.38,,Apple,Other,At Risk,macOS 14,2
+ASSET_0913,Monitor,,Operations,2025-09-07,2028-09-02,Stock,143.54,,Apple,Taipei,Compliant,,1
+ASSET_0914,Monitor,,HR,2026-04-04,2028-04-01,Stock,,,Lenovo,Taipei,Compliant,,0
+ASSET_0915,Tablet,User_350,Sales,2021-08-17,2023-10-28,In Use,234.64,2023-09-12,Apple,Taipei,Non-Compliant,Win 11,1
+ASSET_0916,Laptop,,Finance,2021-06-05,2024-08-28,Stock,848.64,2022-06-09,Lenovo,Other,Non-Compliant,Win 11,4
+ASSET_0917,Tablet,User_296,Sales,2024-07-10,2026-08-11,In Use,159.1,2025-07-09,Dell,Other,At Risk,Win 10,0
+ASSET_0918,Laptop,,HR,2023-11-24,2026-01-24,Stock,553.14,2027-01-06,Lenovo,Taipei,Compliant,macOS 13,1
+ASSET_0919,Tablet,User_319,Sales,2024-06-07,2025-07-10,In Use,224.97,2026-06-26,Apple,Other,Compliant,Win 10,1
+ASSET_0920,Laptop,User_316,Sales,2025-09-11,2027-10-16,In Use,347.8,2028-10-29,Apple,Other,Compliant,macOS 12,0
+ASSET_0921,Laptop,,Operations,2024-11-15,2027-11-03,Retired,537.41,,Apple,Other,At Risk,macOS 13,1
+ASSET_0922,Tablet,,Sales,2022-05-24,2024-05-01,Retired,460.85,,Apple,Hsinchu,Non-Compliant,Win 11,3
+ASSET_0923,Tablet,,R&D,2020-10-23,2022-10-20,Decommissioned,,,Dell,Taipei,Compliant,Win 11,0
+ASSET_0924,Laptop,User_326,Sales,2025-07-13,2027-06-29,In Use,444.81,2027-09-06,Lenovo,Taipei,Compliant,macOS 13,1
+ASSET_0925,Tablet,,HR,2024-01-11,2025-01-18,Retired,293.21,,Apple,Hsinchu,At Risk,Win 10,2
+ASSET_0926,Tablet,User_081,IT,2022-10-08,2024-12-12,In Use,370.01,2023-11-09,Apple,Cloud,At Risk,Win 10,2
+ASSET_0927,Tablet,User_316,Sales,2024-03-29,2025-04-22,In Use,155.51,2025-05-24,HP,Taichung,At Risk,Win 10,0
+ASSET_0928,Desktop,,R&D,2024-05-27,2027-07-15,Retired,,,Lenovo,Hsinchu,At Risk,macOS 14,1
+ASSET_0929,Monitor,,HR,2025-11-27,2029-02-03,Stock,,,Lenovo,Taichung,Compliant,,0
+ASSET_0930,Monitor,User_311,Sales,2023-04-05,2025-05-27,In Use,144.16,,Lenovo,Hsinchu,Compliant,,1
+ASSET_0931,Monitor,,HR,2023-05-29,2026-08-25,Stock,135.07,,Dell,Taichung,Compliant,,1
+ASSET_0932,Monitor,,HR,2022-11-05,2025-10-06,Stock,188.82,,HP,Taichung,Compliant,,2
+ASSET_0933,Laptop,,Finance,2024-10-12,2026-09-24,Stock,256.0,2026-11-30,Lenovo,Taipei,Compliant,macOS 14,0
+ASSET_0934,Monitor,User_115,IT,2023-06-02,2025-08-17,In Use,147.62,,Lenovo,Cloud,Compliant,,1
+ASSET_0935,Laptop,,Finance,2025-09-25,2028-08-30,Stock,655.91,2026-09-16,Apple,Taipei,Compliant,Win 11,2
+ASSET_0936,Laptop,User_219,Operations,2023-04-10,2025-04-03,In Use,639.43,2024-05-24,Apple,Hsinchu,At Risk,macOS 12,2
+ASSET_0937,Monitor,User_204,Operations,2022-10-31,2025-12-29,In Use,244.85,,Lenovo,Taichung,Compliant,,3
+ASSET_0938,Tablet,,HR,2024-12-06,2026-12-07,Stock,,2025-12-09,Apple,Taipei,At Risk,Win 10,0
+ASSET_0939,Desktop,,HR,2024-09-12,2026-09-04,Stock,258.71,2026-10-09,Lenovo,Other,Compliant,macOS 13,0
+ASSET_0940,Laptop,,HR,2024-12-07,2027-12-25,Stock,308.79,2027-02-01,Lenovo,Other,Compliant,macOS 12,0
+ASSET_0941,Server,,IT,2025-05-29,2028-06-03,Stock,,2027-05-30,Cisco,Cloud,Compliant,Windows Server 2022,0
+ASSET_0942,Server,User_259,R&D,2025-09-09,2028-08-09,In Use,939.85,2026-10-02,Cisco,Hsinchu,Compliant,RHEL 9,0
+ASSET_0943,Server,User_148,IT,2025-05-23,2028-07-08,In Use,918.41,2027-05-13,Cisco,Cloud,Compliant,Windows Server 2022,0
+ASSET_0944,Laptop,User_324,Sales,2026-04-14,2029-07-04,In Use,350.61,2028-05-05,HP,Taichung,Compliant,macOS 14,0
+ASSET_0945,Desktop,User_299,Sales,2025-06-19,2028-08-23,In Use,,2026-08-04,HP,Other,Compliant,macOS 14,1
+ASSET_0946,Tablet,User_322,Sales,2023-07-16,2025-08-13,In Use,208.5,2024-08-19,Lenovo,Taipei,At Risk,Win 11,1
+ASSET_0947,Laptop,User_320,Sales,2023-04-06,2026-05-22,In Use,908.06,2024-05-14,HP,Taipei,At Risk,macOS 14,3
+ASSET_0948,Laptop,,Finance,2023-10-29,2025-11-11,Stock,420.59,2024-12-22,Apple,Taipei,At Risk,Win 10,1
+ASSET_0949,Laptop,User_096,IT,2023-09-10,2025-08-24,In Use,500.37,2024-09-01,Apple,Cloud,At Risk,Win 10,1
+ASSET_0950,Desktop,,Finance,2023-02-15,2026-03-06,Stock,336.46,2025-02-01,Dell,Taipei,At Risk,macOS 12,1
+ASSET_0951,Monitor,,HR,2024-03-31,2027-04-05,Retired,306.42,,HP,Taipei,At Risk,,3
+ASSET_0952,Tablet,User_213,Operations,2025-03-31,2027-04-23,In Use,192.93,2026-05-21,HP,Hsinchu,Compliant,Win 10,1
+ASSET_0953,Tablet,,HR,2024-07-24,2025-07-02,Stock,,2025-07-18,Lenovo,Taichung,At Risk,Win 10,0
+ASSET_0954,Monitor,,IT,2020-08-28,2023-09-21,Retired,160.74,,HP,Hsinchu,Non-Compliant,,1
+ASSET_0955,Monitor,,Finance,2023-02-22,2026-02-21,Retired,,,HP,Other,At Risk,,2
+ASSET_0956,Server,User_214,Operations,2025-08-22,2030-09-11,In Use,2716.82,2028-08-14,HP,Other,Compliant,Ubuntu 22.04,2
+ASSET_0957,Laptop,,R&D,2025-11-20,2027-12-10,Stock,735.63,2028-01-18,Dell,Other,Compliant,Win 10,2
+ASSET_0958,Desktop,User_258,R&D,2022-03-24,2024-03-05,In Use,926.38,2024-03-04,Lenovo,Hsinchu,At Risk,Win 10,3
+ASSET_0959,Laptop,User_252,R&D,2024-08-23,2026-09-14,In Use,274.69,2026-08-05,Lenovo,Hsinchu,Compliant,macOS 14,0
+ASSET_0960,Laptop,,HR,2022-05-31,2024-07-27,Stock,706.25,2024-05-25,Apple,Hsinchu,Non-Compliant,Win 10,2
+ASSET_0961,Desktop,,Operations,2024-07-21,2026-07-21,Stock,,2025-07-05,Lenovo,Hsinchu,At Risk,macOS 13,0
+ASSET_0962,Laptop,User_319,Sales,2021-03-13,2023-02-18,In Use,,2023-02-27,HP,Taipei,Non-Compliant,macOS 14,3
+ASSET_0963,Laptop,,Sales,2023-07-17,2026-07-13,Retired,,,Apple,Taipei,At Risk,macOS 13,1
+ASSET_0964,Laptop,User_253,R&D,2022-11-09,2025-11-11,In Use,831.57,2024-10-20,Apple,Other,At Risk,Win 10,2
+ASSET_0965,Laptop,User_336,Sales,2025-08-22,2028-09-16,In Use,488.02,2026-10-13,Apple,Taipei,Compliant,Win 10,1
+ASSET_0966,Laptop,,HR,2025-05-12,2028-07-04,Stock,851.37,2026-04-23,Apple,Other,Compliant,macOS 12,3
+ASSET_0967,Desktop,User_218,Operations,2024-08-30,2026-09-20,In Use,251.07,2027-08-11,Dell,Hsinchu,Compliant,macOS 13,0
+ASSET_0968,Tablet,,Finance,2025-04-14,2027-05-28,Stock,281.87,2028-05-01,Apple,Taipei,Compliant,Win 10,2
+ASSET_0969,Laptop,User_169,Operations,2021-11-01,2023-11-03,In Use,782.8,2023-11-25,Dell,Hsinchu,Non-Compliant,Win 11,3
+ASSET_0970,Tablet,User_164,Operations,2022-02-09,2023-02-25,In Use,493.11,2024-04-06,Apple,Taichung,At Risk,Win 11,5
+ASSET_0971,Laptop,User_181,Operations,2023-04-17,2026-03-24,In Use,804.31,2026-06-11,Lenovo,Hsinchu,Compliant,macOS 12,2
+ASSET_0972,Desktop,,Finance,2022-06-11,2026-06-12,Stock,617.35,2023-06-17,HP,Taichung,At Risk,macOS 12,2
+ASSET_0973,Desktop,,Finance,2022-09-14,2025-11-24,Stock,331.09,2023-09-11,HP,Taipei,At Risk,Win 10,1
+ASSET_0974,Laptop,,HR,2021-05-28,2024-05-01,Stock,538.0,2023-05-13,Lenovo,Taipei,At Risk,macOS 13,2
+ASSET_0975,Tablet,,R&D,2022-02-23,2024-02-02,Retired,535.86,,Apple,Hsinchu,Non-Compliant,Win 10,4
+ASSET_0976,Monitor,User_223,Operations,2022-08-02,2024-08-01,In Use,,,Apple,Taipei,At Risk,,1
+ASSET_0977,Laptop,User_307,Sales,2025-01-28,2028-01-03,In Use,540.79,2026-01-28,Lenovo,Taipei,At Risk,macOS 12,1
+ASSET_0978,Laptop,User_342,Sales,2021-01-21,2023-03-01,In Use,986.6,2023-01-29,Apple,Hsinchu,Non-Compliant,Win 10,4
+ASSET_0979,Laptop,User_342,Sales,2024-12-07,2026-12-07,In Use,857.67,2026-02-05,HP,Other,At Risk,macOS 12,2
+ASSET_0980,Tablet,User_216,Operations,2021-07-12,2022-06-15,In Use,290.48,2023-09-08,Apple,Hsinchu,Non-Compliant,Win 11,2
+ASSET_0981,Laptop,User_311,Sales,2024-11-16,2028-01-25,In Use,826.37,2025-11-24,Lenovo,Taichung,At Risk,macOS 13,2
+ASSET_0982,Laptop,,R&D,2021-02-04,2024-04-04,Decommissioned,1044.37,,Dell,Other,At Risk,macOS 12,4
+ASSET_0983,Laptop,,Finance,2023-09-07,2025-09-25,Stock,447.89,2024-09-26,Lenovo,Taipei,At Risk,Win 10,1
+ASSET_0984,Server,User_243,R&D,2021-11-05,2027-01-13,In Use,2974.97,2023-10-22,Cisco,Hsinchu,At Risk,RHEL 9,2
+ASSET_0985,Tablet,User_336,Sales,2024-09-04,2026-10-08,In Use,262.68,2026-10-03,Dell,Taipei,Compliant,Win 11,2
+ASSET_0986,Desktop,User_155,Operations,2025-12-09,2030-01-27,In Use,264.65,2026-12-10,Lenovo,Hsinchu,Compliant,macOS 13,0
+ASSET_0987,Tablet,User_358,Sales,2024-09-15,2025-09-12,In Use,346.13,2026-11-04,Dell,Hsinchu,Compliant,Win 11,2
+ASSET_0988,Desktop,User_179,Operations,2022-09-15,2024-08-28,In Use,957.06,2024-09-13,Lenovo,Taichung,Non-Compliant,macOS 13,5
+ASSET_0989,Server,User_249,R&D,2023-07-12,2026-07-22,In Use,3307.01,2025-07-24,Lenovo,Hsinchu,At Risk,Windows Server 2022,4
+ASSET_0990,Monitor,User_206,Operations,2024-11-18,2026-11-16,In Use,170.89,,HP,Other,Compliant,,1
+ASSET_0991,Laptop,,HR,2024-07-03,2026-07-14,Retired,1153.95,,Apple,Hsinchu,At Risk,macOS 13,5
+ASSET_0992,Monitor,,Operations,2023-11-12,2025-10-23,Decommissioned,172.11,,Dell,Hsinchu,Compliant,,1
+ASSET_0993,Monitor,,HR,2022-08-27,2025-11-10,Decommissioned,188.55,,Lenovo,Other,At Risk,,2
+ASSET_0994,Laptop,,Finance,2022-11-09,2025-01-09,Stock,553.49,2024-12-19,Apple,Taipei,Non-Compliant,macOS 12,2
+ASSET_0995,Monitor,User_107,IT,2026-03-09,2028-05-16,In Use,103.39,,Dell,Taipei,Compliant,,0
+ASSET_0996,Tablet,,Sales,2026-01-18,2028-03-07,Stock,,2027-02-26,HP,Other,Compliant,Win 11,0
+ASSET_0997,Monitor,User_285,R&D,2025-01-16,2028-03-11,In Use,182.68,,HP,Hsinchu,Compliant,,1
+ASSET_0998,Tablet,User_219,Operations,2024-06-29,2026-06-24,In Use,134.4,2026-08-07,Apple,Taichung,Compliant,Win 11,0
+ASSET_0999,Desktop,User_125,IT,2022-02-21,2025-05-05,In Use,507.91,2023-02-08,Dell,Taichung,At Risk,macOS 13,1
+ASSET_1000,Laptop,,Finance,2022-03-27,2024-05-22,Retired,1132.83,,Dell,Other,Non-Compliant,macOS 13,4
