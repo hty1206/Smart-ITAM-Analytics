@@ -2,195 +2,117 @@
 
 A hybrid IT asset risk analytics system that combines rule-based operational alerts with machine learning-based replacement risk scoring.
 
-This project builds an end-to-end pipeline from raw maintenance logs to predictive decision support, enabling proactive IT asset management.
+This project builds an **end-to-end pipeline** from raw maintenance logs to predictive decision support, enabling proactive IT asset management.
 
 ---
 
 ## 📌 Introduction
 
-This project was inspired by my experience in IT asset management during my internship at Dcard, where I managed over 2,000 hardware assets and conducted a full-scale physical re-audit.
+This project was inspired by my experience in IT asset management during my internship at **Dcard**, where I managed over 2,000 hardware assets and conducted a full-scale physical re-audit following disaster recovery efforts. 
 
-Through this experience, I observed that most IT operations are highly reactive — assets are typically replaced only after failures or excessive maintenance costs occur.
-
-To address this gap, this project bridges IT infrastructure and data science by developing a hybrid system that detects immediate risks and predicts future asset replacement needs.
+I observed that IT operations are often highly **reactive** — assets are replaced only after failure or when maintenance costs peak. This project bridges IT infrastructure and data science to develop a **hybrid system** that detects immediate operational risks and predicts future replacement needs.
 
 ---
 
-## 🎯 Project Objective
+## 🎯 Project Objectives
 
-The system aims to:
-
-- Identify assets requiring **immediate attention** (rule-based alerts)
-- Predict assets likely to incur **high maintenance costs** (ML model)
-- Generate a **replacement risk score** to support proactive decision-making
+- **Operational Safety**: Identify assets requiring immediate attention via rule-based filters.
+- **Cost Prediction**: Use Machine Learning to identify "High-Cost" assets (Top 25% maintenance expenses).
+- **Strategic Planning**: Generate a **Composite Risk Score** to prioritize budget allocation.
 
 ---
 
 ## 🏗️ System Architecture
 
-Raw Data
-|
-v
-Data Cleaning & Preprocessing
-|
-v
-Exploratory Data Analysis (EDA)
-|
-v
-+------------------------------+
-| |
-| Rule-Based Filter |
-| (Immediate Risk) |
-| |
-| ML Model (XGBoost) |
-| (Future Risk) |
-| |
-+------------------------------+
-|
-v
-Risk Scoring Engine
-|
-v
-High-Risk Asset Output
-
+```mermaid
+graph TD
+    A[Raw Maintenance Logs] --> B[Data Cleaning & ETL]
+    B --> C[Exploratory Data Analysis]
+    C --> D{Hybrid Risk Engine}
+    D --> E[Rule-Based Alerts: Immediate Risk]
+    D --> F[XGBoost Classifier: Future Cost Risk]
+    E --> G[Risk Scoring Engine]
+    F --> G
+    G --> H[Actionable Asset Ranking]
+```
 
 ---
 
 ## ⚠️ Rule-Based Risk Detection
 
-To capture urgent operational risks, we implement a rule-based filter:
+To capture urgent operational risks that require manual intervention:
 
-### 📌 Criteria
+### 📌 Selection Criteria
+- **Non-Compliant Assets**: Devices failing security or OS standards.
+- **Warranty Expiry**: Assets with warranties expiring within **90 days**.
 
-- Non-Compliant assets
-- Warranty expiring within 90 days
-
-### 📊 Output
-
-- Immediate attention list
-- Critical asset monitoring
-
-This approach reflects real-world IT operations, where simple rules are used to detect urgent issues.
+### 📊 Practical Value
+This reflects real-world IT workflows where compliance and hardware support status dictate immediate replacement cycles.
 
 ---
 
 ## 🤖 Machine Learning Model
 
-### 🎯 Target
+### 🎯 Target Formulation
+We define the problem as a **Binary Classification task**:
+- **Target**: `Is_High_Cost = 1` if `Maintenance_Cost` is in the **Top 25%**.
+- **Reasoning**: Predicting exact dollar amounts in maintenance is often volatile; predicting "Risk Tiers" provides more stable and actionable insights for decision-makers.
 
-We formulate the problem as a classification task:
-High_Cost = 1 if Maintenance_Cost is in top 25%
-
-
-This allows us to identify assets likely to become costly rather than predicting exact values.
-
----
-
-### 📌 Features
-
-- Asset_Age
-- Repair_Count
-- Warranty_Status
-- Asset_Type
-- Department
+### 📌 Feature Engineering
+- **Asset_Age**: Years since purchase.
+- **Repair_Intensity**: (Total Repair Count / Asset Age).
+- **Compliance_Score**: Categorical encoding of asset health.
+- **Categorical Data**: Asset_Type, Department, Warranty_Status.
 
 ---
 
-### 🧠 Model
+## 📊 Data-Driven Insights (EDA)
 
-- XGBoost Classifier
-- Baseline: Logistic Regression
-
----
-
-### 📈 Evaluation
-
-- Accuracy
-- Precision / Recall
-- ROC-AUC
+Based on the analysis in `eda_visualization.ipynb`:
+- **Cost Driver**: Non-compliant assets contribute to approximately **$616k** in total maintenance costs, significantly higher than compliant ones.
+- **Correlation**: `Repair_Count` shows a moderate correlation (~0.47) with cost, making it a strong predictor for the ML model.
+- **Asset Health**: Laptops and Servers in the "At Risk" category represent the highest concentration of potential savings through proactive replacement.
 
 ---
 
 ## ⚙️ Replacement Risk Scoring
 
-\[
-\text{Risk Score} =
-0.4 \cdot P(\text{High Cost}) +
-0.2 \cdot \text{Normalized Asset Age} +
-0.2 \cdot \text{Normalized Repair Count} +
-0.2 \cdot \text{Warranty Expiry Indicator}
-\]
+To provide a single source of truth for IT managers, we calculate a **Composite Risk Score (0.0 - 1.0)**:
 
----
+$$\text{Risk Score} = 0.4(P_{ML}) + 0.2(\text{Age}_{norm}) + 0.2(\text{Repairs}_{norm}) + 0.2(\text{Warranty}_{exp})$$
 
-### 🚦 Risk Levels
-
-| Score Range | Risk Level |
-|------------|-----------|
-| 0.0 – 0.4  | Low       |
-| 0.4 – 0.7  | Medium    |
-| 0.7 – 1.0  | High      |
-
----
-
-## 📋 Key Outputs
-
-The system produces two types of outputs:
-
-### 1️⃣ Immediate Risk Alerts (Rule-Based)
-- Assets requiring urgent action
-- Near-expiry and non-compliant devices
-
-### 2️⃣ Replacement Risk Ranking (ML-Based)
-- High-risk assets prioritized for replacement
-- Risk-based asset ranking
-
----
-
-## 📊 EDA Insights
-
-- Asset age is positively associated with maintenance cost
-- Repair count shows a moderate correlation (~0.47) with cost
-- Non-compliant assets tend to have higher maintenance costs
-- Maintenance patterns vary across departments and asset types
+| Score Range | Risk Level | Action Recommended |
+| :--- | :--- | :--- |
+| **0.0 – 0.4** | **Low** | Routine Maintenance |
+| **0.4 – 0.7** | **Medium** | Monitor & Budget for Next Year |
+| **0.7 – 1.0** | **High** | **Immediate Replacement Planning** |
 
 ---
 
 ## 💼 Business Impact
 
-This system enables IT teams to:
-
-- Shift from **reactive → proactive asset management**
-- Reduce unexpected maintenance costs
-- Prioritize hardware replacement effectively
-- Improve budget allocation and planning
+- **From Reactive to Proactive**: Reduces "firefighting" by predicting failures before they occur.
+- **Budget Optimization**: Scientific justification for hardware procurement based on cost-risk ROI.
+- **Compliance Security**: Integrates IT security (compliance) directly into the asset lifecycle.
 
 ---
 
 ## 🛠 Tech Stack
 
-- Python (Pandas, NumPy)
-- Scikit-learn
-- XGBoost
-- Matplotlib / Seaborn
-- SQL
+- **Languages**: Python (Pandas, NumPy)
+- **ML Frameworks**: XGBoost, Scikit-learn
+- **Visualization**: Matplotlib, Seaborn
+- **Data Engineering**: SQL, ETL Pipelines
 
 ---
 
-## 🚀 Future Improvements
+## 🚀 Future Roadmap
 
-- Time-series modeling for failure prediction
-- Real-time monitoring integration
-- Dashboard (Streamlit / Power BI)
-- Cost optimization modeling
+- [ ] **Time-Series Integration**: Forecast specific month-of-failure for server-grade hardware.
+- [ ] **Interactive Dashboard**: Build a Streamlit UI for real-time risk exploration.
+- [ ] **Cloud Deployment**: Automate ETL using AWS Glue or GitHub Actions.
 
 ---
 
-## 📌 Key Takeaway
-
-This project demonstrates a hybrid approach to IT asset management:
-
-- Rule-based logic captures **immediate operational risks**
-- Machine learning predicts **future cost and replacement risk**
-
-Together, they form a practical and scalable decision-support system.
+### 📝 Final Note
+This project demonstrates the ability to translate technical data science workflows into **practical IT solutions**, grounded in the reality of managing large-scale enterprise infrastructure.
