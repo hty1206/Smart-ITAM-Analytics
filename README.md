@@ -28,15 +28,30 @@ The system aims to:
 
 ## 🏗️ System Architecture
 
-```mermaid
-flowchart TD
-    A["Raw Data"] --> B["Data Cleaning and Preprocessing"]
-    B --> C["Exploratory Data Analysis"]
-    C --> D["Rule-Based Filter<br/>Immediate Risk"]
-    C --> E["ML Model<br/>XGBoost / Future Risk"]
-    D --> F["Risk Scoring Engine"]
-    E --> F
-    F --> G["High-Risk Asset Output"]
+Raw Data
+|
+v
+Data Cleaning & Preprocessing
+|
+v
+Exploratory Data Analysis (EDA)
+|
+v
++------------------------------+
+| |
+| Rule-Based Filter |
+| (Immediate Risk) |
+| |
+| ML Model (XGBoost) |
+| (Future Risk) |
+| |
++------------------------------+
+|
+v
+Risk Scoring Engine
+|
+v
+High-Risk Asset Output
 
 
 ---
