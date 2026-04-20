@@ -1,48 +1,219 @@
 # 👁️ Smart-ITAM-Analytics
-A machine learning-based early warning system for IT asset replacement, featuring an end-to-end data pipeline from raw maintenance logs to predictive risk scoring. Built with Python, XGBoost, and SQL.
 
-## ☞ Introduction
+A hybrid IT asset risk analytics system that combines rule-based operational alerts with machine learning-based replacement risk scoring.
 
-This is a **personal side project** inspired by my professional experience in IT asset management. During my internship at **Dcard**, I managed a fleet of 2,000+ hardware assets and executed a ground-up physical re-audit. I realized that most IT departments operate in a reactive mode. This project aims to bridge the gap between **IT Infrastructure** and **Data Science** by building a predictive model that anticipates hardware failures and compliance risks before they happen.
+This project builds an end-to-end pipeline from raw maintenance logs to predictive decision support, enabling proactive IT asset management.
 
-## ☞ Objectives
+---
 
-  - **Proactive Maintenance:** Predicting which laptops or servers are likely to fail or be decommissioned based on historical repair logs and age.
-  - **Cost-Efficiency Analysis:** Identifying "money pit" assets by analyzing the correlation between vendor types and maintenance costs.
-  - **Risk & Compliance Integration:** Aligning technical metadata with **ISO 27001** standards, flagging assets with outdated OS versions or expired warranties as critical risks.
-  - **Data-Driven Procurement:** Generating automated "Replacement Alert Lists" to help IT managers plan budgets more effectively.
+## 📌 Introduction
 
-## ☞ Project Process
+This project was inspired by my experience in IT asset management during my internship at Dcard, where I managed over 2,000 hardware assets and conducted a full-scale physical re-audit.
 
-1.  **Problem Definition:** Identifying common bottlenecks in IT asset lifecycles.
-2.  **Raw Data Generation:** Simulating 500+ raw records with "dirty" characteristics (inconsistent dates, missing values) to test data engineering skills.
-3.  **ETL & Data Cleaning:** Building a robust pipeline to standardize dates, handle nulls, and remove outliers (e.g., impossible repair counts).
-4.  **Feature Engineering:** Creating high-impact features like `Warranty_Gap`, `Repair_Frequency`, and `Asset_Age`.
-5.  **Predictive Modeling:** Implementing **XGBoost/Random Forest** classifiers to score asset failure probabilities.
-6.  **Insight Visualization:** Outputting a prioritized replacement list for proactive decision-making.
+Through this experience, I observed that most IT operations are highly reactive — assets are typically replaced only after failures or excessive maintenance costs occur.
 
-## ☞ Data Overview
+To address this gap, this project bridges IT infrastructure and data science by developing a hybrid system that detects immediate risks and predicts future asset replacement needs.
 
-| Column Name         | Description                                                |
-|---------------------|------------------------------------------------------------|
-| `Asset_ID`          | Unique hardware identifier (A001-A500). |
-| `Asset_Type`        | Category including Laptop, Server, Software, and **Other** for edge cases. |
-| `Department`        | Dept assigned to the asset (IT, HR, Marketing, R\&D, etc.). |
-| `Acquisition_Date`  | **Raw Date**, includes mixed formats (YYYY-MM-DD vs DD/MM/YYYY). |
-| `Warranty_Expiry`   | Critical date for manufacturer support eligibility. |
-| `Maintenance_Cost`  | Cumulative repair spending; contains missing values to simulate lost records. |
-| `Repair_Count`      | Number of support tickets associated with the asset. |
-| `OS_Version`        | Operating system state, essential for **ISO 27001** compliance. |
-| `Compliance_Status` | Target indicator for security posture (Compliant, At Risk, Non-Compliant). |
+---
 
-## ☞ Summary & Key Insights
+## 🎯 Project Objective
 
-| **Discovery Category** | **Insight** |
-|---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Usage Impact** | **R\&D assets** show a 25% higher failure rate compared to Finance, likely due to high-intensity hardware stress. |
-| **Vendor Analysis** | **Apple** devices maintain compliant status longer but face steep maintenance cost spikes after Year 3. |
-| **Compliance Risk** | **Expired Warranties** combined with **Outdated OS** versions are the strongest predictors for an asset being "Retired" within 6 months. |
+The system aims to:
 
-## ☞ Implementation Details
+- Identify assets requiring **immediate attention** (rule-based alerts)
+- Predict assets likely to incur **high maintenance costs** (ML model)
+- Generate a **replacement risk score** to support proactive decision-making
 
-For the full Python implementation, data cleaning logic, and model evaluation, please see:
+---
+
+## 🏗️ System Architecture
+# 👁️ Smart-ITAM-Analytics
+
+A hybrid IT asset risk analytics system that combines rule-based operational alerts with machine learning-based replacement risk scoring.
+
+This project builds an end-to-end pipeline from raw maintenance logs to predictive decision support, enabling proactive IT asset management.
+
+---
+
+## 📌 Introduction
+
+This project was inspired by my experience in IT asset management during my internship at Dcard, where I managed over 2,000 hardware assets and conducted a full-scale physical re-audit.
+
+Through this experience, I observed that most IT operations are highly reactive — assets are typically replaced only after failures or excessive maintenance costs occur.
+
+To address this gap, this project bridges IT infrastructure and data science by developing a hybrid system that detects immediate risks and predicts future asset replacement needs.
+
+---
+
+## 🎯 Project Objective
+
+The system aims to:
+
+- Identify assets requiring **immediate attention** (rule-based alerts)
+- Predict assets likely to incur **high maintenance costs** (ML model)
+- Generate a **replacement risk score** to support proactive decision-making
+
+---
+
+## 🏗️ System Architecture
+
+Raw Data
+↓
+Data Cleaning & Preprocessing
+↓
+Exploratory Data Analysis (EDA)
+↓
+────────────────────────────
+│ │
+│ Rule-Based Filter │
+│ (Immediate Risk) │
+│ │
+│ ML Model (XGBoost) │
+│ (Future Risk) │
+│ │
+────────────────────────────
+↓
+Risk Scoring Engine
+↓
+High-Risk Asset Output
+
+
+---
+
+## ⚠️ Rule-Based Risk Detection
+
+To capture urgent operational risks, we implement a rule-based filter:
+
+### 📌 Criteria
+
+- Non-Compliant assets
+- Warranty expiring within 90 days
+
+### 📊 Output
+
+- Immediate attention list
+- Critical asset monitoring
+
+This approach reflects real-world IT operations, where simple rules are used to detect urgent issues.
+
+---
+
+## 🤖 Machine Learning Model
+
+### 🎯 Target
+
+We formulate the problem as a classification task:
+High_Cost = 1 if Maintenance_Cost is in top 25%
+
+
+This allows us to identify assets likely to become costly rather than predicting exact values.
+
+---
+
+### 📌 Features
+
+- Asset_Age
+- Repair_Count
+- Warranty_Status
+- Asset_Type
+- Department
+
+---
+
+### 🧠 Model
+
+- XGBoost Classifier
+- Baseline: Logistic Regression
+
+---
+
+### 📈 Evaluation
+
+- Accuracy
+- Precision / Recall
+- ROC-AUC
+
+---
+
+## ⚙️ Replacement Risk Scoring
+
+To integrate multiple signals, we define a risk scoring system:
+Risk Score =
+0.4 × High-Cost Probability
+0.2 × Normalized Asset Age
+0.2 × Normalized Repair Count
+0.2 × Warranty Expiry Indicator
+
+---
+
+### 🚦 Risk Levels
+
+| Score Range | Risk Level |
+|------------|-----------|
+| 0.0 – 0.4  | Low       |
+| 0.4 – 0.7  | Medium    |
+| 0.7 – 1.0  | High      |
+
+---
+
+## 📋 Key Outputs
+
+The system produces two types of outputs:
+
+### 1️⃣ Immediate Risk Alerts (Rule-Based)
+- Assets requiring urgent action
+- Near-expiry and non-compliant devices
+
+### 2️⃣ Replacement Risk Ranking (ML-Based)
+- High-risk assets prioritized for replacement
+- Risk-based asset ranking
+
+---
+
+## 📊 EDA Insights
+
+- Asset age is positively associated with maintenance cost
+- Repair count shows a moderate correlation (~0.47) with cost
+- Non-compliant assets tend to have higher maintenance costs
+- Maintenance patterns vary across departments and asset types
+
+---
+
+## 💼 Business Impact
+
+This system enables IT teams to:
+
+- Shift from **reactive → proactive asset management**
+- Reduce unexpected maintenance costs
+- Prioritize hardware replacement effectively
+- Improve budget allocation and planning
+
+---
+
+## 🛠 Tech Stack
+
+- Python (Pandas, NumPy)
+- Scikit-learn
+- XGBoost
+- Matplotlib / Seaborn
+- SQL
+
+---
+
+## 🚀 Future Improvements
+
+- Time-series modeling for failure prediction
+- Real-time monitoring integration
+- Dashboard (Streamlit / Power BI)
+- Cost optimization modeling
+
+---
+
+## 📌 Key Takeaway
+
+This project demonstrates a hybrid approach to IT asset management:
+
+- Rule-based logic captures **immediate operational risks**
+- Machine learning predicts **future cost and replacement risk**
+
+Together, they form a practical and scalable decision-support system.
