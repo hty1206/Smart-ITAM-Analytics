@@ -30,16 +30,13 @@ The system aims to:
 
 ```mermaid
 flowchart TD
-    A[Raw Data] --> B[Data Cleaning & Preprocessing]
-    B --> C[Exploratory Data Analysis (EDA)]
-    
-    C --> D[Rule-Based Filter\n(Immediate Risk)]
-    C --> E[ML Model (XGBoost)\n(Future Risk)]
-    
-    D --> F[Risk Scoring Engine]
+    A["Raw Data"] --> B["Data Cleaning and Preprocessing"]
+    B --> C["Exploratory Data Analysis"]
+    C --> D["Rule-Based Filter<br/>Immediate Risk"]
+    C --> E["ML Model<br/>XGBoost / Future Risk"]
+    D --> F["Risk Scoring Engine"]
     E --> F
-    
-    F --> G[High-Risk Asset Output]
+    F --> G["High-Risk Asset Output"]
 
 
 ---
