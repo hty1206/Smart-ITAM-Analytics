@@ -27,55 +27,19 @@ The system aims to:
 ---
 
 ## 🏗️ System Architecture
-# 👁️ Smart-ITAM-Analytics
 
-A hybrid IT asset risk analytics system that combines rule-based operational alerts with machine learning-based replacement risk scoring.
-
-This project builds an end-to-end pipeline from raw maintenance logs to predictive decision support, enabling proactive IT asset management.
-
----
-
-## 📌 Introduction
-
-This project was inspired by my experience in IT asset management during my internship at Dcard, where I managed over 2,000 hardware assets and conducted a full-scale physical re-audit.
-
-Through this experience, I observed that most IT operations are highly reactive — assets are typically replaced only after failures or excessive maintenance costs occur.
-
-To address this gap, this project bridges IT infrastructure and data science by developing a hybrid system that detects immediate risks and predicts future asset replacement needs.
-
----
-
-## 🎯 Project Objective
-
-The system aims to:
-
-- Identify assets requiring **immediate attention** (rule-based alerts)
-- Predict assets likely to incur **high maintenance costs** (ML model)
-- Generate a **replacement risk score** to support proactive decision-making
-
----
-
-## 🏗️ System Architecture
-
-Raw Data
-↓
-Data Cleaning & Preprocessing
-↓
-Exploratory Data Analysis (EDA)
-↓
-────────────────────────────
-│ │
-│ Rule-Based Filter │
-│ (Immediate Risk) │
-│ │
-│ ML Model (XGBoost) │
-│ (Future Risk) │
-│ │
-────────────────────────────
-↓
-Risk Scoring Engine
-↓
-High-Risk Asset Output
+```mermaid
+flowchart TD
+    A[Raw Data] --> B[Data Cleaning & Preprocessing]
+    B --> C[Exploratory Data Analysis (EDA)]
+    
+    C --> D[Rule-Based Filter\n(Immediate Risk)]
+    C --> E[ML Model (XGBoost)\n(Future Risk)]
+    
+    D --> F[Risk Scoring Engine]
+    E --> F
+    
+    F --> G[High-Risk Asset Output]
 
 
 ---
@@ -137,12 +101,13 @@ This allows us to identify assets likely to become costly rather than predicting
 
 ## ⚙️ Replacement Risk Scoring
 
-To integrate multiple signals, we define a risk scoring system:
-Risk Score =
-0.4 × High-Cost Probability
-0.2 × Normalized Asset Age
-0.2 × Normalized Repair Count
-0.2 × Warranty Expiry Indicator
+\[
+\text{Risk Score} =
+0.4 \cdot P(\text{High Cost}) +
+0.2 \cdot \text{Normalized Asset Age} +
+0.2 \cdot \text{Normalized Repair Count} +
+0.2 \cdot \text{Warranty Expiry Indicator}
+\]
 
 ---
 
