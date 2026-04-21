@@ -116,6 +116,8 @@ $$\text{Risk Score} = 0.4(P_{ML}) + 0.2(\text{Age}_{norm}) + 0.2(\text{Repairs}_
 - **Data Engineering**: SQL, ETL Pipelines
 
 - **Project Structure**:  
+
+```text
 .
 ├── data/
 │   ├── raw_it_assets.csv          # Original maintenance logs
