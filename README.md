@@ -129,6 +129,7 @@ $$\text{Risk Score} = 0.4(P_{ML}) + 0.2(\text{Age}_{norm}) + 0.2(\text{Repairs}_
 │   └── predictive_model.ipynb     # XGBoost & Scoring Engine
 ├── .gitignore                     # To exclude .venv and large data files
 └── README.md
+```
 
 ---
 
